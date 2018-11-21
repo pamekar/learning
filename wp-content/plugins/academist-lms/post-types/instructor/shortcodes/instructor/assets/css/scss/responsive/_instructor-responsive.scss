@@ -1,0 +1,30 @@
+/* ==========================================================================
+# Instructor responsive style - begin
+========================================================================== */
+
+@include ipad-landscape {
+	
+	.eltdf-instructor {
+		
+		&.info-bellow {
+			
+			.eltdf-instructor-image {
+				width: 100%;
+			}
+		}
+	}
+}
+
+@include ipad-portrait {
+	
+	.eltdf-instructor {
+		
+		&.info-hover {
+			margin-bottom: 30px;
+		}
+	}
+}
+
+/* ==========================================================================
+# Instructor responsive style - end
+========================================================================== */

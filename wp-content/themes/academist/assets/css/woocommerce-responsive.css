@@ -1,0 +1,593 @@
+/* ==========================================================================
+   WooCommerce Responsive styles - begin
+   ========================================================================== */
+/*------------------------------------------------------------------
+ * This is main woocommerce responsive css file for theme. It is broken into following sections:
+ * 1.  Global Responsive
+ * 2.  Single Product Responsive
+ * 3.  WooCommerce Product Lists and Shortcodes Responsive
+ * 4.  Cart Responsive
+ * 5.  Checkout Responsive
+ * 6.  My Account Responsive
+ * 7.  Shortcodes Responsive
+ * 8.  Widgets Responsive
+-------------------------------------------------------------------*/
+/* ==========================================================================
+   WooCommerce Cart page responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+  .eltdf-woocommerce-page table.cart td.actions .coupon input[type="text"] {
+    width: 180px;
+    margin: 0 17px 0 0;
+    padding: 9px 20px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-woocommerce-page table.cart tr th, .eltdf-woocommerce-page table.cart tr td {
+    font-size: 12px;
+  }
+  .eltdf-woocommerce-page table.cart tr.cart_item td.product-thumbnail {
+    width: auto;
+    padding-right: 0;
+  }
+  .eltdf-woocommerce-page table.cart tr.cart_item td.product-thumbnail img {
+    display: none;
+  }
+  .eltdf-woocommerce-page table.cart td.actions .coupon {
+    margin: 0 0 20px;
+  }
+  .eltdf-woocommerce-page table.cart td.actions .coupon input[type="text"] {
+    width: 160px;
+    padding: 9px 15px;
+    margin: 0 10px 20px 0;
+  }
+  .eltdf-woocommerce-page table.cart td.actions .coupon,
+  .eltdf-woocommerce-page table.cart td.actions > input {
+    float: none;
+    display: block;
+  }
+}
+
+/* ==========================================================================
+   WooCommerce Cart page responsive styles - end
+   ========================================================================== */
+/* ==========================================================================
+   WooCommerce Checkout page responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+  .eltdf-woocommerce-page .woocommerce-checkout .col-1,
+  .eltdf-woocommerce-page .woocommerce-checkout .col-2 {
+    width: 100%;
+  }
+  .eltdf-woocommerce-page .woocommerce-checkout .col-1 {
+    margin: 0 0 25px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-woocommerce-page .woocommerce-checkout .col-1 .form-row,
+  .eltdf-woocommerce-page .woocommerce-checkout .col-2 .form-row {
+    width: 100%;
+    margin: 0;
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltdf-woocommerce-page .woocommerce-checkout .woocommerce-checkout-payment ul li.payment_method_paypal label img {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   WooCommerce Checkout page responsive styles - end
+   ========================================================================== */
+/* ==========================================================================
+   WooCommerce Checkout page - Order Received responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+  .eltdf-woocommerce-page.woocommerce-order-received .woocommerce .col2-set.addresses .col-1,
+  .eltdf-woocommerce-page.woocommerce-order-received .woocommerce .col2-set.addresses .col-2 {
+    width: 100%;
+  }
+  .eltdf-woocommerce-page.woocommerce-order-received .woocommerce .col2-set.addresses .col-1 {
+    margin: 0 0 25px;
+  }
+}
+
+/* ==========================================================================
+   WooCommerce Checkout page - Order Received responsive styles - end
+   ========================================================================== */
+/* ==========================================================================
+   WooCommerce Buttons responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .woocommerce-page .eltdf-content a.button,
+  .woocommerce-page .eltdf-content a.added_to_cart,
+  .woocommerce-page .eltdf-content input[type="submit"],
+  .woocommerce-page .eltdf-content button[type="submit"]:not(.eltdf-search-submit),
+  .woocommerce-page .eltdf-content .wc-forward:not(.added_to_cart):not(.checkout-button),
+  div.woocommerce a.button,
+  div.woocommerce a.added_to_cart,
+  div.woocommerce input[type="submit"],
+  div.woocommerce button[type="submit"]:not(.eltdf-search-submit),
+  div.woocommerce .wc-forward:not(.added_to_cart):not(.checkout-button) {
+    padding: 14px 33px;
+  }
+}
+
+/* ==========================================================================
+   WooCommerce Buttons responsive styles - end
+   ========================================================================== */
+/* ==========================================================================
+   WooCommerce Onsale and Out of Stock responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltdf-woo-single-page .eltdf-single-product-content .eltdf-out-of-stock,
+  .eltdf-woo-single-page .eltdf-single-product-content .eltdf-new-product {
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-woo-single-page.eltdf-woo-single-thumb-on-left-side .eltdf-single-product-content .eltdf-onsale {
+    left: 10px;
+  }
+}
+
+/* ==========================================================================
+   WooCommerce Onsale and Out of Stock responsive styles - end
+   ========================================================================== */
+/* ==========================================================================
+   WooCommerce Message Responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+  .eltdf-woocommerce-page .woocommerce-message,
+  .eltdf-woocommerce-page .woocommerce-info,
+  .eltdf-woocommerce-page .woocommerce-error {
+    padding: 17px 25px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-woocommerce-page .woocommerce-message,
+  .eltdf-woocommerce-page .woocommerce-info,
+  .eltdf-woocommerce-page .woocommerce-error {
+    padding: 14px 20px;
+    line-height: 2em;
+  }
+  .eltdf-woocommerce-page .woocommerce-message a,
+  .eltdf-woocommerce-page .woocommerce-info a,
+  .eltdf-woocommerce-page .woocommerce-error a {
+    float: none;
+    margin: 0 70% 15px 0;
+  }
+}
+
+/* ==========================================================================
+   WooCommerce Message Responsive styles - end
+   ========================================================================== */
+/* ==========================================================================
+   WooCommerce Quantity Inputs responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+  .woocommerce-page .eltdf-content .eltdf-quantity-buttons .eltdf-quantity-input,
+  .woocommerce-page .eltdf-content .eltdf-quantity-buttons .eltdf-quantity-minus,
+  .woocommerce-page .eltdf-content .eltdf-quantity-buttons .eltdf-quantity-plus,
+  div.woocommerce .eltdf-quantity-buttons .eltdf-quantity-input,
+  div.woocommerce .eltdf-quantity-buttons .eltdf-quantity-minus,
+  div.woocommerce .eltdf-quantity-buttons .eltdf-quantity-plus {
+    font-size: 13px;
+  }
+  .woocommerce-page .eltdf-content .eltdf-quantity-buttons .eltdf-quantity-input,
+  div.woocommerce .eltdf-quantity-buttons .eltdf-quantity-input {
+    height: 38px;
+    width: 38px;
+    margin: 0 19px 0 0;
+    line-height: 36px;
+  }
+  .woocommerce-page .eltdf-content .eltdf-quantity-buttons .eltdf-quantity-minus,
+  .woocommerce-page .eltdf-content .eltdf-quantity-buttons .eltdf-quantity-plus,
+  div.woocommerce .eltdf-quantity-buttons .eltdf-quantity-minus,
+  div.woocommerce .eltdf-quantity-buttons .eltdf-quantity-plus {
+    width: 19px;
+    height: 19px;
+    line-height: 17px;
+  }
+}
+
+/* ==========================================================================
+   WooCommerce Quantity Inputs responsive styles - end
+   ========================================================================== */
+/* ==========================================================================
+   WooCommerce Result and Ordering Responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 680px) {
+  .eltdf-woocommerce-page .woocommerce-result-count,
+  .eltdf-woocommerce-page .woocommerce-ordering {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .eltdf-woocommerce-page .woocommerce-ordering {
+    text-align: initial;
+  }
+  .eltdf-woocommerce-page .woocommerce-ordering .orderby {
+    display: block;
+  }
+}
+
+/* ==========================================================================
+   WooCommerce Result and Ordering Responsive styles - end
+   ========================================================================== */
+/* ==========================================================================
+   WooCommerce MyAccount page responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltdf-woocommerce-page.woocommerce-account .woocommerce-MyAccount-navigation {
+    width: 28%;
+  }
+  .eltdf-woocommerce-page.woocommerce-account .woocommerce-MyAccount-content {
+    width: 72%;
+    padding: 0 0 0 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-woocommerce-page.woocommerce-account .woocommerce-MyAccount-navigation,
+  .eltdf-woocommerce-page.woocommerce-account .woocommerce-MyAccount-content {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+  .eltdf-woocommerce-page.woocommerce-account .woocommerce-MyAccount-navigation ul {
+    border-right: none;
+  }
+  .eltdf-woocommerce-page.woocommerce-account .woocommerce-MyAccount-navigation ul li:not(:last-child) {
+    margin: 0 0 14px;
+  }
+  .eltdf-woocommerce-page.woocommerce-account .woocommerce-MyAccount-content {
+    margin: 40px 0 0;
+  }
+  .eltdf-woocommerce-page.woocommerce-account .woocommerce .col2-set.addresses .col-1,
+  .eltdf-woocommerce-page.woocommerce-account .woocommerce .col2-set.addresses .col-2 {
+    width: 100%;
+  }
+  .eltdf-woocommerce-page.woocommerce-account .woocommerce .col2-set.addresses .col-1 {
+    margin: 0 0 25px;
+  }
+}
+
+/* ==========================================================================
+   WooCommerce MyAccount page responsive styles - end
+   ========================================================================== */
+/* ==========================================================================
+   WooCommerce Product List page responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 1440px) {
+  .woocommerce.columns-6 > .products > .product {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1201px) {
+  .woocommerce.columns-6 > .products > .product:nth-child(5n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .woocommerce.columns-5 > .products > .product {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1025px) {
+  .woocommerce.columns-5 > .products > .product:nth-child(4n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .woocommerce.columns-6 > .products > .product {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1025px) {
+  .woocommerce.columns-6 > .products > .product:nth-child(4n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-woocommerce-columns-3 .eltdf-pl-main-holder > .products > .product, .eltdf-woocommerce-columns-3
+  .related.products > .products > .product, .eltdf-woocommerce-columns-3
+  .upsells.products > .products > .product, .eltdf-woocommerce-columns-3
+  .cross-sells > .products > .product {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .eltdf-woocommerce-columns-3 .eltdf-pl-main-holder > .products > .product:nth-child(3n+1), .eltdf-woocommerce-columns-3
+  .related.products > .products > .product:nth-child(3n+1), .eltdf-woocommerce-columns-3
+  .upsells.products > .products > .product:nth-child(3n+1), .eltdf-woocommerce-columns-3
+  .cross-sells > .products > .product:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-woocommerce-columns-4 .eltdf-pl-main-holder > .products > .product, .eltdf-woocommerce-columns-4
+  .related.products > .products > .product, .eltdf-woocommerce-columns-4
+  .upsells.products > .products > .product, .eltdf-woocommerce-columns-4
+  .cross-sells > .products > .product {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .eltdf-woocommerce-columns-4 .eltdf-pl-main-holder > .products > .product:nth-child(3n+1), .eltdf-woocommerce-columns-4
+  .related.products > .products > .product:nth-child(3n+1), .eltdf-woocommerce-columns-4
+  .upsells.products > .products > .product:nth-child(3n+1), .eltdf-woocommerce-columns-4
+  .cross-sells > .products > .product:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .woocommerce.columns-4 > .products > .product {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .woocommerce.columns-4 > .products > .product:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .woocommerce.columns-5 > .products > .product {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .woocommerce.columns-5 > .products > .product:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .woocommerce.columns-6 > .products > .product {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .woocommerce.columns-6 > .products > .product:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-woocommerce-columns-3 .eltdf-pl-main-holder > .products > .product, .eltdf-woocommerce-columns-3
+  .related.products > .products > .product, .eltdf-woocommerce-columns-3
+  .upsells.products > .products > .product, .eltdf-woocommerce-columns-3
+  .cross-sells > .products > .product {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 681px) {
+  .eltdf-woocommerce-columns-3 .eltdf-pl-main-holder > .products > .product:nth-child(2n+1), .eltdf-woocommerce-columns-3
+  .related.products > .products > .product:nth-child(2n+1), .eltdf-woocommerce-columns-3
+  .upsells.products > .products > .product:nth-child(2n+1), .eltdf-woocommerce-columns-3
+  .cross-sells > .products > .product:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-woocommerce-columns-4 .eltdf-pl-main-holder > .products > .product, .eltdf-woocommerce-columns-4
+  .related.products > .products > .product, .eltdf-woocommerce-columns-4
+  .upsells.products > .products > .product, .eltdf-woocommerce-columns-4
+  .cross-sells > .products > .product {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 681px) {
+  .eltdf-woocommerce-columns-4 .eltdf-pl-main-holder > .products > .product:nth-child(2n+1), .eltdf-woocommerce-columns-4
+  .related.products > .products > .product:nth-child(2n+1), .eltdf-woocommerce-columns-4
+  .upsells.products > .products > .product:nth-child(2n+1), .eltdf-woocommerce-columns-4
+  .cross-sells > .products > .product:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .woocommerce.columns-3 > .products > .product {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 681px) {
+  .woocommerce.columns-3 > .products > .product:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .woocommerce.columns-4 > .products > .product {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 681px) {
+  .woocommerce.columns-4 > .products > .product:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .woocommerce.columns-5 > .products > .product {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 681px) {
+  .woocommerce.columns-5 > .products > .product:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .woocommerce.columns-6 > .products > .product {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 681px) {
+  .woocommerce.columns-6 > .products > .product:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-woocommerce-columns-3 .eltdf-pl-main-holder > .products > .product, .eltdf-woocommerce-columns-3
+  .related.products > .products > .product, .eltdf-woocommerce-columns-3
+  .upsells.products > .products > .product, .eltdf-woocommerce-columns-3
+  .cross-sells > .products > .product {
+    width: 100%;
+  }
+  .eltdf-woocommerce-columns-4 .eltdf-pl-main-holder > .products > .product, .eltdf-woocommerce-columns-4
+  .related.products > .products > .product, .eltdf-woocommerce-columns-4
+  .upsells.products > .products > .product, .eltdf-woocommerce-columns-4
+  .cross-sells > .products > .product {
+    width: 100%;
+  }
+  .woocommerce.columns-2 > .products > .product {
+    width: 100%;
+  }
+  .woocommerce.columns-3 > .products > .product {
+    width: 100%;
+  }
+  .woocommerce.columns-4 > .products > .product {
+    width: 100%;
+  }
+  .woocommerce.columns-5 > .products > .product {
+    width: 100%;
+  }
+  .woocommerce.columns-6 > .products > .product {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   WooCommerce Product List page responsive styles - end
+   ========================================================================== */
+/* Woocommerce Product Page shortcode responsive style - begin
+========================================================================== */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  div.woocommerce > .single-product .woocommerce-tabs ul.tabs > li a {
+    padding: 12px 7px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  div.woocommerce > .single-product .woocommerce-tabs ul.tabs > li a {
+    padding: 13px 10px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  div.woocommerce > .single-product .images.woocommerce-product-gallery--columns-4 .woocommerce-product-gallery__image:not(:first-child) {
+    width: 50%;
+  }
+}
+
+/* Woocommerce Product Page shortcode responsive style - end
+========================================================================== */
+/* ==========================================================================
+   WooCommerce Single Product Page Responsive styles - begin
+   ========================================================================== */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .eltdf-woo-single-page .woocommerce-tabs ul.tabs > li a {
+    padding: 12px 7px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .eltdf-woo-single-page .woocommerce-tabs ul.tabs > li {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-woo-single-page .eltdf-single-product-content .images,
+  .eltdf-woo-single-page .eltdf-single-product-content .eltdf-single-product-summary {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+  .eltdf-woo-single-page .eltdf-single-product-content .images .woocommerce-product-gallery__trigger {
+    right: 10px;
+  }
+  .eltdf-woo-single-page .eltdf-single-product-content .eltdf-single-product-summary {
+    margin: 30px 0 0;
+  }
+  .eltdf-woo-single-page .woocommerce-tabs ul.tabs > li a {
+    padding: 13px 10px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-woo-single-page.eltdf-woo-single-thumb-on-left-side .eltdf-single-product-content .images.woocommerce-product-gallery--columns-4 .woocommerce-product-gallery__image:not(:first-child) {
+    width: 50%;
+  }
+  .eltdf-woo-single-page .eltdf-single-product-content .images.woocommerce-product-gallery--columns-4 .woocommerce-product-gallery__image:not(:first-child) {
+    width: 50%;
+  }
+}
+
+/* ==========================================================================
+   WooCommerce Single Product Page Responsive styles - end
+   ========================================================================== */
+/* ==========================================================================
+   WooCommerce Dropdown Cart Responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+  .eltdf-shopping-cart-dropdown ul {
+    margin: 20px;
+  }
+}
+
+/* ==========================================================================
+   WooCommerce Dropdown Cart Responsive styles - end
+   ========================================================================== */
+/* ==========================================================================
+   Product List - Carousel shortcode responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+  .eltdf-plc-holder.eltdf-simple-type .eltdf-plc-image-outer,
+  .eltdf-plc-holder.eltdf-simple-type .eltdf-plc-text-wrapper {
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+  }
+  .eltdf-plc-holder.eltdf-simple-type .eltdf-plc-text-wrapper {
+    margin: 30px 0 40px;
+  }
+}
+
+/* ==========================================================================
+   Product List - Carousel shortcode responsive styles - end
+   ========================================================================== */
+/* ==========================================================================
+   WooCommerce Responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../css/woocommerce-responsive.css.map */

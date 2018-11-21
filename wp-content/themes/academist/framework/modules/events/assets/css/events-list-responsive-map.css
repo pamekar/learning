@@ -1,0 +1,120 @@
+/* ==========================================================================
+   Events responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  #tribe-events-content-wrapper #tribe-events-content.tribe-events-list {
+    padding: 0;
+  }
+  #tribe-events-content-wrapper #tribe-events-content .tribe-events-page-title {
+    padding: 0;
+  }
+  #tribe-events-content-wrapper #tribe-events-content .tribe-events-sub-nav li.tribe-events-nav-previous, #tribe-events-content-wrapper #tribe-events-content .tribe-events-sub-nav li.tribe-events-nav-next {
+    position: relative;
+    top: 0;
+  }
+  #tribe-events-content-wrapper #tribe-events-content .tribe-events-sub-nav li a {
+    background: none;
+    padding: 10px 0 20px;
+  }
+  #tribe-events-content-wrapper #tribe-events-content table.tribe-events-calendar tbody td {
+    height: 70px;
+  }
+  #tribe-events-content-wrapper #tribe-events-content table.tribe-events-calendar tbody td .type-tribe_events {
+    padding: 0;
+  }
+  #tribe-events-content-wrapper #tribe-events-content table.tribe-events-calendar tbody td .tribe-events-month-event-title {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  #tribe-events-content-wrapper #tribe-events-content table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-] {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  #tribe-events-content-wrapper #tribe-events-content table.tribe-events-calendar .tribe-events-has-events:after {
+    position: relative;
+    top: 10px;
+  }
+  #tribe-events-content-wrapper #tribe-events-content #tribe-events-footer ~ a.tribe-events-ical.tribe-events-button {
+    height: auto;
+  }
+  #tribe-events-content-wrapper #tribe-mobile-container .type-tribe_events ~ .type-tribe_events {
+    border-top: 1px solid #e1e1e1;
+  }
+  #tribe-events-content-wrapper #tribe-mobile-container .type-tribe_events h4 {
+    text-transform: none;
+  }
+  #tribe-events-content-wrapper #tribe-mobile-container .type-tribe_events .tribe-events-read-more {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  #tribe-events-content-wrapper #tribe-bar-form #tribe-bar-collapse-toggle {
+    width: 100%;
+  }
+  #tribe-events-content-wrapper #tribe-bar-form .tribe-bar-filters {
+    margin-bottom: 26px;
+  }
+  #tribe-events-content-wrapper #tribe-bar-form .tribe-bar-filters .tribe-bar-filters-inner > div {
+    width: 100% !important;
+  }
+  #tribe-events-content-wrapper #tribe-bar-form .tribe-bar-filters .tribe-bar-filters-inner .tribe-bar-date-filter,
+  #tribe-events-content-wrapper #tribe-bar-form .tribe-bar-filters .tribe-bar-filters-inner .tribe-bar-search-filter {
+    padding-right: 0;
+  }
+  #tribe-events-content-wrapper #tribe-bar-form .tribe-bar-filters .tribe-bar-submit .tribe-events-button {
+    margin: 20px 0 30px;
+  }
+  #tribe-events-content-wrapper #tribe-bar-form #tribe-bar-views {
+    margin: 0 0 27px;
+  }
+  #tribe-events-content-wrapper #tribe-bar-form #tribe-bar-views .tribe-bar-views-inner > label {
+    margin: 0 14px 0 0;
+  }
+  #tribe-events-content-wrapper #tribe-events-content .tribe-events-page-title {
+    font-size: 22px;
+  }
+  #tribe-events-content-wrapper #tribe-events-content table.tribe-events-calendar thead th {
+    font-size: 12px;
+    line-height: 24px;
+    padding: 7px 2px;
+  }
+  #tribe-events-content-wrapper #tribe-events-content table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-] {
+    font-size: 14px;
+  }
+  #tribe-events-content-wrapper #tribe-events-content.tribe-events-list .eltdf-events-single-meta-item {
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  #tribe-events-content-wrapper #tribe-mobile-container .tribe-events-event-schedule-details {
+    display: block;
+    margin: 0 0 10px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-tribe-events-single .eltdf-events-single-main-info .eltdf-events-single-date-holder {
+    position: relative;
+  }
+  .eltdf-tribe-events-single .eltdf-events-single-main-info .eltdf-events-single-title-holder {
+    position: static;
+    margin-top: 20px;
+    padding: 0;
+  }
+  .eltdf-tribe-events-single .eltdf-events-single-main-info .tribe-events-cal-links {
+    margin-top: 0;
+  }
+  .eltdf-tribe-events-single .eltdf-events-nav-text {
+    display: none !important;
+  }
+}
+
+/* ==========================================================================
+   Events responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=events-list-responsive-map.css.map */

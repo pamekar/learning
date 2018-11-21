@@ -1,0 +1,154 @@
+/* ==========================================================================
+   Clients Carousel shortcode style - begin
+   ========================================================================== */
+
+.eltdf-clients-carousel-holder {
+	@include eltdfRelativeHolderLayout();
+	
+	.eltdf-cc-inner {
+		@include eltdfRelativeHolderLayout();
+	}
+	
+	.eltdf-cc-item {
+		@include eltdfRelativeHolderLayout();
+		
+		.touch & {
+			cursor: pointer;
+		}
+		
+		img {
+			display: block;
+		}
+	}
+	
+	.eltdf-cc-link {
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+	}
+}
+
+/***** Hover Types - begin *****/
+
+.eltdf-cc-hover-switch-images {
+	
+	.eltdf-cc-item {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+		&.eltdf-cci-has-link {
+			
+			a {
+				
+				&:hover {
+					
+					.eltdf-cc-image {
+						opacity: 0;
+					}
+					
+					.eltdf-cc-hover-image {
+						opacity: 1;
+					}
+				}
+			}
+		}
+		
+		&.eltdf-cci-no-link {
+			
+			&:hover {
+				
+				.eltdf-cc-image {
+					opacity: 0;
+				}
+				
+				.eltdf-cc-hover-image {
+					opacity: 1;
+				}
+			}
+			
+			.eltdf-cc-hover-image {
+				left: 50%;
+				@include eltdfTransform(translateX(-50%));
+			}
+		}
+		
+		.eltdf-cc-image {
+			width: auto;
+			opacity: 1;
+			will-change: opacity;
+			@include eltdfTransition(opacity .15s ease-out);
+		}
+		
+		.eltdf-cc-hover-image {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: auto;
+			opacity: 0;
+			will-change: opacity;
+			@include eltdfTransition(opacity .15s ease-out);
+		}
+	}
+}
+
+.eltdf-cc-hover-roll-over {
+	
+	.eltdf-cc-item {
+		overflow: hidden;
+		
+		&.eltdf-cci-has-link {
+			
+			a {
+				
+				&:hover {
+					
+					.eltdf-cc-image {
+						@include eltdfTransform(translateY(100%));
+					}
+					
+					.eltdf-cc-hover-image {
+						@include eltdfTransform(translate(-50%, 0));
+					}
+				}
+			}
+		}
+		
+		&.eltdf-cci-no-link {
+			
+			&:hover {
+				
+				.eltdf-cc-image {
+					@include eltdfTransform(translateY(100%));
+				}
+				
+				.eltdf-cc-hover-image {
+					@include eltdfTransform(translate(-50%, 0));
+				}
+			}
+		}
+		
+		.eltdf-cc-image {
+			position: relative;
+			display: block;
+			width: auto;
+			margin: 0 auto;
+			@include eltdfTransitionTransform(.4s ease);
+		}
+		
+		.eltdf-cc-hover-image {
+			position: absolute;
+			top: 0;
+			left: 50%;
+			width: auto;
+			@include eltdfTransform(translate(-50%, -100%));
+			@include eltdfTransitionTransform(.4s ease);
+		}
+	}
+}
+
+/***** Hover Types - end *****/
+
+/* ==========================================================================
+   Clients Carousel shortcode style - end
+   ========================================================================== */

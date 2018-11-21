@@ -1,0 +1,37 @@
+/* ==========================================================================
+   Author Info widget style - begin
+   ========================================================================== */
+.eltdf-author-info-widget {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.eltdf-author-info-widget .eltdf-aiw-image {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.eltdf-author-info-widget .eltdf-aiw-image img {
+  display: block;
+}
+
+.eltdf-author-info-widget .eltdf-aiw-title {
+  margin: 28px 0 0;
+}
+
+.eltdf-author-info-widget .eltdf-aiw-text {
+  display: block;
+  margin: 10px 0 0;
+}
+
+/* ==========================================================================
+   Author Info widget style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=author-info-widget-map.css.map */

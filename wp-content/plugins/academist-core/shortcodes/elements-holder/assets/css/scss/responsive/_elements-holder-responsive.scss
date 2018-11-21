@@ -1,0 +1,255 @@
+/* ==========================================================================
+   Elements Holder shortcode responsive style - begin
+   ========================================================================== */
+
+.eltdf-elements-holder {
+	
+	$columns_label: ('two', 'three', 'four', 'five', 'six');
+	
+	@include laptop-landscape-mac {
+		
+		&.eltdf-responsive-mode-1366 {
+			
+			@for $i from 0 to length($columns_label) {
+				&.eltdf-#{nth($columns_label,$i+1)}-columns {
+					
+					.eltdf-eh-item {
+						width: 100%;
+						height: auto;
+						display: inline-block;
+					}
+				}
+			}
+			
+			&.eltdf-one-column-alignment-left {
+				
+				.eltdf-eh-item {
+					
+					.eltdf-eh-item-content {
+						text-align: left;
+					}
+				}
+			}
+			
+			&.eltdf-one-column-alignment-right {
+				
+				.eltdf-eh-item {
+					
+					.eltdf-eh-item-content {
+						text-align: right;
+					}
+				}
+			}
+			
+			&.eltdf-one-column-alignment-center {
+				
+				.eltdf-eh-item {
+					
+					.eltdf-eh-item-content {
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+	
+	@include ipad-landscape {
+		
+		&.eltdf-responsive-mode-1024 {
+			
+			@for $i from 0 to length($columns_label) {
+				&.eltdf-#{nth($columns_label,$i+1)}-columns {
+					
+					.eltdf-eh-item {
+						width: 100%;
+						height: auto;
+						display: inline-block;
+					}
+				}
+			}
+			
+			&.eltdf-one-column-alignment-left {
+				
+				.eltdf-eh-item {
+					
+					.eltdf-eh-item-content {
+						text-align: left;
+					}
+				}
+			}
+			
+			&.eltdf-one-column-alignment-right {
+				
+				.eltdf-eh-item {
+					
+					.eltdf-eh-item-content {
+						text-align: right;
+					}
+				}
+			}
+			
+			&.eltdf-one-column-alignment-center {
+				
+				.eltdf-eh-item {
+					
+					.eltdf-eh-item-content {
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+	
+	@include ipad-portrait {
+
+		&.eltdf-eh-uncovering-animate .eltdf-eh-item {
+			width: 100% !important;
+			@include eltdfTransition(initial !important);
+		}
+		
+		&.eltdf-responsive-mode-768 {
+			
+			@for $i from 0 to length($columns_label) {
+				&.eltdf-#{nth($columns_label,$i+1)}-columns {
+					
+					.eltdf-eh-item {
+						width: 100%;
+						height: auto;
+						display: inline-block;
+					}
+				}
+			}
+			
+			&.eltdf-one-column-alignment-left {
+				
+				.eltdf-eh-item {
+					
+					.eltdf-eh-item-content {
+						text-align: left;
+					}
+				}
+			}
+			
+			&.eltdf-one-column-alignment-right {
+				
+				.eltdf-eh-item {
+					
+					.eltdf-eh-item-content {
+						text-align: right;
+					}
+				}
+			}
+			
+			&.eltdf-one-column-alignment-center {
+				
+				.eltdf-eh-item {
+					
+					.eltdf-eh-item-content {
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+	
+	@include phone-landscape {
+		
+		&.eltdf-responsive-mode-680 {
+			
+			@for $i from 0 to length($columns_label) {
+				&.eltdf-#{nth($columns_label,$i+1)}-columns {
+					
+					.eltdf-eh-item {
+						width: 100%;
+						height: auto;
+						display: inline-block;
+					}
+				}
+			}
+			
+			&.eltdf-one-column-alignment-left {
+				
+				.eltdf-eh-item {
+					
+					.eltdf-eh-item-content {
+						text-align: left;
+					}
+				}
+			}
+			
+			&.eltdf-one-column-alignment-right {
+				
+				.eltdf-eh-item {
+					
+					.eltdf-eh-item-content {
+						text-align: right;
+					}
+				}
+			}
+			
+			&.eltdf-one-column-alignment-center {
+				
+				.eltdf-eh-item {
+					
+					.eltdf-eh-item-content {
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+	
+	@include phone-portrait {
+		
+		&.eltdf-responsive-mode-480 {
+			
+			@for $i from 0 to length($columns_label) {
+				&.eltdf-#{nth($columns_label,$i+1)}-columns {
+					
+					.eltdf-eh-item {
+						width: 100%;
+						height: auto;
+						display: inline-block;
+					}
+				}
+			}
+			
+			&.eltdf-one-column-alignment-left {
+				
+				.eltdf-eh-item {
+					
+					.eltdf-eh-item-content {
+						text-align: left;
+					}
+				}
+			}
+			
+			&.eltdf-one-column-alignment-right {
+				
+				.eltdf-eh-item {
+					
+					.eltdf-eh-item-content {
+						text-align: right;
+					}
+				}
+			}
+			
+			&.eltdf-one-column-alignment-center {
+				
+				.eltdf-eh-item {
+					
+					.eltdf-eh-item-content {
+						text-align: center;
+					}
+				}
+			}
+		}
+		
+		.eltdf-eh-item-content{
+			padding: 0 10px;
+		}
+	}
+}
+/* ==========================================================================
+   Elements Holder shortcode responsive style - end
+   ========================================================================== */

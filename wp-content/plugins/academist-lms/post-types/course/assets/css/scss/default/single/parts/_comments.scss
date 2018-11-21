@@ -1,0 +1,182 @@
+.eltdf-course-reviews-main-title {
+	margin: 0 0 48px;
+
+	h3 {
+		margin: 20px 0 23px;
+	}
+}
+
+.eltdf-course-reviews-list-top {
+	@include eltdfRelativeHolderLayout();
+	background-color: #f9f9f9;
+	overflow: hidden;
+	box-sizing: border-box;
+
+	.eltdf-grid-row {
+		display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+		display: -ms-flexbox; /* TWEENER - IE 10 */
+		display: -webkit-flex; /* NEW - Chrome */
+		display: flex;
+		padding: 45px 0;
+
+		@include phone-landscape {
+			display: block;
+
+			.eltdf-rating-percentage-wrapper {
+				border: 0;
+			}
+		}
+	}
+
+	.eltdf-reviews-number-wrapper {
+		@include eltdfTableLayout();
+		text-align: center;
+		padding: 0;
+	}
+
+	.eltdf-reviews-number-inner {
+		@include eltdfTableCellLayout();
+		padding-bottom: 10px;
+	}
+
+	.eltdf-reviews-number {
+		display: block;
+		color: $first-main-color;
+		font-family: $default-heading-font;
+		font-size: 60px;
+		line-height: 1;
+		font-weight: 500;
+		margin: 0;
+	}
+
+	.eltdf-stars-wrapper {
+		display: block;
+
+		.eltdf-stars {
+			margin-top: 16px;
+			font-size: 20px;
+
+			i {
+				margin: 0 1px;
+				color: #ffdb00;
+			}
+		}
+	}
+
+	.eltdf-reviews-count {
+		display: block;
+		margin-top: 5px;
+		font-size: 15px;
+		font-weight: 300;
+	}
+
+	.eltdf-rating-percentage-wrapper {
+		padding: 15px 45px;
+		border-left: 2px dotted #e0e0e0;
+
+		.eltdf-progress-bar {
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.eltdf-progress-bar {
+		height: 26px;
+		margin-bottom: 11px;
+		vertical-align: top;
+
+		.eltdf-pb-title-holder {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			display: block;
+			line-height: 18px;
+			font-family: $default-heading-font;
+			font-weight: 400;
+			letter-spacing: 0.015em;
+			color: $default-heading-color;
+		}
+
+		.eltdf-pb-content-holder {
+			top: 18px;
+			left: 65px;
+			width: calc(100% - 105px);
+			height: 4px;
+
+			.eltdf-pb-content {
+				height: 4px;
+			}
+		}
+	}
+}
+
+.eltdf-course-reviews-list {
+
+	.eltdf-comment-holder {
+
+		.eltdf-comment-list {
+
+			li {
+				margin: 21px 0 0;
+
+				.eltdf-comment-image{
+					padding-top: 0;
+				}
+			}
+
+			& > li:first-child {
+				margin: 0;
+			}
+		}
+
+		.eltdf-comment-holder-inner {
+			padding: 26px 0 20px;
+		}
+
+		.eltdf-comment-text {
+			vertical-align: top;
+
+			.eltdf-comment-info {
+				margin: 0;
+
+				.eltdf-comment-name {
+					display: inline-block;
+					vertical-align: middle;
+					line-height: 1em;
+				}
+			}
+
+			.eltdf-review-rating {
+				width: auto;
+				display: inline-block;
+				vertical-align: middle;
+				float: left;
+				margin: 0 0px 7px 13px;
+				line-height: 1em;
+				letter-spacing: -0.04em;
+
+				i {
+					color: #ffdb00;
+				}
+			}
+
+			.eltdf-review-title {
+				color: $first-main-color;
+				margin: 6px 0 11px;
+			}
+		}
+	}
+
+	.eltdf-comment-form {
+		.eltdf-comment-input-title {
+			margin: 30px 0 0;
+		}
+
+		.eltdf-comment-form-rating {
+			margin: 13px 0 15px;
+		}
+	}
+}

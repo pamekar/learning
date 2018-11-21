@@ -1,0 +1,67 @@
+/* ==========================================================================
+   Search Post Type widget style - begin
+   ========================================================================== */
+.widget.eltdf-search-post-type-widget {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  line-height: 0;
+}
+
+.widget.eltdf-search-post-type-widget .eltdf-search-post-type {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.widget.eltdf-search-post-type-widget .eltdf-post-type-search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: auto;
+  display: none;
+  background-color: #fff;
+  z-index: 99;
+}
+
+.widget.eltdf-search-post-type-widget .eltdf-post-type-search-results ul {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  padding: 10px 20px;
+  line-height: 0;
+  box-sizing: border-box;
+}
+
+.widget.eltdf-search-post-type-widget .eltdf-post-type-search-results ul li {
+  display: block;
+  width: 100%;
+}
+
+.widget.eltdf-search-post-type-widget .eltdf-search-icon,
+.widget.eltdf-search-post-type-widget .eltdf-search-loading {
+  position: absolute;
+  right: 20px;
+  top: calc(50% - 9px);
+  font-size: 18px;
+  color: #252525;
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+
+.widget.eltdf-search-post-type-widget .eltdf-search-icon.eltdf-hidden,
+.widget.eltdf-search-post-type-widget .eltdf-search-loading.eltdf-hidden {
+  opacity: 0;
+}
+
+/* ==========================================================================
+   Search Post Type widget style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=search-post-type-widget-map.css.map */

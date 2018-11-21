@@ -1,0 +1,45 @@
+/* ==========================================================================
+   Split Section responsive styles - begin
+   ========================================================================== */
+
+$stage_breaks: (1366, 1024, 768, 680, 480);
+
+@for $i from 0 to length($stage_breaks) {
+	$stage: nth($stage_breaks,$i+1)#{px};
+	
+	@media only screen and (max-width: $stage) {
+		
+		.eltdf-ss-holder {
+			
+			&.eltdf-ss-break-#{nth($stage_breaks,$i+1)} {
+				
+				&.eltdf-ss-image-right {
+					
+					.eltdf-ss-image {
+						position: relative;
+						left: 0;
+					}
+				}
+				
+				.eltdf-ss-content {
+					left: 0;
+					width: 100%;
+					padding: 25px;
+				}
+				
+				.eltdf-ss-image {
+					position: relative;
+					width: 100%;
+					background-image: none !important;
+					
+					img {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Split Section responsive styles - end
+   ========================================================================== */

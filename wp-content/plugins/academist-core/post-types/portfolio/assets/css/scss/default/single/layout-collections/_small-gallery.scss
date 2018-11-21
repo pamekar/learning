@@ -1,0 +1,28 @@
+/* ==========================================================================
+   Portfolio Single - Small Gallery layout style - begin
+   ========================================================================== */
+
+.eltdf-portfolio-single-holder {
+    
+    &.eltdf-ps-small-gallery-layout {
+    
+        .eltdf-ps-image-holder {
+            width: 100%;
+        
+            .eltdf-ps-image {
+                float: left;
+            
+                a {
+                    @include eltdfImageOverlayHoverStyle();
+                }
+            }
+        }
+    
+        .eltdf-ps-content-item {
+            margin: 0 0 30px;
+        }
+    }
+}
+/* ==========================================================================
+   Portfolio Single - Small Gallery layout style - end
+   ========================================================================== */

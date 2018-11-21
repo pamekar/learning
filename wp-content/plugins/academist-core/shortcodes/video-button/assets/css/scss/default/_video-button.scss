@@ -1,0 +1,111 @@
+/* ==========================================================================
+   Video Button shortcode start styles
+   ========================================================================== */
+
+.eltdf-video-button-holder {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	
+	&.eltdf-vb-has-img {
+		
+		.eltdf-video-button-play,
+		.eltdf-video-button-play-image {
+			@include eltdfAbsoluteHolderLayout();
+			z-index: 1;
+			
+			.eltdf-video-button-play-inner {
+				position: relative;
+				top: 50%;
+				left: 0;
+				display: block;
+				text-align: center;
+				@include eltdfTransform(translateY(-50%));
+			}
+		}
+	}
+	
+	.eltdf-video-button-image {
+		@include eltdfRelativeHolderLayout();
+		
+		img {
+			display: block;
+		}
+	}
+	
+	.eltdf-video-button-play,
+	.eltdf-video-button-play-image {
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		z-index: 1;
+	}
+	
+	.eltdf-video-button-play {
+		color: $first-main-color;
+		font-size: 106px;
+		line-height: 1;
+		
+		span {
+			display: block;
+			line-height: inherit;
+			
+			&:before {
+				display: block;
+				line-height: inherit;
+			}
+		}
+	}
+	
+	.eltdf-video-button-play-image {
+		
+		&.eltdf-vb-has-hover-image {
+			
+			&:hover {
+				
+				img {
+					
+					&:first-child {
+						opacity: 0;
+					}
+					
+					&:nth-child(2) {
+						opacity: 1;
+					}
+				}
+			}
+		}
+
+		&:hover {
+			img {
+				@include eltdfTransform(scale(1.04));
+			}
+		}
+		
+		img {
+			display: block;
+			margin: 0 auto;
+			@include eltdfTransition(.4s cubic-bezier(0.19, 0.65, 0.58, 1));
+			
+			&:first-child {
+				position: relative;
+				opacity: 1;
+			}
+			
+			&:nth-child(2) {
+				position: absolute;
+				top: 0;
+				left: 50%;
+				opacity: 0;
+				@include eltdfTransform(translateX(-50%) translateZ(0));
+				
+				.rev_slider_wrapper & {
+					@include eltdfTransform(translateZ(0));
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Video Button shortcode end styles
+   ========================================================================== */

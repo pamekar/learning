@@ -1,0 +1,63 @@
+/* ==========================================================================
+# Instructor minimal - begin
+	========================================================================== */
+
+.eltdf-instructor {
+    &.minimal {
+
+        .eltdf-instructor-image {
+            line-height: 0;
+
+            a {
+                position: relative;
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0,0,0,0.5);
+                    opacity: 0;
+                    @include eltdfTransition(opacity 0.2s ease-out);
+                }
+                &:hover {
+                    &:before {
+                        opacity: 1;
+                    }
+                }
+
+                &:after {
+                    content: '\f067';
+                    font-family: 'Font Awesome 5 Free';
+                    display: inline-block;
+                    position: absolute;
+                    top: 50%;
+                    margin-top: -16px;
+                    font-size: 34px;
+                    line-height: 1em;
+                    font-weight: 900;
+                    color: #fff;
+                    opacity: 0;
+                    @include eltdfTransform(translateY(10px));
+                    @include eltdfTransition(opacity 0.2s ease-out, transform 0.2s ease-out);
+                }
+                &:hover {
+                    &:after {
+                        opacity: 1;
+                        @include eltdfTransform(translateY(0));
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ==========================================================================
+# Instructor minimal - end
+	========================================================================== */

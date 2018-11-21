@@ -1,0 +1,54 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+/* ==========================================================================
+   Common responsive styles
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltdf-course-popup .eltdf-course-popup-inner .eltdf-grid-col-8 {
+    float: none;
+  }
+}
+
+/* ==========================================================================
+# Instructor slider responsive - begin
+	========================================================================== */
+@media only screen and (max-width: 680px) {
+  .eltdf-instructor-slider-holder .eltdf-owl-slider .owl-nav .owl-prev {
+    left: -20px;
+  }
+  .eltdf-instructor-slider-holder .eltdf-owl-slider .owl-nav .owl-next {
+    right: -20px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .eltdf-instructor-slider-holder .eltdf-owl-slider.owl-drag .owl-item {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+}
+
+/* ==========================================================================
+# Instructor slider responsive - end
+	========================================================================== */
+/* ==========================================================================
+# Instructor responsive style - begin
+========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltdf-instructor.info-bellow .eltdf-instructor-image {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-instructor.info-hover {
+    margin-bottom: 30px;
+  }
+}
+
+/* ==========================================================================
+# Instructor responsive style - end
+========================================================================== */
+
+/*# sourceMappingURL=../../../../plugins/academist-lms/assets/css/lms-responsive.css.map */

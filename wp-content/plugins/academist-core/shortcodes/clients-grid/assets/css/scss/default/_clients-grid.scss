@@ -1,0 +1,26 @@
+/* ==========================================================================
+   clients Holder shortcode style - begin
+   ========================================================================== */
+
+.eltdf-clients-grid-holder {
+	@include eltdfRelativeHolderLayout();
+	text-align: center;
+	
+	&.eltdf-cg-alignment-left {
+		text-align: left;
+	}
+	
+	&.eltdf-cg-alignment-right {
+		text-align: right;
+	}
+	
+	.eltdf-cc-link {
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+	}
+}
+
+/* ==========================================================================
+   clients Holder shortcode style - end
+   ========================================================================== */

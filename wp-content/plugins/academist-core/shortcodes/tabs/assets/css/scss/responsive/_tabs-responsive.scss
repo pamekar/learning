@@ -1,0 +1,161 @@
+/* ==========================================================================
+   Tabs shortcode responsive style - begin
+   ========================================================================== */
+
+@include laptop-landscape-mac {
+
+	.eltdf-tabs {
+
+		&.eltdf-tabs-vertical {
+
+			.eltdf-tabs-nav {
+				width: 300px;
+			}
+
+			.eltdf-tab-container {
+				padding: 0 0 0 45px;
+			}
+		}
+	}
+}
+
+@include ipad-landscape {
+	
+	.eltdf-tabs {
+		
+		&.eltdf-tabs-boxed {
+			
+			.eltdf-tabs-nav {
+				
+				li {
+					margin: 0 8px 0 0;
+					
+					a {
+						padding: 7px 18px;
+					}
+				}
+			}
+		}
+		
+		&.eltdf-tabs-simple {
+			
+			.eltdf-tabs-nav {
+				
+				li {
+					margin: 0 26px 0 0;
+				}
+			}
+		}
+		
+		&.eltdf-tabs-vertical {
+			
+			.eltdf-tabs-nav {
+				width: 180px;
+			}
+			
+			.eltdf-tab-container {
+				width: calc(100% - 180px);
+				padding: 0 0 0 30px;
+			}
+		}
+	}
+}
+
+@include ipad-portrait {
+	
+	.eltdf-tabs {
+		
+		&.eltdf-tabs-boxed {
+			
+			.eltdf-tabs-nav {
+				
+				li {
+					display: block;
+					float: none;
+					margin: 0 0 8px;
+					
+					a {
+						width: 100%;
+					}
+				}
+			}
+		}
+		
+		&.eltdf-tabs-simple {
+			
+			.eltdf-tabs-nav {
+				
+				li {
+					margin: 0 20px 0 0;
+				}
+			}
+		}
+		
+		&.eltdf-tabs-vertical {
+			
+			.eltdf-tabs-nav,
+			.eltdf-tab-container {
+				display: inline-block;
+				width: 100%;
+				height: auto;
+			}
+			
+			.eltdf-tabs-nav {
+				border-right: 0;
+				
+				li {
+					float: left;
+					margin: 0 20px 0 0;
+				}
+			}
+			
+			.eltdf-tab-container {
+				padding: 31px 0 0;
+			}
+		}
+	}
+}
+
+@include phone-landscape {
+	
+	.eltdf-tabs {
+		
+		&.eltdf-tabs-simple {
+			
+			.eltdf-tabs-nav {
+				padding: 0 0 20px;
+				
+				li {
+					display: block;
+					float: none;
+					margin: 0 0 20px;
+					
+					a {
+						padding: 0;
+						width: 100%;
+					}
+				}
+			}
+		}
+		
+		&.eltdf-tabs-vertical {
+			
+			.eltdf-tabs-nav {
+				
+				li {
+					display: block;
+					float: none;
+					margin: 0 0 20px;
+					
+					a {
+						padding: 0;
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Tabs shortcode responsive style - end
+   ========================================================================== */

@@ -1,0 +1,2002 @@
+/*------------------------------------------------------------------
+ * This is main responsive css file for theme. It is broken into following sections:
+ * 1. Global responsive styles
+ * 2. Blog responsive styles
+ * 3. Footer responsive styles
+ * 4. Header responsive styles
+ * 5. Search responsive styles
+ * 6. Title area responsive styles
+ * 7. Shortcodes responsive styles
+ * 8. Custom Post Types responsive styles
+-------------------------------------------------------------------*/
+
+/* ==========================================================================
+   1. Global responsive styles
+   ========================================================================== */
+
+@media only screen and (max-width: 1024px) {
+  body:not(.eltdf-content-is-behind-header):not(.error404) .eltdf-content {
+    margin-top: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-hide-on-tablet {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-hide-on-mobile {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .eltdf-grid,
+  .eltdf-container-inner,
+  .eltdf-row-grid-section {
+    width: 950px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-grid,
+  .eltdf-container-inner,
+  .eltdf-row-grid-section {
+    width: 768px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-grid,
+  .eltdf-container-inner,
+  .eltdf-row-grid-section {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-grid,
+  .eltdf-container-inner,
+  .eltdf-row-grid-section {
+    width: 420px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltdf-grid,
+  .eltdf-container-inner,
+  .eltdf-row-grid-section {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .eltdf-grid,
+  .eltdf-container-inner,
+  .eltdf-row-grid-section {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .eltdf-boxed .eltdf-wrapper .eltdf-wrapper-inner,
+  .eltdf-boxed .eltdf-wrapper .eltdf-footer-inner {
+    width: 1000px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-boxed .eltdf-wrapper .eltdf-wrapper-inner,
+  .eltdf-boxed .eltdf-wrapper .eltdf-footer-inner {
+    width: 818px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-boxed .eltdf-wrapper .eltdf-wrapper-inner,
+  .eltdf-boxed .eltdf-wrapper .eltdf-footer-inner {
+    width: 650px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-boxed .eltdf-wrapper .eltdf-wrapper-inner,
+  .eltdf-boxed .eltdf-wrapper .eltdf-footer-inner {
+    width: 470px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltdf-boxed .eltdf-wrapper .eltdf-wrapper-inner,
+  .eltdf-boxed .eltdf-wrapper .eltdf-footer-inner {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .eltdf-boxed .eltdf-wrapper .eltdf-wrapper-inner,
+  .eltdf-boxed .eltdf-wrapper .eltdf-footer-inner {
+    width: 92%;
+  }
+}
+
+/* ==========================================================================
+   Grid System responsive style - begin
+   ========================================================================== */
+
+@media only screen and (max-width: 1280px) {
+  /*
+	* If you changed some value for space do the same thing in product-list-main-and-vc scss files
+	*/
+
+  .eltdf-huge-space .eltdf-outer-space {
+    margin: 0 -25px;
+  }
+
+  .eltdf-huge-space .eltdf-outer-space .eltdf-item-space {
+    padding: 0 25px;
+    margin: 0 0 50px;
+  }
+
+  .eltdf-huge-space.eltdf-disable-bottom-space {
+    margin-bottom: -50px;
+  }
+
+  .eltdf-huge-space.eltdf-columns-has-side-space {
+    padding: 0 50px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .eltdf-grid-list.eltdf-six-columns .eltdf-masonry-grid-sizer {
+    width: 20%;
+  }
+
+  .eltdf-grid-list.eltdf-six-columns .eltdf-item-space {
+    width: 20%;
+  }
+
+  .eltdf-grid-list.eltdf-six-columns .eltdf-item-space.eltdf-masonry-size-large-width,
+  .eltdf-grid-list.eltdf-six-columns .eltdf-item-space.eltdf-masonry-size-large-width-height {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1367px) {
+  .eltdf-grid-list.eltdf-six-columns .eltdf-item-space:nth-child(5n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .eltdf-grid-list.eltdf-five-columns .eltdf-masonry-grid-sizer {
+    width: 25%;
+  }
+
+  .eltdf-grid-list.eltdf-five-columns .eltdf-item-space {
+    width: 25%;
+  }
+
+  .eltdf-grid-list.eltdf-five-columns .eltdf-item-space.eltdf-masonry-size-large-width,
+  .eltdf-grid-list.eltdf-five-columns .eltdf-item-space.eltdf-masonry-size-large-width-height {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1201px) {
+  .eltdf-grid-list.eltdf-five-columns .eltdf-item-space:nth-child(4n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .eltdf-grid-list.eltdf-six-columns .eltdf-masonry-grid-sizer {
+    width: 25%;
+  }
+
+  .eltdf-grid-list.eltdf-six-columns .eltdf-item-space {
+    width: 25%;
+  }
+
+  .eltdf-grid-list.eltdf-six-columns .eltdf-item-space.eltdf-masonry-size-large-width,
+  .eltdf-grid-list.eltdf-six-columns .eltdf-item-space.eltdf-masonry-size-large-width-height {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1201px) {
+  .eltdf-grid-list.eltdf-six-columns .eltdf-item-space:nth-child(4n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .eltdf-grid-list.eltdf-four-columns .eltdf-masonry-grid-sizer {
+    width: 33.33333%;
+  }
+
+  .eltdf-grid-list.eltdf-four-columns .eltdf-item-space {
+    width: 33.33333%;
+  }
+
+  .eltdf-grid-list.eltdf-four-columns .eltdf-item-space.eltdf-masonry-size-large-width,
+  .eltdf-grid-list.eltdf-four-columns .eltdf-item-space.eltdf-masonry-size-large-width-height {
+    width: 66.66667%;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1025px) {
+  .eltdf-grid-list.eltdf-four-columns .eltdf-item-space:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .eltdf-grid-list.eltdf-five-columns .eltdf-masonry-grid-sizer {
+    width: 33.33333%;
+  }
+
+  .eltdf-grid-list.eltdf-five-columns .eltdf-item-space {
+    width: 33.33333%;
+  }
+
+  .eltdf-grid-list.eltdf-five-columns .eltdf-item-space.eltdf-masonry-size-large-width,
+  .eltdf-grid-list.eltdf-five-columns .eltdf-item-space.eltdf-masonry-size-large-width-height {
+    width: 66.66667%;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1025px) {
+  .eltdf-grid-list.eltdf-five-columns .eltdf-item-space:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .eltdf-grid-list.eltdf-six-columns .eltdf-masonry-grid-sizer {
+    width: 33.33333%;
+  }
+
+  .eltdf-grid-list.eltdf-six-columns .eltdf-item-space {
+    width: 33.33333%;
+  }
+
+  .eltdf-grid-list.eltdf-six-columns .eltdf-item-space.eltdf-masonry-size-large-width,
+  .eltdf-grid-list.eltdf-six-columns .eltdf-item-space.eltdf-masonry-size-large-width-height {
+    width: 66.66667%;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1025px) {
+  .eltdf-grid-list.eltdf-six-columns .eltdf-item-space:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-grid-list.eltdf-three-columns .eltdf-masonry-grid-sizer {
+    width: 50%;
+  }
+
+  .eltdf-grid-list.eltdf-three-columns .eltdf-item-space {
+    width: 50%;
+  }
+
+  .eltdf-grid-list.eltdf-three-columns .eltdf-item-space.eltdf-masonry-size-large-width,
+  .eltdf-grid-list.eltdf-three-columns .eltdf-item-space.eltdf-masonry-size-large-width-height {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .eltdf-grid-list.eltdf-three-columns .eltdf-item-space:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-grid-list.eltdf-four-columns .eltdf-masonry-grid-sizer {
+    width: 50%;
+  }
+
+  .eltdf-grid-list.eltdf-four-columns .eltdf-item-space {
+    width: 50%;
+  }
+
+  .eltdf-grid-list.eltdf-four-columns .eltdf-item-space.eltdf-masonry-size-large-width,
+  .eltdf-grid-list.eltdf-four-columns .eltdf-item-space.eltdf-masonry-size-large-width-height {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .eltdf-grid-list.eltdf-four-columns .eltdf-item-space:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-grid-list.eltdf-five-columns .eltdf-masonry-grid-sizer {
+    width: 50%;
+  }
+
+  .eltdf-grid-list.eltdf-five-columns .eltdf-item-space {
+    width: 50%;
+  }
+
+  .eltdf-grid-list.eltdf-five-columns .eltdf-item-space.eltdf-masonry-size-large-width,
+  .eltdf-grid-list.eltdf-five-columns .eltdf-item-space.eltdf-masonry-size-large-width-height {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .eltdf-grid-list.eltdf-five-columns .eltdf-item-space:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-grid-list.eltdf-six-columns .eltdf-masonry-grid-sizer {
+    width: 50%;
+  }
+
+  .eltdf-grid-list.eltdf-six-columns .eltdf-item-space {
+    width: 50%;
+  }
+
+  .eltdf-grid-list.eltdf-six-columns .eltdf-item-space.eltdf-masonry-size-large-width,
+  .eltdf-grid-list.eltdf-six-columns .eltdf-item-space.eltdf-masonry-size-large-width-height {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .eltdf-grid-list.eltdf-six-columns .eltdf-item-space:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-grid-list.eltdf-two-columns .eltdf-masonry-grid-sizer {
+    width: 100%;
+  }
+
+  .eltdf-grid-list.eltdf-two-columns .eltdf-item-space {
+    width: 100%;
+  }
+
+  .eltdf-grid-list.eltdf-three-columns .eltdf-masonry-grid-sizer {
+    width: 100%;
+  }
+
+  .eltdf-grid-list.eltdf-three-columns .eltdf-item-space {
+    width: 100%;
+  }
+
+  .eltdf-grid-list.eltdf-four-columns .eltdf-masonry-grid-sizer {
+    width: 100%;
+  }
+
+  .eltdf-grid-list.eltdf-four-columns .eltdf-item-space {
+    width: 100%;
+  }
+
+  .eltdf-grid-list.eltdf-five-columns .eltdf-masonry-grid-sizer {
+    width: 100%;
+  }
+
+  .eltdf-grid-list.eltdf-five-columns .eltdf-item-space {
+    width: 100%;
+  }
+
+  .eltdf-grid-list.eltdf-six-columns .eltdf-masonry-grid-sizer {
+    width: 100%;
+  }
+
+  .eltdf-grid-list.eltdf-six-columns .eltdf-item-space {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Grid System responsive style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../css/modules-responsive.css.map */
+/* ==========================================================================
+   Blog responsive styles - begin
+   ========================================================================== */
+
+@media only screen and (max-width: 768px) {
+  .eltdf-related-posts-holder .eltdf-related-post {
+    width: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltdf-related-posts-holder .eltdf-related-post {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-blog-holder.eltdf-blog-single article .eltdf-post-info-bottom .eltdf-post-info-bottom-left,
+  .eltdf-blog-holder.eltdf-blog-single article .eltdf-post-info-bottom .eltdf-post-info-bottom-right {
+    width: 100%;
+    float: none;
+  }
+
+  .eltdf-blog-holder.eltdf-blog-single article .eltdf-post-info-bottom .eltdf-post-info-bottom-right {
+    text-align: inherit;
+    margin: 10px 0 0;
+  }
+}
+
+/* ==========================================================================
+   Blog Slider shortcode responsive style - begin
+   ========================================================================== */
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-blog-slider-holder.eltdf-bs-carousel-centered .active.center .eltdf-item-text-wrapper {
+    opacity: 1;
+  }
+}
+
+/* ==========================================================================
+   Blog Slider shortcode responsive style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Blog responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=blog-map-responsive.css.map */
+/* ==========================================================================
+   Footer responsive styles - begin
+   ========================================================================== */
+
+/* ==========================================================================
+   Footer responsive style - begin
+   ========================================================================== */
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .eltdf-page-footer .eltdf-column-content.eltdf-grid-col-3 {
+    width: 50%;
+    float: left;
+  }
+
+  .eltdf-page-footer .eltdf-column-content.eltdf-grid-col-3:nth-child(2n+1) {
+    clear: both;
+  }
+
+  .eltdf-page-footer .eltdf-column-content.eltdf-grid-col-3:nth-child(3),
+  .eltdf-page-footer .eltdf-column-content.eltdf-grid-col-3:nth-child(4) {
+    margin-top: 30px;
+  }
+
+  .eltdf-page-footer .eltdf-column-content.eltdf-grid-col-4 {
+    width: 33.33333333333333%;
+    float: left;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-page-footer .eltdf-column-content:not(:first-child) {
+    margin-top: 30px;
+  }
+}
+
+/* ==========================================================================
+   Footer responsive style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Footer responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=footer-map-responsive.css.map */
+/* ==========================================================================
+   Header responsive styles - begin
+   ========================================================================== */
+
+/* ==========================================================================
+   Header responsive style - begin
+   ========================================================================== */
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-page-header {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Header responsive style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Fixed header responsive style - begin
+   ========================================================================== */
+
+@media only screen and (max-width: 1200px) {
+  .eltdf-boxed .eltdf-page-header .eltdf-fixed-wrapper.fixed {
+    width: 1000px;
+  }
+}
+
+/* ==========================================================================
+   Fixed header responsive style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Header Vertical responsive style - begin
+   ========================================================================== */
+
+@media only screen and (min-width: 1025px) {
+  .error404.eltdf-header-vertical .eltdf-content {
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-header-vertical .eltdf-vertical-menu-area {
+    display: none;
+  }
+
+  .eltdf-header-vertical .eltdf-content,
+  .eltdf-header-vertical footer {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .eltdf-header-vertical .eltdf-grid,
+  .eltdf-header-vertical .eltdf-container-inner,
+  .eltdf-header-vertical .eltdf-row-grid-section {
+    width: 950px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .eltdf-header-vertical .eltdf-grid,
+  .eltdf-header-vertical .eltdf-container-inner,
+  .eltdf-header-vertical .eltdf-row-grid-section {
+    width: 768px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-header-vertical .eltdf-grid,
+  .eltdf-header-vertical .eltdf-container-inner,
+  .eltdf-header-vertical .eltdf-row-grid-section {
+    width: 768px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-header-vertical .eltdf-grid,
+  .eltdf-header-vertical .eltdf-container-inner,
+  .eltdf-header-vertical .eltdf-row-grid-section {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-header-vertical .eltdf-grid,
+  .eltdf-header-vertical .eltdf-container-inner,
+  .eltdf-header-vertical .eltdf-row-grid-section {
+    width: 420px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltdf-header-vertical .eltdf-grid,
+  .eltdf-header-vertical .eltdf-container-inner,
+  .eltdf-header-vertical .eltdf-row-grid-section {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .eltdf-header-vertical .eltdf-grid,
+  .eltdf-header-vertical .eltdf-container-inner,
+  .eltdf-header-vertical .eltdf-row-grid-section {
+    width: 90%;
+  }
+}
+
+/* ==========================================================================
+   Header Vertical responsive style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Mobile header responsive style - begin
+   ========================================================================== */
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-mobile-header {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-paspartu-enabled .eltdf-mobile-header .eltdf-grid {
+    width: 90%;
+  }
+}
+
+/* ==========================================================================
+   Mobile header responsive style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Sticky header responsive style - begin
+   ========================================================================== */
+
+@media only screen and (max-width: 1200px) {
+  .eltdf-boxed .eltdf-page-header .eltdf-sticky-header {
+    width: 1000px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-boxed.eltdf-sticky-up-mobile-header .mobile-header-appear .eltdf-mobile-header-inner {
+    width: 818px;
+    left: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-boxed.eltdf-sticky-up-mobile-header .mobile-header-appear .eltdf-mobile-header-inner {
+    width: 650px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-boxed.eltdf-sticky-up-mobile-header .mobile-header-appear .eltdf-mobile-header-inner {
+    width: 470px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltdf-boxed.eltdf-sticky-up-mobile-header .mobile-header-appear .eltdf-mobile-header-inner {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .eltdf-boxed.eltdf-sticky-up-mobile-header .mobile-header-appear .eltdf-mobile-header-inner {
+    width: 92%;
+  }
+}
+
+/* ==========================================================================
+   Sticky header responsive style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Top header responsive style - begin
+   ========================================================================== */
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-top-bar {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Top header responsive style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Header responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=header-map-responsive.css.map */
+/* ==========================================================================
+   Search responsive styles - begin
+   ========================================================================== */
+
+/* ==========================================================================
+# Search template responsive style - begin
+========================================================================== */
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-search-page-holder article .eltdf-post-image {
+    width: 80px;
+  }
+
+  .eltdf-search-page-holder article .eltdf-post-title-area {
+    padding: 0 0 0 105px;
+    min-height: 80px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-search-page-holder article .eltdf-post-image {
+    width: 60px;
+  }
+
+  .eltdf-search-page-holder article .eltdf-post-title-area {
+    padding: 0 0 0 80px;
+    min-height: 60px;
+  }
+}
+
+/* ==========================================================================
+# Search template responsive style - end
+========================================================================== */
+
+/* ==========================================================================
+# Fullscreen search responsive - start
+========================================================================== */
+
+@media only screen and (max-width: 1280px) {
+  .eltdf-fullscreen-with-sidebar-search-holder .eltdf-fullscreen-search-cell {
+    padding: 50px 0 0;
+  }
+
+  .eltdf-fullscreen-with-sidebar-search-holder .eltdf-fullscreen-sidebar {
+    margin: 20px 0 0;
+  }
+
+  .eltdf-fullscreen-with-sidebar-search-holder .eltdf-search-field {
+    font-size: 70px;
+  }
+
+  .eltdf-fullscreen-with-sidebar-search-holder .eltdf-search-submit {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-fullscreen-with-sidebar-search-holder .eltdf-form-holder-inner {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-fullscreen-with-sidebar-search-holder .eltdf-field-holder .eltdf-search-field {
+    font-size: 25px;
+  }
+
+  .eltdf-fullscreen-with-sidebar-search-holder .eltdf-search-submit {
+    font-size: 25px;
+    bottom: 25px !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltdf-fullscreen-with-sidebar-search-holder .eltdf-form-holder-inner {
+    width: 80%;
+  }
+}
+
+/* ==========================================================================
+# Fullscreen search responsive - end
+========================================================================== */
+
+/* ==========================================================================
+# Fullscreen search responsive - start
+========================================================================== */
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-fullscreen-search-holder .eltdf-form-holder-inner {
+    width: 80%;
+  }
+}
+
+/* ==========================================================================
+# Fullscreen search responsive - end
+========================================================================== */
+
+/* ==========================================================================
+   Search responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=search-map-responsive.css.map */
+/* ==========================================================================
+   Subscribe Popup responsive styles - begin
+   ========================================================================== */
+
+/* ==========================================================================
+# Subscribe Pop-up style responsive - begin
+========================================================================== */
+
+@media only screen and (max-width: 1280px) {
+  .eltdf-subscribe-popup-holder .eltdf-sp-inner {
+    width: 63%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-subscribe-popup-holder .eltdf-sp-inner {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-subscribe-popup-holder .eltdf-sp-inner {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-subscribe-popup-holder .eltdf-sp-inner {
+    min-height: 450px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-subscribe-popup-holder .eltdf-sp-content-container {
+    width: 100%;
+    padding: 0 40px;
+  }
+
+  .eltdf-subscribe-popup-holder .eltdf-sp-background {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+# Subscribe Pop-up style responsive - end
+========================================================================== */
+
+/* ==========================================================================
+   Subscribe Popup responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=popup-map-responsive.css.map */
+/* ==========================================================================
+   Title responsive styles - begin
+   ========================================================================== */
+
+/* ==========================================================================
+   Title responsive style - begin
+   ========================================================================== */
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-title-holder.eltdf-has-bg-image {
+    height: auto !important;
+    background-image: none !important;
+  }
+
+  .eltdf-title-holder.eltdf-has-bg-image .eltdf-title-image {
+    display: block;
+  }
+
+  .eltdf-title-holder.eltdf-has-bg-image .eltdf-title-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 100% !important;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .eltdf-title-holder.eltdf-title-va-header-bottom {
+    height: auto !important;
+  }
+
+  .eltdf-title-holder.eltdf-title-va-header-bottom .eltdf-title-wrapper {
+    padding-top: 0 !important;
+  }
+}
+
+/* ==========================================================================
+   Title responsive style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Centered Title type responsive style - begin
+   ========================================================================== */
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-title-holder.eltdf-centered-type .eltdf-page-subtitle {
+    padding: 0 !important;
+  }
+}
+
+/* ==========================================================================
+   Centered Title type responsive style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Standard With Breadcrumbs Title type responsive style - begin
+   ========================================================================== */
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-title-holder.eltdf-standard-with-breadcrumbs-type .eltdf-title-info,
+  .eltdf-title-holder.eltdf-standard-with-breadcrumbs-type .eltdf-breadcrumbs-info {
+    display: block;
+    width: 100%;
+  }
+
+  .eltdf-title-holder.eltdf-standard-with-breadcrumbs-type .eltdf-breadcrumbs-info {
+    margin: 10px 0 0;
+    text-align: initial;
+    white-space: inherit;
+  }
+}
+
+/* ==========================================================================
+   Standard With Breadcrumbs Title type responsive style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Title responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=title-map-responsive.css.map */
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+
+/* ==========================================================================
+   Custom Post Types responsive styles
+   ========================================================================== */
+
+/* ==========================================================================
+   Portfolio Single page responsive style - begin
+   ========================================================================== */
+
+.eltdf-portfolio-single-holder .eltdf-ps-image-holder.eltdf-ps-gallery-images {
+  /***** Columns Layout - end *****/
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-portfolio-single-holder .eltdf-ps-image-holder.eltdf-ps-gallery-images .eltdf-ps-image {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-portfolio-single-holder .eltdf-ps-info-holder {
+    margin: 30px 0 0 !important;
+  }
+}
+
+/* ==========================================================================
+   Portfolio Single page responsive style - end
+   ========================================================================== */
+
+/* ==========================================================================
+# Team responsive style - begin
+========================================================================== */
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-team.info-bellow .eltdf-team-image {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-team.info-hover {
+    margin-bottom: 30px;
+  }
+}
+
+/* ==========================================================================
+# Team responsive style - end
+========================================================================== */
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder {
+    margin-left: -34px;
+    width: 132% !important;
+  }
+
+  .eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider {
+    padding-left: 20px;
+  }
+
+  .eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-slider-item .eltdf-testimonial-image-holder {
+    width: 12%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-slider-item .eltdf-testimonial-image-holder {
+    width: 15%;
+  }
+
+  .eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder .eltdf-testimonials-slider-nav {
+    width: 82%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-slider-item .eltdf-testimonial-image-holder {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .eltdf-testimonials-holder.eltdf-testimonials-big .eltdf-custom-testimonials-slider-holder .eltdf-testimonials-slider-nav {
+    width: 62.7%;
+  }
+
+  .eltdf-testimonials-holder.eltdf-testimonials-big .eltdf-custom-testimonials-slider-holder .eltdf-testimonials-slider-nav .eltdf-btn-ts-next,
+  .eltdf-testimonials-holder.eltdf-testimonials-big .eltdf-custom-testimonials-slider-holder .eltdf-testimonials-slider-nav .eltdf-btn-ts-prev {
+    -webkit-transform: translate3d(0, -135%, 0);
+    -moz-transform: translate3d(0, -135%, 0);
+    transform: translate3d(0, -135%, 0);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-testimonials-holder.eltdf-testimonials-big .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-slider-item .eltdf-testimonial-image-holder .eltdf-testimonial-image img {
+    height: 50vh !important;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-testimonials-holder.eltdf-testimonials-big .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-slider-item .eltdf-testimonial-image-holder .eltdf-testimonial-image img {
+    height: 100vh !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltdf-testimonials-holder.eltdf-testimonials-big .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-slider-item .eltdf-testimonial-image-holder {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .eltdf-testimonials-holder.eltdf-testimonials-standard .eltdf-custom-testimonials-slider-holder .eltdf-testimonial-image-holder .eltdf-testimonial-image img {
+    height: auto !important;
+  }
+
+  .eltdf-testimonials-holder.eltdf-testimonials-standard .eltdf-custom-testimonials-slider-holder .eltdf-testimonials-slider-nav .eltdf-btn-ts-next,
+  .eltdf-testimonials-holder.eltdf-testimonials-standard .eltdf-custom-testimonials-slider-holder .eltdf-testimonials-slider-nav .eltdf-btn-ts-prev {
+    -webkit-transform: translate3d(0, -153%, 0);
+    -moz-transform: translate3d(0, -153%, 0);
+    transform: translate3d(0, -153%, 0);
+  }
+}
+
+/*# sourceMappingURL=../../../../plugins/academist-core/assets/css/custom-post-types-map-responsive.css.map */
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+
+/* ==========================================================================
+   Shortcodes responsive styles
+   ========================================================================== */
+
+/* ==========================================================================
+   Button shortcode responsive style - begin
+   ========================================================================== */
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-btn.eltdf-btn-large,
+  .eltdf-btn.eltdf-btn-huge {
+    padding: 15px 43px;
+  }
+}
+
+/* ==========================================================================
+   Button shortcode responsive style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Call To Action shortcode responsive style - begin
+   ========================================================================== */
+
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+  .eltdf-call-to-action-holder .eltdf-grid {
+    width: 1100px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .eltdf-call-to-action-holder.eltdf-three-quarters-columns .eltdf-cta-text-holder,
+  .eltdf-call-to-action-holder.eltdf-four-fifths-columns .eltdf-cta-text-holder {
+    width: 66.66666666666667%;
+  }
+
+  .eltdf-call-to-action-holder.eltdf-three-quarters-columns .eltdf-cta-button-holder,
+  .eltdf-call-to-action-holder.eltdf-four-fifths-columns .eltdf-cta-button-holder {
+    width: 33.33333333333333%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-call-to-action-holder.eltdf-normal-layout .eltdf-cta-inner,
+  .eltdf-call-to-action-holder.eltdf-normal-layout .eltdf-cta-text-holder,
+  .eltdf-call-to-action-holder.eltdf-normal-layout .eltdf-cta-button-holder {
+    display: block;
+  }
+
+  .eltdf-call-to-action-holder.eltdf-normal-layout .eltdf-cta-button-holder {
+    margin: 28px 0 0;
+    text-align: initial;
+  }
+
+  .eltdf-call-to-action-holder.eltdf-two-halves-columns .eltdf-cta-text-holder,
+  .eltdf-call-to-action-holder.eltdf-two-halves-columns .eltdf-cta-button-holder,
+  .eltdf-call-to-action-holder.eltdf-two-thirds-columns .eltdf-cta-text-holder,
+  .eltdf-call-to-action-holder.eltdf-two-thirds-columns .eltdf-cta-button-holder,
+  .eltdf-call-to-action-holder.eltdf-three-quarters-columns .eltdf-cta-text-holder,
+  .eltdf-call-to-action-holder.eltdf-three-quarters-columns .eltdf-cta-button-holder,
+  .eltdf-call-to-action-holder.eltdf-four-fifths-columns .eltdf-cta-text-holder,
+  .eltdf-call-to-action-holder.eltdf-four-fifths-columns .eltdf-cta-button-holder {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Call To Action shortcode responsive style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Countdown shortcode responsive style - begin
+   ========================================================================== */
+
+@media only screen and (max-width: 1200px) {
+  .eltdf-countdown .countdown-row .countdown-section .countdown-amount {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-countdown .countdown-row.countdown-show4 .countdown-section,
+  .eltdf-countdown .countdown-row.countdown-show5 .countdown-section,
+  .eltdf-countdown .countdown-row.countdown-show6 .countdown-section {
+    width: 33.33333333333333%;
+  }
+
+  .eltdf-countdown .countdown-row .countdown-section .countdown-amount {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-countdown .countdown-row .countdown-section .countdown-amount {
+    font-size: 40px;
+  }
+}
+
+/* ==========================================================================
+   Countdown shortcode responsive style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Custom Font shortcode responsive styles - begin
+   ========================================================================== */
+
+@media only screen and (max-width: 768px) {
+  .eltdf-custom-font-holder.eltdf-disable-title-break br {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Custom Font shortcode responsive styles - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Elements Holder shortcode responsive style - begin
+   ========================================================================== */
+
+@media only screen and (max-width: 1366px) {
+  .eltdf-elements-holder.eltdf-responsive-mode-1366.eltdf-two-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-1366.eltdf-three-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-1366.eltdf-four-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-1366.eltdf-five-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-1366.eltdf-six-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-1366.eltdf-one-column-alignment-left .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: left;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-1366.eltdf-one-column-alignment-right .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: right;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-1366.eltdf-one-column-alignment-center .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-elements-holder.eltdf-responsive-mode-1024.eltdf-two-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-1024.eltdf-three-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-1024.eltdf-four-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-1024.eltdf-five-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-1024.eltdf-six-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-1024.eltdf-one-column-alignment-left .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: left;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-1024.eltdf-one-column-alignment-right .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: right;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-1024.eltdf-one-column-alignment-center .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-elements-holder.eltdf-eh-uncovering-animate .eltdf-eh-item {
+    width: 100% !important;
+    -webkit-transition: initial !important;
+    -moz-transition: initial !important;
+    transition: initial !important;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-768.eltdf-two-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-768.eltdf-three-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-768.eltdf-four-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-768.eltdf-five-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-768.eltdf-six-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-768.eltdf-one-column-alignment-left .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: left;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-768.eltdf-one-column-alignment-right .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: right;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-768.eltdf-one-column-alignment-center .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-elements-holder.eltdf-responsive-mode-680.eltdf-two-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-680.eltdf-three-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-680.eltdf-four-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-680.eltdf-five-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-680.eltdf-six-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-680.eltdf-one-column-alignment-left .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: left;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-680.eltdf-one-column-alignment-right .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: right;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-680.eltdf-one-column-alignment-center .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltdf-elements-holder.eltdf-responsive-mode-480.eltdf-two-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-480.eltdf-three-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-480.eltdf-four-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-480.eltdf-five-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-480.eltdf-six-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-480.eltdf-one-column-alignment-left .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: left;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-480.eltdf-one-column-alignment-right .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: right;
+  }
+
+  .eltdf-elements-holder.eltdf-responsive-mode-480.eltdf-one-column-alignment-center .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: center;
+  }
+
+  .eltdf-elements-holder .eltdf-eh-item-content {
+    padding: 0 10px;
+  }
+}
+
+/* ==========================================================================
+   Elements Holder shortcode responsive style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Google Map shortcode responsive style - begin
+   ========================================================================== */
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-google-map-overlay {
+    display: block;
+  }
+}
+
+/* ==========================================================================
+   Google Map shortcode responsive style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Process shortcode responsive style - begin
+   ========================================================================== */
+
+@media only screen and (max-width: 1366px) {
+  .eltdf-process-holder.eltdf-responsive-1366 .eltdf-mark-horizontal-holder {
+    display: none;
+  }
+
+  .eltdf-process-holder.eltdf-responsive-1366 .eltdf-mark-vertical-holder {
+    display: block;
+  }
+
+  .eltdf-process-holder.eltdf-responsive-1366 .eltdf-process-inner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    padding: 0 0 0 76px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .eltdf-process-holder.eltdf-responsive-1366 .eltdf-process-item {
+    width: 100%;
+    float: none;
+    padding: 0;
+    text-align: inherit;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-process-holder.eltdf-responsive-1024 .eltdf-mark-horizontal-holder {
+    display: none;
+  }
+
+  .eltdf-process-holder.eltdf-responsive-1024 .eltdf-mark-vertical-holder {
+    display: block;
+  }
+
+  .eltdf-process-holder.eltdf-responsive-1024 .eltdf-process-inner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    padding: 0 0 0 76px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .eltdf-process-holder.eltdf-responsive-1024 .eltdf-process-item {
+    width: 100%;
+    float: none;
+    padding: 0;
+    text-align: inherit;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-process-holder.eltdf-responsive-768 .eltdf-mark-horizontal-holder {
+    display: none;
+  }
+
+  .eltdf-process-holder.eltdf-responsive-768 .eltdf-mark-vertical-holder {
+    display: block;
+  }
+
+  .eltdf-process-holder.eltdf-responsive-768 .eltdf-process-inner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    padding: 0 0 0 76px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .eltdf-process-holder.eltdf-responsive-768 .eltdf-process-item {
+    width: 100%;
+    float: none;
+    padding: 0;
+    text-align: inherit;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-process-holder.eltdf-responsive-680 .eltdf-mark-horizontal-holder {
+    display: none;
+  }
+
+  .eltdf-process-holder.eltdf-responsive-680 .eltdf-mark-vertical-holder {
+    display: block;
+  }
+
+  .eltdf-process-holder.eltdf-responsive-680 .eltdf-process-inner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    padding: 0 0 0 76px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .eltdf-process-holder.eltdf-responsive-680 .eltdf-process-item {
+    width: 100%;
+    float: none;
+    padding: 0;
+    text-align: inherit;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltdf-process-holder.eltdf-responsive-480 .eltdf-mark-horizontal-holder {
+    display: none;
+  }
+
+  .eltdf-process-holder.eltdf-responsive-480 .eltdf-mark-vertical-holder {
+    display: block;
+  }
+
+  .eltdf-process-holder.eltdf-responsive-480 .eltdf-process-inner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    padding: 0 0 0 76px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .eltdf-process-holder.eltdf-responsive-480 .eltdf-process-item {
+    width: 100%;
+    float: none;
+    padding: 0;
+    text-align: inherit;
+  }
+}
+
+/* ==========================================================================
+   Process shortcode responsive style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Section Title shortcode responsive styles - begin
+   ========================================================================== */
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-section-title-holder.eltdf-st-two-columns {
+    padding: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-section-title-holder {
+    padding: 0 !important;
+  }
+
+  .eltdf-section-title-holder.eltdf-st-two-columns .eltdf-st-title,
+  .eltdf-section-title-holder.eltdf-st-two-columns .eltdf-st-text {
+    width: 100%;
+    float: none !important;
+    text-align: initial !important;
+  }
+
+  .eltdf-section-title-holder.eltdf-st-two-columns .eltdf-st-text {
+    margin: 14px 0 0;
+  }
+
+  .eltdf-section-title-holder.eltdf-st-disable-title-break .eltdf-st-title br {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Section Title shortcode responsive styles - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Split Scrolling Section shortcode responsive style - begin
+   ========================================================================== */
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-split-scrolling-section .eltdf-sss-ms-left {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+
+  .eltdf-split-scrolling-section .eltdf-sss-ms-left .eltdf-sss-ms-section {
+    padding: 0 !important;
+  }
+
+  .eltdf-split-scrolling-section .eltdf-sss-ms-right {
+    width: 100%;
+    float: left;
+    margin: 38px 0 0;
+  }
+
+  .eltdf-split-scrolling-section .eltdf-sss-ms-right .eltdf-sss-ms-section {
+    padding: 0 !important;
+  }
+}
+
+/* ==========================================================================
+   Split Scrolling Section shortcode responsive style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Split Section responsive styles - begin
+   ========================================================================== */
+
+@media only screen and (max-width: 1366px) {
+  .eltdf-ss-holder.eltdf-ss-break-1366.eltdf-ss-image-right .eltdf-ss-image {
+    position: relative;
+    left: 0;
+  }
+
+  .eltdf-ss-holder.eltdf-ss-break-1366 .eltdf-ss-content {
+    left: 0;
+    width: 100%;
+    padding: 25px;
+  }
+
+  .eltdf-ss-holder.eltdf-ss-break-1366 .eltdf-ss-image {
+    position: relative;
+    width: 100%;
+    background-image: none !important;
+  }
+
+  .eltdf-ss-holder.eltdf-ss-break-1366 .eltdf-ss-image img {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-ss-holder.eltdf-ss-break-1024.eltdf-ss-image-right .eltdf-ss-image {
+    position: relative;
+    left: 0;
+  }
+
+  .eltdf-ss-holder.eltdf-ss-break-1024 .eltdf-ss-content {
+    left: 0;
+    width: 100%;
+    padding: 25px;
+  }
+
+  .eltdf-ss-holder.eltdf-ss-break-1024 .eltdf-ss-image {
+    position: relative;
+    width: 100%;
+    background-image: none !important;
+  }
+
+  .eltdf-ss-holder.eltdf-ss-break-1024 .eltdf-ss-image img {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-ss-holder.eltdf-ss-break-768.eltdf-ss-image-right .eltdf-ss-image {
+    position: relative;
+    left: 0;
+  }
+
+  .eltdf-ss-holder.eltdf-ss-break-768 .eltdf-ss-content {
+    left: 0;
+    width: 100%;
+    padding: 25px;
+  }
+
+  .eltdf-ss-holder.eltdf-ss-break-768 .eltdf-ss-image {
+    position: relative;
+    width: 100%;
+    background-image: none !important;
+  }
+
+  .eltdf-ss-holder.eltdf-ss-break-768 .eltdf-ss-image img {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-ss-holder.eltdf-ss-break-680.eltdf-ss-image-right .eltdf-ss-image {
+    position: relative;
+    left: 0;
+  }
+
+  .eltdf-ss-holder.eltdf-ss-break-680 .eltdf-ss-content {
+    left: 0;
+    width: 100%;
+    padding: 25px;
+  }
+
+  .eltdf-ss-holder.eltdf-ss-break-680 .eltdf-ss-image {
+    position: relative;
+    width: 100%;
+    background-image: none !important;
+  }
+
+  .eltdf-ss-holder.eltdf-ss-break-680 .eltdf-ss-image img {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltdf-ss-holder.eltdf-ss-break-480.eltdf-ss-image-right .eltdf-ss-image {
+    position: relative;
+    left: 0;
+  }
+
+  .eltdf-ss-holder.eltdf-ss-break-480 .eltdf-ss-content {
+    left: 0;
+    width: 100%;
+    padding: 25px;
+  }
+
+  .eltdf-ss-holder.eltdf-ss-break-480 .eltdf-ss-image {
+    position: relative;
+    width: 100%;
+    background-image: none !important;
+  }
+
+  .eltdf-ss-holder.eltdf-ss-break-480 .eltdf-ss-image img {
+    display: block;
+  }
+}
+
+/* ==========================================================================
+   Split Section responsive styles - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Tabs shortcode responsive style - begin
+   ========================================================================== */
+
+@media only screen and (max-width: 1366px) {
+  .eltdf-tabs.eltdf-tabs-vertical .eltdf-tabs-nav {
+    width: 300px;
+  }
+
+  .eltdf-tabs.eltdf-tabs-vertical .eltdf-tab-container {
+    padding: 0 0 0 45px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-tabs.eltdf-tabs-boxed .eltdf-tabs-nav li {
+    margin: 0 8px 0 0;
+  }
+
+  .eltdf-tabs.eltdf-tabs-boxed .eltdf-tabs-nav li a {
+    padding: 7px 18px;
+  }
+
+  .eltdf-tabs.eltdf-tabs-simple .eltdf-tabs-nav li {
+    margin: 0 26px 0 0;
+  }
+
+  .eltdf-tabs.eltdf-tabs-vertical .eltdf-tabs-nav {
+    width: 180px;
+  }
+
+  .eltdf-tabs.eltdf-tabs-vertical .eltdf-tab-container {
+    width: calc(100% - 180px);
+    padding: 0 0 0 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-tabs.eltdf-tabs-boxed .eltdf-tabs-nav li {
+    display: block;
+    float: none;
+    margin: 0 0 8px;
+  }
+
+  .eltdf-tabs.eltdf-tabs-boxed .eltdf-tabs-nav li a {
+    width: 100%;
+  }
+
+  .eltdf-tabs.eltdf-tabs-simple .eltdf-tabs-nav li {
+    margin: 0 20px 0 0;
+  }
+
+  .eltdf-tabs.eltdf-tabs-vertical .eltdf-tabs-nav,
+  .eltdf-tabs.eltdf-tabs-vertical .eltdf-tab-container {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+  }
+
+  .eltdf-tabs.eltdf-tabs-vertical .eltdf-tabs-nav {
+    border-right: 0;
+  }
+
+  .eltdf-tabs.eltdf-tabs-vertical .eltdf-tabs-nav li {
+    float: left;
+    margin: 0 20px 0 0;
+  }
+
+  .eltdf-tabs.eltdf-tabs-vertical .eltdf-tab-container {
+    padding: 31px 0 0;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-tabs.eltdf-tabs-simple .eltdf-tabs-nav {
+    padding: 0 0 20px;
+  }
+
+  .eltdf-tabs.eltdf-tabs-simple .eltdf-tabs-nav li {
+    display: block;
+    float: none;
+    margin: 0 0 20px;
+  }
+
+  .eltdf-tabs.eltdf-tabs-simple .eltdf-tabs-nav li a {
+    padding: 0;
+    width: 100%;
+  }
+
+  .eltdf-tabs.eltdf-tabs-vertical .eltdf-tabs-nav li {
+    display: block;
+    float: none;
+    margin: 0 0 20px;
+  }
+
+  .eltdf-tabs.eltdf-tabs-vertical .eltdf-tabs-nav li a {
+    padding: 0;
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Tabs shortcode responsive style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../../../../plugins/academist-core/assets/css/shortcodes-map-responsive.css.map */
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+
+/* ==========================================================================
+   Shortcodes responsive styles
+   ========================================================================== */
+
+@media only screen and (max-width: 1280px) {
+  .eltdf-instagram-list-holder.eltdf-il-four-columns .eltdf-il-item {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1025px) {
+  .eltdf-instagram-list-holder.eltdf-il-four-columns .eltdf-il-item:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .eltdf-instagram-list-holder.eltdf-il-five-columns .eltdf-il-item {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1025px) {
+  .eltdf-instagram-list-holder.eltdf-il-five-columns .eltdf-il-item:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-instagram-list-holder.eltdf-il-three-columns .eltdf-il-item {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .eltdf-instagram-list-holder.eltdf-il-three-columns .eltdf-il-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-instagram-list-holder.eltdf-il-four-columns .eltdf-il-item {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .eltdf-instagram-list-holder.eltdf-il-four-columns .eltdf-il-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-instagram-list-holder.eltdf-il-five-columns .eltdf-il-item {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .eltdf-instagram-list-holder.eltdf-il-five-columns .eltdf-il-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-instagram-list-holder .eltdf-il-item {
+    width: 100% !important;
+  }
+}
+
+/*# sourceMappingURL=../../../../plugins/academist-instagram-feed/assets/css/shortcodes-map-responsive.css.map */
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+
+/* ==========================================================================
+   Widgets responsive styles
+   ========================================================================== */
+
+/* ==========================================================================
+   Instagram widget responsive style - begin
+   ========================================================================== */
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-instagram-feed:not(.eltdf-instagram-carousel) li img {
+    width: 100%;
+  }
+
+  .eltdf-instagram-feed:not(.eltdf-instagram-carousel).eltdf-col-6 li {
+    width: 25%;
+  }
+
+  .eltdf-instagram-feed:not(.eltdf-instagram-carousel).eltdf-col-9 li {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-instagram-feed:not(.eltdf-instagram-carousel).eltdf-col-6 li {
+    width: 33.33333%;
+  }
+
+  .eltdf-instagram-feed:not(.eltdf-instagram-carousel).eltdf-col-9 li {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-instagram-feed:not(.eltdf-instagram-carousel) li {
+    width: 50% !important;
+  }
+}
+
+/* ==========================================================================
+   Instagram widget responsive style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../../../../plugins/academist-instagram-feed/assets/css/widget-map-responsive.css.map */
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+
+/* ==========================================================================
+   Shortcodes responsive styles
+   ========================================================================== */
+
+/*# sourceMappingURL=../../../../plugins/academist-twitter-feed/assets/css/shortcodes-map-responsive.css.map */

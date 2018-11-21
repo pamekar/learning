@@ -1,0 +1,323 @@
+# Copyright (C) 2018 Academist Membership
+# This file is distributed under the same license as the Academist Membership package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Academist Membership 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/academist-membership\n"
+"POT-Creation-Date: 2018-08-01 14:49:45+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/membership-options-map.php:15 admin/membership-options-map.php:24
+msgid "Enable Social Login"
+msgstr ""
+
+#: admin/membership-options-map.php:25
+msgid "Enabling this option will allow login from social networks of your choice"
+msgstr ""
+
+#: admin/membership-options-map.php:34
+msgid "Enable Login via"
+msgstr ""
+
+#: admin/membership-options-map.php:48
+msgid "Facebook"
+msgstr ""
+
+#: admin/membership-options-map.php:49
+msgid "Enabling this option will allow login via Facebook"
+msgstr ""
+
+#: admin/membership-options-map.php:71
+msgid "Facebook App ID"
+msgstr ""
+
+#: admin/membership-options-map.php:72
+msgid "Copy your application ID form created Facebook Application"
+msgstr ""
+
+#: admin/membership-options-map.php:82
+msgid "Google+"
+msgstr ""
+
+#: admin/membership-options-map.php:83
+msgid "Enabling this option will allow login via Google+"
+msgstr ""
+
+#: admin/membership-options-map.php:105
+msgid "Client ID"
+msgstr ""
+
+#: admin/membership-options-map.php:106
+msgid "Copy your Client ID form created Google Application"
+msgstr ""
+
+#: dashboard/dashboard-functions.php:176
+msgid "Account"
+msgstr ""
+
+#: dashboard/dashboard-functions.php:182
+msgid "Profile"
+msgstr ""
+
+#: dashboard/dashboard-functions.php:188
+msgid "Edit Profile"
+msgstr ""
+
+#: dashboard/dashboard-functions.php:208
+msgid "Membership Profile"
+msgstr ""
+
+#: dashboard/dashboard-functions.php:244
+#: modules/favorites/favorites-functions.php:7
+#: modules/login/wordpress-login.php:13 modules/login/wordpress-login.php:58
+msgid "All fields are empty"
+msgstr ""
+
+#: dashboard/dashboard-functions.php:266
+msgid "Passwords don't match"
+msgstr ""
+
+#: dashboard/dashboard-functions.php:274
+msgid "Error. Please insert valid email"
+msgstr ""
+
+#: dashboard/dashboard-functions.php:285
+msgid "Your profile is updated"
+msgstr ""
+
+#: dashboard/dashboard-functions.php:288
+msgid "You are unauthorized to perform this action."
+msgstr ""
+
+#: dashboard/dashboard-functions.php:292
+msgid "Error."
+msgstr ""
+
+#: dashboard/page-templates/template-parts/edit-profile.php:17
+msgid "Update Profile"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/edit-profile.php:19
+msgid "Updating Profile"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/edit-profile.php:20
+msgid "Profile Updated"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/edit-profile.php:32
+msgid "First Name"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/edit-profile.php:40
+msgid "Last Name"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/edit-profile.php:48
+#: dashboard/page-templates/template-parts/profile.php:15
+msgid "Email"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/edit-profile.php:59
+#: dashboard/page-templates/template-parts/profile.php:23
+msgid "Website"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/edit-profile.php:67
+msgid "Description"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/edit-profile.php:75
+msgid "Password"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/edit-profile.php:85
+msgid "Repeat Password"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/navigation.php:24
+msgid "Log out"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/profile.php:7
+msgid "First name"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/profile.php:11
+msgid "Last name"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/profile.php:19
+msgid "Desription"
+msgstr ""
+
+#: dashboard/page-templates/user-dashboard.php:28
+#: modules/widgets/login-widget/templates/login-modal-template.php:4
+msgid "User login"
+msgstr ""
+
+#: modules/favorites/favorites-functions.php:16
+#: modules/favorites/favorites-functions.php:101
+msgid "Favorite"
+msgstr ""
+
+#: modules/favorites/favorites-functions.php:21
+#: modules/favorites/favorites-functions.php:104
+msgid "Remove"
+msgstr ""
+
+#: modules/login/common.php:51
+msgid "Not valid user"
+msgstr ""
+
+#: modules/login/facebook-login.php:66 modules/login/google-login.php:66
+#: modules/login/wordpress-login.php:41
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: modules/login/wordpress-login.php:33
+msgid "Wrong username or password."
+msgstr ""
+
+#: modules/login/wordpress-login.php:78
+msgid "Something went wrong"
+msgstr ""
+
+#: modules/login/wordpress-login.php:90
+#: modules/widgets/login-widget/templates/register-modal-template.php:4
+msgid "User registration"
+msgstr ""
+
+#: modules/login/wordpress-login.php:91
+msgid "You have registered successfully on "
+msgstr ""
+
+#: modules/login/wordpress-login.php:93
+msgid "You have registered successfully, please login with the created credentials"
+msgstr ""
+
+#: modules/login/wordpress-login.php:97
+msgid "Both passwords must match in order to register"
+msgstr ""
+
+#: modules/login/wordpress-login.php:100
+msgid "Username already exists"
+msgstr ""
+
+#: modules/login/wordpress-login.php:102
+msgid "User with that name already exists"
+msgstr ""
+
+#: modules/login/wordpress-login.php:126
+msgid "We have sent you an email"
+msgstr ""
+
+#: modules/shortcodes/login/templates/login-template.php:11
+#: modules/shortcodes/register/templates/register-template.php:5
+msgid "Username*"
+msgstr ""
+
+#: modules/shortcodes/login/templates/login-template.php:12
+#: modules/shortcodes/register/templates/register-template.php:7
+msgid "Three or more characters"
+msgstr ""
+
+#: modules/shortcodes/login/templates/login-template.php:15
+#: modules/shortcodes/register/templates/register-template.php:14
+msgid "Password*"
+msgstr ""
+
+#: modules/shortcodes/login/templates/login-template.php:22
+msgid "Remember me"
+msgstr ""
+
+#: modules/shortcodes/login/templates/login-template.php:26
+msgid "Forgot your password?"
+msgstr ""
+
+#: modules/shortcodes/login/templates/login-template.php:35
+#: modules/shortcodes/login/templates/login-template.php:40
+#: modules/shortcodes/register/templates/register-message.php:3
+#: modules/widgets/login-widget/login-widget.php:35
+msgid "Login"
+msgstr ""
+
+#: modules/shortcodes/login/templates/login-template.php:47
+msgid "Not a member yet?"
+msgstr ""
+
+#: modules/shortcodes/login/templates/login-template.php:49
+msgid "Register Now"
+msgstr ""
+
+#: modules/shortcodes/login/templates/login-template.php:61
+msgid "Recommended: Connect with Social Networks!"
+msgstr ""
+
+#: modules/shortcodes/register/register.php:33
+msgid "You don't have permission to register"
+msgstr ""
+
+#: modules/shortcodes/register/register.php:37
+msgid "You are already logged in"
+msgstr ""
+
+#: modules/shortcodes/register/templates/register-template.php:10
+msgid "Email*"
+msgstr ""
+
+#: modules/shortcodes/register/templates/register-template.php:18
+msgid "Repeat Password*"
+msgstr ""
+
+#: modules/shortcodes/register/templates/register-template.php:27
+#: modules/shortcodes/register/templates/register-template.php:32
+#: modules/widgets/login-widget/login-widget.php:36
+msgid "Register"
+msgstr ""
+
+#: modules/shortcodes/reset-password/templates/reset-password-template.php:4
+msgid "Enter username or email"
+msgstr ""
+
+#: modules/shortcodes/reset-password/templates/reset-password-template.php:12
+#: modules/shortcodes/reset-password/templates/reset-password-template.php:17
+msgid "New Password"
+msgstr ""
+
+#: modules/widgets/login-widget/login-widget.php:8
+msgid "Academist Login Widget"
+msgstr ""
+
+#: modules/widgets/login-widget/login-widget.php:9
+msgid "Login and register membership widget"
+msgstr ""
+
+#: modules/widgets/login-widget/templates/login-widget-template-logged-in.php:39
+#: modules/widgets/login-widget/templates/login-widget-template.php:37
+msgid "Log Out"
+msgstr ""
+
+#: modules/widgets/login-widget/templates/login-widget-template-logged-out.php:2
+msgid "Login / Register"
+msgstr ""
+
+#: modules/widgets/login-widget/templates/password-modal-template.php:4
+msgid "Reset Password"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Academist Membership"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Plugin that adds social login and user dashboard page"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Elated Themes"
+msgstr ""

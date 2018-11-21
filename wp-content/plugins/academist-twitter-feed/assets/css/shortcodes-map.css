@@ -1,0 +1,155 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+/* ==========================================================================
+   Shortcodes styles
+   ========================================================================== */
+.eltdf-twitter-list-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  clear: both;
+}
+
+.eltdf-twitter-list-holder .eltdf-twitter-list {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.eltdf-twitter-list-holder .eltdf-tl-item {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.eltdf-twitter-list-holder .eltdf-tli-inner {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  background-color: #ffffff;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.eltdf-twitter-list-holder .eltdf-tli-inner:hover {
+  box-shadow: -2px 4px 13px 0 rgba(81, 137, 162, 0.05);
+  -webkit-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+
+.eltdf-twitter-list-holder .eltdf-tli-content {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  padding: 35px 23px;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+}
+
+.eltdf-twitter-list-holder .eltdf-twitter-content-top {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+}
+
+.eltdf-twitter-list-holder .eltdf-twitter-link-over {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.eltdf-twitter-list-holder .eltdf-twitter-user {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+.eltdf-twitter-list-holder .eltdf-twitter-user .eltdf-twitter-image {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  width: 56px;
+  height: 56px;
+}
+
+.eltdf-twitter-list-holder .eltdf-twitter-user .eltdf-twitter-image img {
+  border-radius: 50%;
+}
+
+.eltdf-twitter-list-holder .eltdf-twitter-user .eltdf-twitter-name {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  width: calc(100% - 56px);
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.eltdf-twitter-list-holder .eltdf-twitter-user .eltdf-twitter-name * {
+  margin: 0;
+}
+
+.eltdf-twitter-list-holder .eltdf-twitter-icon {
+  position: absolute;
+  top: -7px;
+  right: 3px;
+  width: 20px;
+  display: inline-block;
+  vertical-align: top;
+  color: #ff1949;
+  font-size: 24px;
+  text-align: right;
+}
+
+.eltdf-twitter-list-holder .eltdf-tweet-text {
+  padding-left: 12px;
+  box-sizing: border-box;
+}
+
+.eltdf-twitter-list-holder .eltdf-tweet-text a {
+  position: relative;
+  color: #808080;
+  z-index: 2;
+}
+
+.eltdf-twitter-list-holder .eltdf-tweet-text a:hover {
+  color: #ff1949;
+}
+
+.eltdf-twitter-list-holder .eltdf-twitter-profile a {
+  position: relative;
+  color: #808080;
+  z-index: 2;
+}
+
+.eltdf-twitter-list-holder .eltdf-twitter-profile a:hover {
+  color: #ff1949;
+}
+
+/*# sourceMappingURL=../../../../plugins/academist-twitter-feed/assets/css/shortcodes-map.css.map */

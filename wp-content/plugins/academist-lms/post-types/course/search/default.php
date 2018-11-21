@@ -1,0 +1,2 @@
+<?php echo academist_lms_get_cpt_module_template_part( 'course', 'search', 'parts/search-form',  '', $params ); ?>
+<?php echo academist_lms_get_cpt_module_template_part( 'course', 'search', 'parts/loop', '', $params ); ?>

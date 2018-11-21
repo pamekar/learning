@@ -1,0 +1,25 @@
+/* ==========================================================================
+# Instructor list - begin
+	========================================================================== */
+
+.eltdf-instructor-list-holder {
+    @include eltdfRelativeHolderLayout();
+
+    @media screen and (min-width: $ipad-portrait-plus-pixel) and (max-width: $ipad-landscape) {
+        &.eltdf-grid-list.eltdf-three-columns .eltdf-item-space {
+            width: 50%;
+
+            &:nth-child(2n+1) {
+                clear: both;
+            }
+
+            &:nth-child(3n+1) {
+                clear: none;
+            }
+        }
+    }
+}
+
+/* ==========================================================================
+# Instructor list - end
+========================================================================== */

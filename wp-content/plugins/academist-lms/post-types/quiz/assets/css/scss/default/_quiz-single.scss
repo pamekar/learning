@@ -1,0 +1,40 @@
+.eltdf-quiz-single-holder {
+	padding: 20px 40px;
+	.eltdf-quiz-single-title {
+		margin-bottom: 10px;
+	}
+
+	.eltdf-quiz-info-top-wrapper {
+		margin-bottom: 39px;
+	}
+
+	.eltdf-quiz-questions-number,
+	.eltdf-quiz-duration {
+		i {
+			margin-right: 4px;
+		}
+	}
+
+	.eltdf-question-single-title {
+		margin-bottom: 16px;
+	}
+
+	.eltdf-question-text-wrapper {
+		margin-bottom: 21px;
+	}
+
+	.eltdf-question-answer-wrapper {
+		margin-bottom: 41px;
+	}
+
+	.eltdf-question-actions-wrapper {
+		display: inline;
+		form {
+			display: inline-block;
+		}
+	}
+
+	.eltdf-quiz-finish-wrapper {
+		display: inline;
+	}
+}

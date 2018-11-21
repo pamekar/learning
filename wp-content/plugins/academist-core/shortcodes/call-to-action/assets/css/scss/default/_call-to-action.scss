@@ -1,0 +1,123 @@
+/* ==========================================================================
+   Call To Action shortcode style - begin
+   ========================================================================== */
+
+.eltdf-call-to-action-holder {
+    @include eltdfRelativeHolderLayout();
+	
+	.eltdf-cta-text-holder,
+	.eltdf-cta-button-holder {
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	
+	.eltdf-cta-text-holder {
+		
+		h1, h2, h3, h4, h5, h6 {
+			margin: 0;
+			color: #fff;
+		}
+	}
+	
+	.eltdf-cta-button-holder {
+		
+		.eltdf-btn {
+			white-space: nowrap;
+			color: #fff;
+			border-color: #fff;
+		}
+	}
+	
+	/***** Layout Style - begin *****/
+	
+	&.eltdf-normal-layout {
+		
+		.eltdf-cta-inner {
+			display: table;
+		}
+		
+		&:not(.eltdf-content-in-grid) {
+			
+			.eltdf-cta-inner {
+				width: 100%;
+			}
+		}
+		
+		.eltdf-cta-text-holder,
+		.eltdf-cta-button-holder {
+			display: table-cell;
+			box-sizing: border-box;
+		}
+		
+		.eltdf-cta-button-holder {
+			text-align: right;
+		}
+	}
+	
+	&.eltdf-simple-layout {
+		
+		.eltdf-cta-inner {
+			text-align: center;
+		}
+		
+		.eltdf-cta-text-holder,
+		.eltdf-cta-button-holder {
+			width: 100%;
+		}
+		
+		.eltdf-cta-button-holder {
+			margin: 28px 0 0;
+		}
+	}
+	
+	/***** Layout Style - end *****/
+	
+	/***** Columns Space - begin *****/
+	
+	&.eltdf-two-halves-columns {
+		
+		.eltdf-cta-text-holder,
+		.eltdf-cta-button-holder {
+			width: 50%;
+		}
+	}
+	
+	&.eltdf-two-thirds-columns {
+		
+		.eltdf-cta-text-holder {
+			width: 66.66666666666667%;
+		}
+		
+		.eltdf-cta-button-holder {
+			width: 33.33333333333333%;
+		}
+	}
+	
+	&.eltdf-three-quarters-columns {
+		
+		.eltdf-cta-text-holder {
+			width: 75%;
+		}
+		
+		.eltdf-cta-button-holder {
+			width: 25%;
+		}
+	}
+	
+	&.eltdf-four-fifths-columns {
+		
+		.eltdf-cta-text-holder {
+			width: 80%;
+		}
+		
+		.eltdf-cta-button-holder {
+			width: 20%;
+		}
+	}
+	
+	/***** Columns Space - end *****/
+}
+/* ==========================================================================
+   Call To Action shortcode style - end
+   ========================================================================== */

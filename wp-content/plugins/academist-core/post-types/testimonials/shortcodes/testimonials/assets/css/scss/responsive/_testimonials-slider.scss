@@ -1,0 +1,158 @@
+
+.eltdf-testimonials-holder {
+
+    &.eltdf-testimonials-simple {
+
+        @include ipad-landscape {
+            
+            .eltdf-custom-testimonials-slider-holder {
+                margin-left: -34px;
+                width: 132%!important;
+
+                .eltdf-custom-testimonials-slider {
+                    padding-left: 20px;
+
+                    .eltdf-slider-item {
+
+                        .eltdf-testimonial-image-holder {
+                            width: 12%;
+                        }
+                    }
+                }
+            }
+        }
+
+        @include ipad-portrait {
+            
+            .eltdf-custom-testimonials-slider-holder {
+
+                .eltdf-custom-testimonials-slider {
+
+                    .eltdf-slider-item {
+
+                        .eltdf-testimonial-image-holder {
+                            width: 15%;
+                        }
+                    }
+                }
+
+                .eltdf-testimonials-slider-nav {
+                    width: 82%;
+                }
+            }
+        }
+
+        @include phone-landscape {
+            
+            .eltdf-custom-testimonials-slider-holder {
+
+                .eltdf-custom-testimonials-slider {
+
+                    .eltdf-slider-item {
+
+                        .eltdf-testimonial-image-holder {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.eltdf-testimonials-big {
+
+        @include laptop-landscape-mac {
+
+            .eltdf-custom-testimonials-slider-holder {
+
+                .eltdf-testimonials-slider-nav {
+                    width: 62.7%;
+    
+                    .eltdf-btn-ts-next, .eltdf-btn-ts-prev {
+                        @include eltdfTransform(translate3d(0, -135%, 0));
+                    }
+                }
+            }
+        }
+
+        @include ipad-portrait {
+            
+            .eltdf-custom-testimonials-slider-holder {
+
+                .eltdf-custom-testimonials-slider {
+
+                    .eltdf-slider-item {
+
+                        .eltdf-testimonial-image-holder {
+    
+                            .eltdf-testimonial-image img {
+                                height: 50vh !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        @include phone-landscape {
+            
+            .eltdf-custom-testimonials-slider-holder {
+
+                .eltdf-custom-testimonials-slider {
+
+                    .eltdf-slider-item {
+
+                        .eltdf-testimonial-image-holder {
+    
+                            .eltdf-testimonial-image img {
+                                height: 100vh !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        @include phone-portrait {
+            
+            .eltdf-custom-testimonials-slider-holder {
+
+                .eltdf-custom-testimonials-slider {
+
+                    .eltdf-slider-item {
+                    
+                        .eltdf-testimonial-image-holder {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.eltdf-testimonials-standard {
+
+        @include laptop-landscape-large {
+
+            .eltdf-custom-testimonials-slider-holder {
+    
+                .eltdf-testimonial-image-holder{
+
+                    .eltdf-testimonial-image {
+                        
+                        img {
+                            height: auto !important;
+                        }
+                    }
+                }
+
+                .eltdf-testimonials-slider-nav {
+        
+                    .eltdf-btn-ts-next, .eltdf-btn-ts-prev {
+                        @include eltdfTransform(translate3d(0, -153%, 0));
+                    }
+                }     
+            }
+        }
+    }
+}

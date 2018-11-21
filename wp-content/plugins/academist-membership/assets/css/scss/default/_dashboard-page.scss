@@ -1,0 +1,139 @@
+/* Dashboard page - start
+   ========================================================================== */
+.eltdf-membership-main-wrapper {
+    display: table;
+    width: 100%;
+    background-color: #fff;
+    margin: 117px 0;
+}
+
+.eltdf-membership-dashboard-nav-holder,
+.eltdf-membership-dashboard-content-holder {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.eltdf-membership-dashboard-nav-holder {
+    width: 30%;
+    padding: 4.5%;
+    margin: 0 0 75px;
+    background-color: #1d1d1d;
+
+    ul {
+        padding: 0 15px 0 0;
+        margin: 0;
+        list-style: none;
+
+        li {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            overflow: hidden;
+
+            &:not(:last-child) {
+                margin: 0 0 10px;
+            }
+
+            &:before {
+                content: "\24";
+                position: absolute;
+                top: 0;
+                left: -25px;
+                width: 20px;
+                font-family: 'ElegantIcons';
+                vertical-align: unset;
+                color: $first-main-color;
+                font-size: 18px;
+                line-height: inherit;
+                font-weight: 800;
+                font-style: normal;
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                @include eltdfTransition(left .2s ease-in-out);
+            }
+
+            &:hover, &.eltdf-active-dash {
+
+                a{
+                    padding-left: 25px;
+                }
+
+                &:before {
+                    left: 0;
+                }
+            }
+
+            a {
+                font-family: $default-heading-font;
+                font-size: 15px;
+                font-weight: 600;
+                color: #fff;
+                @include eltdfTransition(padding .2s ease);
+
+                * {
+                    display: inline-block;
+                    vertical-align: top;
+                    line-height: inherit;
+
+                    &:before {
+                        display: block;
+                        line-height: inherit;
+                    }
+                }
+
+                .eltdf-dash-icon {
+                    font-size: 15px;
+                    margin-right: 4px;
+                }
+            }
+        }
+    }
+}
+
+.eltdf-membership-dashboard-content-holder {
+    width: 70%;
+    padding: 4.5%;
+    margin: 0 0 60px;
+    border-left: 1px solid $default-border-color;
+
+    .eltdf-profile-image {
+        position: relative;
+        display: inline-block;
+        border-radius: 100%;
+        overflow: hidden;
+
+        img {
+            display: block;
+            position: relative;
+        }
+    }
+
+    .eltdf-membership-dashboard-page-title {
+        margin: 0 0 23px;
+    }
+
+    .eltdf-membership-dashboard-page-content p {
+        margin: 12px 0;
+
+        span {
+            color: $default-heading-color;
+            font-family: $default-heading-font;
+            font-size: 15px;
+            font-weight: 400;
+        }
+    }
+}
+
+.page-template-user-dashboard {
+    .eltdf-container {
+        background-image: url("../img/user-dashboard.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+/* Dashboard page - end
+   ========================================================================== */

@@ -1,0 +1,143 @@
+/* ==========================================================================
+   Footer styles - begin
+   ========================================================================== */
+/* ==========================================================================
+   Footer style - begin
+   ========================================================================== */
+.eltdf-header-vertical .eltdf-page-footer .eltdf-footer-bottom-holder .eltdf-footer-bottom-inner.eltdf-grid {
+  padding: 23px 15px 20px 0;
+}
+
+.eltdf-boxed .eltdf-page-footer .eltdf-footer-bottom-holder .eltdf-footer-bottom-inner.eltdf-grid {
+  padding: 19px 35px;
+}
+
+footer .eltdf-course-list-holder.eltdf-cl-minimal article .eltdf-cli-text .eltdf-instructor-name {
+  color: #dadada;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+  .eltdf-page-footer .eltdf-footer-bottom-holder .eltdf-grid-col-6 {
+    text-align: center !important;
+  }
+}
+
+.eltdf-page-footer {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  z-index: 100;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.eltdf-page-footer .eltdf-footer-top-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  background-color: #363636;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.eltdf-page-footer .eltdf-footer-top-holder .eltdf-footer-top-alignment-center {
+  text-align: center;
+}
+
+.eltdf-page-footer .eltdf-footer-top-holder .eltdf-footer-top-alignment-left {
+  text-align: left;
+}
+
+.eltdf-page-footer .eltdf-footer-top-holder .eltdf-footer-top-alignment-right {
+  text-align: right;
+}
+
+.eltdf-page-footer .eltdf-footer-top-holder .eltdf-footer-top-inner {
+  box-sizing: border-box;
+}
+
+.eltdf-page-footer .eltdf-footer-top-holder .eltdf-footer-top-inner.eltdf-grid {
+  padding: 110px 0 74px 0;
+}
+
+.eltdf-page-footer .eltdf-footer-top-holder .eltdf-footer-top-inner.eltdf-full-width {
+  padding: 110px 0 74px 0;
+}
+
+.eltdf-page-footer .eltdf-footer-bottom-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  background-color: #1d1d1d;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.eltdf-page-footer .eltdf-footer-bottom-holder .widget.widget_text {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 480px) {
+  .eltdf-page-footer .eltdf-footer-bottom-holder .widget.widget_text {
+    display: block;
+  }
+}
+
+.eltdf-page-footer .eltdf-footer-bottom-holder .widget.widget_text + .widget_tag_cloud {
+  margin-top: 35px;
+}
+
+.eltdf-page-footer .eltdf-footer-bottom-holder .widget_text p {
+  padding: 0;
+}
+
+.eltdf-page-footer .eltdf-footer-bottom-holder .eltdf-grid-col-6:first-child {
+  text-align: left;
+}
+
+.eltdf-page-footer .eltdf-footer-bottom-holder .eltdf-grid-col-6:last-child {
+  text-align: right;
+}
+
+.eltdf-page-footer .eltdf-footer-bottom-holder .eltdf-footer-bottom-inner {
+  box-sizing: border-box;
+}
+
+.eltdf-page-footer .eltdf-footer-bottom-holder .eltdf-footer-bottom-inner.eltdf-grid {
+  padding: 23px 0 20px 0;
+}
+
+.eltdf-page-footer .eltdf-footer-bottom-holder .eltdf-footer-bottom-inner.eltdf-full-width {
+  padding: 19px 40px;
+}
+
+.no-touch body:not(.error404) .eltdf-page-footer.eltdf-footer-uncover {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  -webkit-transition: left 0.33s cubic-bezier(0.694, 0.0482, 0.335, 1);
+  -moz-transition: left 0.33s cubic-bezier(0.694, 0.0482, 0.335, 1);
+  transition: left 0.33s cubic-bezier(0.694, 0.0482, 0.335, 1);
+}
+
+.eltdf-right-side-menu-opened .eltdf-page-footer.eltdf-footer-uncover {
+  left: -270px;
+}
+
+/* ==========================================================================
+   Footer style - end
+   ========================================================================== */
+/* ==========================================================================
+   Footer styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=footer-map.css.map */

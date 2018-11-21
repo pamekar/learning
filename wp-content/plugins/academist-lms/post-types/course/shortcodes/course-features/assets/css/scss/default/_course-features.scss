@@ -1,0 +1,55 @@
+/* ==========================================================================
+   Course Features shortcode style - begin
+   ========================================================================== */
+
+.eltdf-course-features-holder {
+	
+	.eltdf-course-features {
+		list-style: none;
+		
+		li {
+			padding: 10px 0;
+			margin: 0;
+			
+			> span {
+				position: relative;
+				display: inline-block;
+				vertical-align: top;
+			}
+			
+			.eltdf-item-icon {
+				color: $first-main-color;
+				font-size: 20px;
+				margin-right: 15px;
+				
+				* {
+					display: block;
+					line-height: inherit;
+				}
+			}
+
+			&.eltdf-feature-item {
+				font-family: $default-heading-font;
+				font-weight: 400;
+				letter-spacing: 0.015em;
+				color: $default-heading-color;
+
+				.eltdf-item-label {
+				}
+
+				.eltdf-item-value {
+					color: $first-main-color;
+
+					&:before {
+						content: "/";
+						padding: 0 5px;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+   Course Features shortcode style - end
+   ========================================================================== */

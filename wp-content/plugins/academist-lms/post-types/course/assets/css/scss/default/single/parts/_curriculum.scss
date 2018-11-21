@@ -1,0 +1,263 @@
+.eltdf-course-single-holder {
+    
+    .eltdf-course-tabs-wrapper {
+        
+        .eltdf-curriculum-description {
+            margin-bottom: 44px;
+            
+            .eltdf-curriculum-title {
+                margin: 0 0 23px;
+            }
+        }
+        
+        .eltdf-course-curriculum {
+            margin-top: 20px;
+            
+            .eltdf-curriculum-section {
+                background-color: #f9f9f9;
+                margin-bottom: 30px;
+                box-sizing: border-box;
+            }
+            
+            .eltdf-section-name {
+                border-bottom: 2px dotted #e0e0e0;
+                padding: 30px 0 10px;
+                margin: 0 30px;
+
+                .eltdf-section-name-lessons {
+                    float: right;
+                    color: rgba($default-heading-color, .2);
+                }
+            }
+            
+            .eltdf-section-content {
+                padding: 23px 30px 26px;
+            }
+            
+            .eltdf-section-title {
+                margin: 0;
+            }
+            
+            .eltdf-section-description {
+                margin: 13px 0 15px;
+            }
+
+            .eltdf-section-elements {
+                
+                .eltdf-section-elements-summary {
+                    margin: 0 0 7px 3px;
+
+                    .eltdf-summary-value {
+                        font-family: $default-heading-font;
+                        font-weight: 700;
+                        color: $default-heading-color;
+                        letter-spacing: 0.015em;
+                    }
+                }
+            }
+
+            .eltdf-section-element {
+                border-bottom: 2px dotted #e0e0e0;
+                padding: 8px 0;
+                
+                &.eltdf-section-lesson {
+                    margin-left: 30px;
+                }
+                
+                &.eltdf-section-quiz {
+                    border-bottom: 0;
+                    margin: 12px 0 0 4px;
+                    
+                    .eltdf-element-title {
+
+                        .eltdf-element-icon {
+                            padding-right: 4px;
+                            vertical-align: middle;
+                        }
+
+                        .eltdf-element-label {
+                            font-family: $default-heading-font;
+                            font-weight: 700;
+                            letter-spacing: 0.015em;
+                            color: $default-heading-color;
+                        }
+                    }
+                }
+                
+                .eltdf-element-title {
+                    display: inline-block;
+                    float: left;
+
+                    .eltdf-element-icon {
+                        padding-right: 9px;
+                    }
+                }
+                
+                .eltdf-element-info {
+                    display: inline-block;
+                    float: right;
+                    
+                    .eltdf-element-clock-icon {
+                        color: $first-main-color;
+                        margin: 0px 4px 0px 3px;
+                        position: relative;
+                        top: 2px;
+                    }
+
+                    .eltdf-element-extra-info-unit {
+                        text-transform: lowercase;
+                    }
+                }
+                
+                .eltdf-element-label {
+                    padding-right: 3px;
+                    font-weight: 400;
+                    font-family: $default-heading-font;
+                    color: $default-heading-color;
+                    letter-spacing: 0.015em;
+                }
+
+                .eltdf-element-preview-holder {
+                    font-weight: 400;
+                    font-size: 13px;
+                    color: #fff;
+                    margin-left: 14px;
+                    letter-spacing: 0.015em;
+                    background-color: $first-main-color;
+                    padding: 2px 13px 4px;
+                    text-transform: capitalize;
+                }
+            }
+        }
+    
+        .eltdf-course-members {
+            @include eltdfRelativeHolderLayout();
+            margin: 20px 0 60px;
+        
+            .eltdf-course-members-title {
+                margin: 0;
+            }
+        
+            .eltdf-course-members-description {
+                margin-top: 23px;
+            }
+        
+            .eltdf-course-members-items {
+                @include eltdfRelativeHolderLayout();
+                padding: 31px 30px 22px;
+                margin-top: 49px;
+                background-color: #f9f9f9;
+                overflow: hidden;
+                box-sizing: border-box;
+            }
+        
+            .eltdf-course-members-items-heading {
+                margin: 0 0 25px;
+                padding-bottom: 28px;
+                border-bottom: 2px dotted #e0e0e0;
+
+                .eltdf-course-members-items-number {
+                    float: right;
+                    color: rgba($default-heading-color, .2);
+                    font-size: 28px;
+                    position: relative;
+                    top: 4px;
+                }
+            }
+        
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            
+                li {
+                    @include eltdfRelativeHolderLayout();
+                    padding: 19px 0;
+                    margin: 0;
+                    border-top: 2px dotted #e0e0e0;
+                    box-sizing: border-box;
+                
+                    &:first-child {
+                        padding-top: 0;
+                        border-top: 0;
+                    }
+                }
+            }
+        
+            .eltdf-course-member-item {
+                @include eltdfTableLayout();
+            
+                > span {
+                    @include eltdfTableCellLayout();
+                
+                    &.eltdf-course-member-image {
+                        width: 80px;
+                    }
+                
+                    &.eltdf-course-member-content {
+                        width: 216px;
+                    
+                        @include ipad-landscape {
+                            width: 100%;
+                        }
+                    }
+                }
+
+                @include ipad-portrait {
+                    display: inline-block;
+                    vertical-align: top;
+
+                    > span {
+                        display: inline-block;
+
+                        &.eltdf-course-member-content {
+                            width: auto;
+                        }
+
+                        &.eltdf-course-member-description {
+                            width: 100%;
+                            margin-top: 20px;
+                        }
+                    }
+                }
+
+                @include phone-landscape {
+
+                    > span {
+
+                        &.eltdf-course-member-content {
+                            width: 100%;
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+        
+            .eltdf-course-member-image {
+                padding-right: 25px;
+            
+                img {
+                    display: block;
+                    border-radius: 100%;
+                }
+            }
+        
+            .eltdf-course-member-content {
+                padding-right: 20px;
+
+                .eltdf-course-member-author-title {
+                    font-family: $default-heading-font;
+                    font-weight: 700;
+                    color: $default-heading-color;
+                }
+            }
+        
+            .eltdf-course-member-author-position {
+                display: block;
+                color: $default-heading-color;
+                letter-spacing: 0.015em;
+                max-width: 84%;
+            }
+        }
+    }
+}

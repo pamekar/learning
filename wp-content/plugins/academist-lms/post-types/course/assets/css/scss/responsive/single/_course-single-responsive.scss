@@ -1,0 +1,9 @@
+.eltdf-course-popup {
+    .eltdf-course-popup-inner {
+        @include ipad-landscape {
+            .eltdf-grid-col-8 {
+                float: none;
+            }
+        }
+    }
+}

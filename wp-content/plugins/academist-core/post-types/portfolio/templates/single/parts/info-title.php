@@ -1,0 +1,1 @@
+<h4 class="eltdf-ps-info-title"><?php echo esc_html( $title ); ?></h4>

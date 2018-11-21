@@ -1,0 +1,51 @@
+.eltdf-team-single-holder {
+    @include eltdfRelativeHolderLayout();
+	
+    .eltdf-name {
+        margin: 0 0 20px;
+    }
+
+    .eltdf-position {
+	    margin: 0;
+        color: #ababab;
+
+        .eltdf-icon-shortcode {
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 5px;
+
+            a, span, i {
+                color: #999;
+            }
+        }
+    }
+
+    .eltdf-ts-info-row {
+	    padding: 10px 0;
+	    border-bottom: 1px solid #dadada;
+	    color: #ababab;
+	    font-size: 12px;
+
+        &:last-child{
+            border: 0;
+        }
+
+        .eltdf-ts-bio-icon {
+	        display: inline-block;
+	        vertical-align: middle;
+	        margin: 0 10px 0 0;
+	        font-size: 18px;
+        }
+
+        .eltdf-ts-bio-info {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+
+    .eltdf-team-single-content {
+	    @include eltdfRelativeHolderLayout();
+	    margin: 30px 0 0;
+    }
+}

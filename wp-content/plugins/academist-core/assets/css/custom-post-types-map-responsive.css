@@ -1,0 +1,115 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+/* ==========================================================================
+   Custom Post Types responsive styles
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio Single page responsive style - begin
+   ========================================================================== */
+.eltdf-portfolio-single-holder .eltdf-ps-image-holder.eltdf-ps-gallery-images {
+  /***** Columns Layout - end *****/
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-portfolio-single-holder .eltdf-ps-image-holder.eltdf-ps-gallery-images .eltdf-ps-image {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-portfolio-single-holder .eltdf-ps-info-holder {
+    margin: 30px 0 0 !important;
+  }
+}
+
+/* ==========================================================================
+   Portfolio Single page responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+# Team responsive style - begin
+========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltdf-team.info-bellow .eltdf-team-image {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-team.info-hover {
+    margin-bottom: 30px;
+  }
+}
+
+/* ==========================================================================
+# Team responsive style - end
+========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder {
+    margin-left: -34px;
+    width: 132% !important;
+  }
+  .eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider {
+    padding-left: 20px;
+  }
+  .eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-slider-item .eltdf-testimonial-image-holder {
+    width: 12%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-slider-item .eltdf-testimonial-image-holder {
+    width: 15%;
+  }
+  .eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder .eltdf-testimonials-slider-nav {
+    width: 82%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-slider-item .eltdf-testimonial-image-holder {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .eltdf-testimonials-holder.eltdf-testimonials-big .eltdf-custom-testimonials-slider-holder .eltdf-testimonials-slider-nav {
+    width: 62.7%;
+  }
+  .eltdf-testimonials-holder.eltdf-testimonials-big .eltdf-custom-testimonials-slider-holder .eltdf-testimonials-slider-nav .eltdf-btn-ts-next, .eltdf-testimonials-holder.eltdf-testimonials-big .eltdf-custom-testimonials-slider-holder .eltdf-testimonials-slider-nav .eltdf-btn-ts-prev {
+    -webkit-transform: translate3d(0, -135%, 0);
+    -moz-transform: translate3d(0, -135%, 0);
+    transform: translate3d(0, -135%, 0);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-testimonials-holder.eltdf-testimonials-big .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-slider-item .eltdf-testimonial-image-holder .eltdf-testimonial-image img {
+    height: 50vh !important;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-testimonials-holder.eltdf-testimonials-big .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-slider-item .eltdf-testimonial-image-holder .eltdf-testimonial-image img {
+    height: 100vh !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltdf-testimonials-holder.eltdf-testimonials-big .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-slider-item .eltdf-testimonial-image-holder {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .eltdf-testimonials-holder.eltdf-testimonials-standard .eltdf-custom-testimonials-slider-holder .eltdf-testimonial-image-holder .eltdf-testimonial-image img {
+    height: auto !important;
+  }
+  .eltdf-testimonials-holder.eltdf-testimonials-standard .eltdf-custom-testimonials-slider-holder .eltdf-testimonials-slider-nav .eltdf-btn-ts-next, .eltdf-testimonials-holder.eltdf-testimonials-standard .eltdf-custom-testimonials-slider-holder .eltdf-testimonials-slider-nav .eltdf-btn-ts-prev {
+    -webkit-transform: translate3d(0, -153%, 0);
+    -moz-transform: translate3d(0, -153%, 0);
+    transform: translate3d(0, -153%, 0);
+  }
+}
+
+/*# sourceMappingURL=../../../../plugins/academist-core/assets/css/custom-post-types-map-responsive.css.map */

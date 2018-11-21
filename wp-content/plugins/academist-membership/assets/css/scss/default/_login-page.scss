@@ -1,0 +1,206 @@
+.eltdf-login-register-content {
+
+    > h3 {
+        background: #1d1d1d;
+        margin: 0;
+        padding: 0;
+
+        span {
+            width: 50%;
+            display: inline-block;
+            background: #fff;
+            padding: 86px 7.8% 30px;
+            box-sizing: border-box;
+        }
+    }
+    
+    .eltdf-social-login-holder {
+        @include eltdfTableLayout();
+    }
+
+    .eltdf-social-login-holder-inner,
+    .eltdf-login-form-social-login {
+        @include eltdfTableCellLayout();
+        width: 50%;
+    }
+
+    .eltdf-login-form-social-login {
+        vertical-align: top;
+    }
+    
+    .eltdf-lost-pass-remember-holder {
+        
+        .eltdf-remember-holder,
+        .eltdf-lost-pass-holder {
+            width: 50%;
+            display: inline-block;
+        }
+
+        .eltdf-lost-pass-holder {
+            float: right;
+            text-align: right;
+
+            a {
+                color: $first-main-color;
+
+                &:hover {
+                    color: $default-heading-color;
+                }
+            }
+        }
+    }
+
+    .eltdf-register-link-holder {
+        margin: 2px 0 0;
+
+        a {
+            color: $first-main-color;
+
+            &:hover {
+                color: $default-heading-color;
+            }
+        }
+        
+        .eltdf-modal-opener {
+            color: $first-main-color;
+        }
+    }
+
+    .eltdf-social-login-holder-inner {
+        padding: 0 8.3% 6.4% 7.8%;
+        box-sizing: border-box;
+    }
+
+    .eltdf-login-form {
+
+        fieldset {
+
+            > div {
+                @include eltdfRelativeHolderLayout();
+
+                &:not(.eltdf-register-button-holder):not(.eltdf-lost-pass-remember-holder):not(.eltdf-login-button-holder):not(.eltdf-register-link-holder) {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        
+        label {
+            line-height: 25px;
+            display: inline-block;
+            margin-bottom: 1px;
+        }
+        
+        input[type=text],
+        input[type=password]{
+            position: relative;
+            width: 100%;
+            margin: 0;
+            padding: 15px 16px;
+            font-family: $default-heading-font;
+            font-size: 12px;
+            line-height: 20px;
+            font-weight: inherit;
+            background-color: #fff;
+            border: 1px solid #d6d6d6;
+            outline: 0;
+            -webkit-appearance: none;
+            box-sizing: border-box;
+            @include eltdfTransform(translateZ(0));
+
+            @include eltdfPlaceholder {
+                color: inherit;
+            }
+        }
+    }
+
+    .eltdf-login-form-social-login {
+        padding: 0 8.1%;
+        background-color: #1d1d1d;
+        box-sizing: border-box;
+    }
+
+    .eltdf-login-social-title {
+        margin: 45px 0 23px;
+        color: #fff;
+        font-size: 28px;
+        font-family: $default-heading-font;
+        font-weight: 700;
+        max-width: 65%;
+        line-height: 34px;
+    }
+
+    .eltdf-login-button-holder {
+
+        button.eltdf-btn {
+            margin: 32px 0 6px;
+            color: #fff;
+            border: none;
+            background-color: $first-main-color;
+            width: 100%;
+            padding: 16px 33px;
+
+            .eltdf-btn-hover-item {
+                background-color: #f6f6f6 !important;
+            }
+
+            &:hover {
+                background-color: $default-heading-color !important;
+            }
+        }
+    }
+
+    .eltdf-login-social-info {
+        margin-top: 30px;
+        font-family: $default-heading-font;
+        font-size: 18px;
+        text-align: center;
+        color: $default-heading-color;
+    }
+
+    .eltdf-login-social-networks {
+
+        .eltdf-facebook-login-holder,
+        .eltdf-google-login-holder {
+            display: inline-block;
+        }
+
+        button.eltdf-btn  {
+            width: 40px;
+            height: 40px;
+            line-height: 34px;
+            padding: 0;
+            display: inline-block;
+            margin: 9px 12px 0 0;
+
+            > i {
+                margin: 0;
+                font-size: 18px;
+            }
+
+            span {
+                margin: 0 0 0 2px;
+                font-size: 17px;
+            }
+
+            .eltdf-btn-text {
+                display: none;
+            }
+        }
+    }
+
+    .eltdf-membership-response-holder {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        @include eltdfTransform(translate(-50%, -50%));
+        background-color: $default-text-color;
+
+        text-align: center;
+        p {
+            color: #fff;
+            padding: 30px 50px;
+            font-size: 22px;
+        }
+    }
+
+}

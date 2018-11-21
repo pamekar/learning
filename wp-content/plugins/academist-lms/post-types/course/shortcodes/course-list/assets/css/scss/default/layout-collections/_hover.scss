@@ -1,0 +1,240 @@
+/* ==========================================================================
+   Course Item Layout - Standard style - begin
+   ========================================================================== */
+
+.eltdf-course-list-holder {
+
+    &.eltdf-cl-hover{
+
+        article {
+            &:hover {
+                .eltdf-cli-text-holder{
+                    
+                    &:before {
+                        @include eltdfTransform(translateY(0));
+                        background: linear-gradient(to bottom,rgba(58,58,58,0) 0,#252525 125%);
+                    }
+
+                    .eltdf-cli-bottom-info{
+                        @include eltdfTransition(.6s .2s ease-in);
+                        max-height: 500px;
+                    }
+
+                    .eltdf-cli-excerpt, .eltdf-students-number-holder, .eltdf-course-ratings, .eltdf-ci-price-holder {
+                        opacity: 1;
+                        @include eltdfTransform(translateY(0));
+                    }
+
+                    .eltdf-cli-top-info {
+
+                        .eltdf-instructor-name {
+
+                            &:after {
+                                height: 3px;
+                            }
+                        }
+                    }
+                }
+
+
+            }
+
+            .eltdf-cli-image {
+
+                .eltdf-cli-category-holder{
+                    top: 30px;
+                    bottom: unset;
+                }
+            }
+
+            .eltdf-cl-item-inner {
+                overflow: hidden;
+            }
+
+            .eltdf-cli-text-holder {
+                @include eltdfAbsoluteHolderLayout();
+                padding: 40px 30px;
+                box-sizing: border-box;
+                color: #fff;
+                @include eltdfTransition(all 1s ease);
+
+                @include laptop-landscape-mac() {
+                    padding: 20px 15px 20px 30px;
+                }
+
+                &:before {
+                    @include eltdfAbsoluteHolderLayout();
+                    content: "";
+                    background: linear-gradient(to bottom,rgba(58,58,58,0) 0, #5f5f5f 125%);
+                    @include eltdfTransform(translateY(50%));
+                    @include eltdfTransition(.3s);
+                }
+
+                .eltdf-cli-text {
+                    vertical-align: bottom;
+                }
+
+                .eltdf-cli-top-info {
+                    .eltdf-cli-title {
+                        margin: 0 0 4px;
+
+                        a{
+                            color: #fff;
+
+                            &:hover{
+                                color: $first-main-color;
+                            }
+
+                        }
+                    }
+
+                    .eltdf-instructor-name {
+                        font-family: $default-heading-font;
+                        color: #fff;
+                        font-weight: 400;
+                        letter-spacing: 0.015em;
+                        position: relative;
+
+                        &:after {
+                            content: '';
+                            position: absolute;
+                            bottom: -27px;
+                            left: 0;
+                            width: 38px;
+                            height: 0;
+                            background-color: $first-main-color;
+                            @include eltdfTransition(all .3s ease);
+                        }
+                    }
+                }
+
+                .eltdf-cli-excerpt {
+                    margin-top: 46px;
+                    margin-bottom: 26px;
+                }
+
+                .eltdf-cli-excerpt, .eltdf-students-number-holder, .eltdf-course-ratings, .eltdf-ci-price-holder {
+                    opacity: 0;
+                    @include eltdfTransition(1s);
+                    @include eltdfTransform(translateY(25px));
+                }
+
+                .eltdf-cli-bottom-info {
+                    overflow: hidden;
+                    max-height: 0;
+                    @include eltdfTransition(all .4s ease-out);
+
+                    .eltdf-cli-category-holder,
+                    .eltdf-students-number-holder,
+                    .eltdf-course-ratings {
+                        display: inline-block;
+                        vertical-align: middle;
+                        font-size: 13px;
+                        color: #fff;
+                        font-family: $default-heading-font;
+                        font-weight: 400;
+                    }
+
+                    .eltdf-course-ratings,
+                    .eltdf-students-number-holder {
+                        float: left;
+                        margin-right: 16px;
+                        font-size: 13px;
+
+                        .icon {
+                            font-size: 13px;
+                            margin-right: 6px;
+                        }
+                    }
+
+                    .eltdf-course-ratings {
+
+                        span.icon {
+                            position: relative;
+                            top: 1px;
+                        }
+                    }
+
+                    .eltdf-cli-category-holder {
+                        text-align: right;
+                        float: right;
+                        margin: 0 0 0 5px;
+                        .eltdf-category-icon {
+                            font-size: 14px;
+                        }
+                    }
+                    .eltdf-cli-category{
+                        color: #b9b9b9;
+                        font-weight: 700;
+                        font-size: 14px;
+                        text-transform: uppercase;
+                    }
+
+                    .eltdf-ci-price-holder {
+                        text-align: right;
+                        float: right;
+
+                        span {
+                            color: #fff;
+                            font-family: $default-heading-font;
+                            font-weight: 500;
+                            text-transform: capitalize;
+                            font-size: 20px;
+                        }
+                        .eltdf-ci-price-value {
+
+                        }
+                        .eltdf-ci-price-free {
+
+                        }
+                    }
+
+                    @media screen and (min-width: 769px) and (max-width: 1400px) {
+                        .eltdf-ci-price-holder {
+                            text-align: left !important;
+                            float: left;
+                        }
+                    }
+                }
+
+            }
+
+        }
+
+        @include laptop-landscape-large {
+            
+            .eltdf-cli-excerpt {
+                display: none;
+            }
+
+            .eltdf-cli-text {
+                
+                .eltdf-cli-bottom-info {
+                    display: flex;
+                    align-items: flex-end;
+                }
+            }
+
+            .eltdf-instructor-name {
+                
+                &:after {
+                    content: none !important;
+                }
+            }
+
+            .eltdf-students-number-holder {
+                margin-top: 20px;
+            }
+        }
+
+        @include ipad-landscape {
+            
+            .eltdf-students-number-holder, .eltdf-course-ratings, .eltdf-ci-price-holder {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+/* ==========================================================================
+   Course Item Layout - Standard style - end
+   ========================================================================== */

@@ -1,0 +1,43 @@
+.eltdf-import-page-holder .alert {
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	margin: 20px;
+}
+
+.eltdf-import-page-holder .eltdf-import-load {
+	display: block;
+	font-size: 13px;
+	color: #acb5bf;
+}
+
+.eltdf-import-page-holder .eltdf-import-load progress {
+	background-color: #f3f3f3;
+	border: 0;
+
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.eltdf-import-page-holder .eltdf-import-load progress::-webkit-progress-bar {
+	background-color: #f3f3f3;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.eltdf-import-page-holder .eltdf-import-load progress::-webkit-progress-value {
+	background: #57CEEB;
+}
+
+.eltdf-import-page-holder .eltdf-import-load progress::-moz-progress-bar {
+	background: #57CEEB;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.eltdf-import-page-holder .eltdf-import-load .alert-success {
+	margin-top: 15px;
+	margin-bottom: 0;
+}

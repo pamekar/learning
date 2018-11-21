@@ -1,0 +1,379 @@
+/* ==========================================================================
+   Portfolio shortcode style - begin
+   ========================================================================== */
+
+.eltdf-portfolio-list-holder {
+    @include eltdfRelativeHolderLayout();
+
+	/***** Article Global Style - begin *****/
+
+    article {
+
+	    .touch & {
+		    cursor: pointer;
+	    }
+
+	    .eltdf-pl-item-inner {
+		    @include eltdfRelativeHolderLayout();
+	    }
+	    
+	    .eltdf-pli-image {
+		    @include eltdfRelativeHolderLayout();
+		    
+		    img {
+			    display: block;
+			    width: 100%;
+		    }
+	    }
+
+	    .eltdf-pli-link {
+		    @include eltdfAbsoluteHolderLayout();
+	    }
+
+	    .eltdf-pli-text-wrapper {
+	        @include eltdfTableLayout();
+	    }
+
+	    .eltdf-pli-text {
+		    @include eltdfTableCellLayout();
+
+		    .eltdf-pli-title {
+				margin: 0;
+		    }
+
+		    .eltdf-pli-category-holder {
+			    position: relative;
+			    display: block;
+			    margin: 3px 0 0;
+
+			    a {
+				    position: relative;
+				    display: inline-block;
+				    vertical-align: middle;
+				    padding: 0 6px 0 0;
+				    margin: 0 3px 0 0;
+				    z-index: 8;
+				    
+				    &:after {
+					    position: absolute;
+					    top: 0;
+					    right: -4px;
+					    content: '/';
+					    color: inherit;
+					    font-size: 12px;
+					    line-height: inherit;
+				    }
+
+				    &:last-child {
+					    margin: 0;
+					    padding: 0;
+					    
+					    &:after {
+						    display: none;
+					    }
+				    }
+			    }
+		    }
+
+		    .eltdf-pli-excerpt {
+			    margin: 3px 0 0;
+		    }
+	    }
+    }
+
+	/***** Article Global Style - end *****/
+	
+	/***** Specific Global Style - begin *****/
+	
+	&.eltdf-pl-has-shadow {
+		
+		article {
+			
+			.eltdf-pli-image {
+				box-shadow: $default-box-shadow;
+			}
+		}
+	}
+	
+	&.eltdf-pl-has-filter {
+		
+		.eltdf-pl-inner {
+			overflow: hidden;
+		}
+	}
+	
+	&.eltdf-pl-no-content {
+		
+		.eltdf-pli-text-holder {
+			display: none;
+		}
+	}
+	/***** Specific Global Style - end *****/
+	
+	&.eltdf-pl-masonry {
+
+        &.eltdf-fixed-masonry-items {
+	        
+            article {
+	            
+                .eltdf-pl-item-inner,
+                .eltdf-pli-image {
+		            height: 100%;
+	            }
+            }
+        }
+	}
+
+	/***** Portfolio Types - end *****/
+
+	/***** Additional Features - begin *****/
+
+	&.eltdf-pl-has-animation {
+
+		article {
+			opacity: 0;
+			@include eltdfTransform(translateY(80px));
+			@include eltdfTransition(opacity .8s cubic-bezier(0.34, 0.52, 0.57, 1.04), transform .8s cubic-bezier(0.34, 0.52, 0.57, 1.04));
+
+			&.eltdf-item-show {
+				opacity: 1;
+				@include eltdfTransform(translateY(0));
+
+				&.eltdf-item-shown {
+					@include eltdfTransition(none);
+				}
+			}
+			
+			.touch & {
+				opacity: 1;
+				@include eltdfTransform(translateY(0));
+			}
+		}
+	}
+
+	/***** Additional Features - end *****/
+}
+
+/* ==========================================================================
+   Portfolio shortcode style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Portfolio filter style - begin
+   ========================================================================== */
+
+.eltdf-pl-filter-holder {
+    @include eltdfRelativeHolderLayout();
+    margin: 0 0 30px;
+    text-align: center;
+
+    ul {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 0 10px;
+	        padding: 0 22px;
+            cursor: pointer;
+			overflow: hidden;
+
+			&:before {
+				content: "\24";
+				position: absolute;
+				top: 0;
+				left: -20px;
+				width: 20px;
+				font-family: 'ElegantIcons';
+				vertical-align: unset;
+				color: $first-main-color;
+				font-size: 18px;
+				line-height: inherit;
+				font-weight: 800;
+				font-style: normal;
+				text-rendering: auto;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+				@include eltdfTransition(left .2s ease-in-out);
+			}
+
+			&:hover {
+
+				&:before {
+					left: 0;
+				}
+			}
+	        
+	        @include laptop-landscape-large {
+		        padding: 0 16px;
+	        }
+	
+	        @include ipad-landscape {
+		        padding: 0 10px;
+	        }
+
+            span {
+                position: relative;
+                display: inline-block;
+				vertical-align: unset;
+                color: $default-heading-color;
+				font-family: $default-heading-font;
+				font-weight: 600;
+                font-size: 17px;
+                white-space: nowrap;
+                @include eltdfTransition(color .2s ease-out);
+            }
+
+            &.eltdf-pl-current,
+            &:hover {
+
+                span {
+                    color: $first-main-color;
+                }
+            }
+        }
+    }
+}
+/* ==========================================================================
+   Portfolio filter style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Portfolio standard pagination style - begin
+   ========================================================================== */
+
+.eltdf-portfolio-list-holder {
+	
+	&.eltdf-pl-pag-standard {
+		
+		.eltdf-pl-inner {
+			opacity: 1;
+			@include eltdfTransition(opacity .2s ease-out);
+		}
+		
+		&.eltdf-pl-pag-standard-animate {
+			
+			.eltdf-pl-inner {
+				opacity: 0;
+			}
+		}
+	}
+}
+
+.eltdf-pl-standard-pagination {
+	@include eltdfStandardPaginationStyle('shortcode');
+}
+/* ==========================================================================
+   Portfolio standard pagination style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Portfolio load more pagination style - begin
+   ========================================================================== */
+
+.eltdf-pl-load-more-holder {
+	@include eltdfRelativeHolderLayout();
+
+    .eltdf-pl-load-more {
+	    margin: 60px 0 0;
+	    text-align: center;
+    }
+}
+/* ==========================================================================
+   Portfolio load more pagination style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Portfolio loading element style - begin
+   ========================================================================== */
+
+.eltdf-pl-loading {
+	position: relative;
+	display: none;
+	width: 100%;
+	margin: 40px 0 20px;
+	color: $default-heading-color;
+	text-align: center;
+
+	&.eltdf-filter-trigger {
+		position: absolute;
+		top: 250px;
+		left: 0;
+	}
+	
+    &.eltdf-standard-pag-trigger {
+		position: absolute;
+		top: 50px;
+		left: 0;
+	
+	    .eltdf-pl-has-filter & {
+		    top: 150px;
+	    }
+    }
+
+	&.eltdf-showing {
+		display: block;
+	}
+
+	> div {
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		width: 14px;
+		height: 14px;
+		margin: 0 3px;
+		background-color: $default-heading-color;
+		border-radius: 100%;
+		@include eltdfAnimation(sk-bouncedelay 1.4s infinite ease-in-out both);
+	}
+
+	.eltdf-pl-loading-bounce1 {
+		-webkit-animation-delay: -0.32s;
+		-moz-animation-delay: -0.32s;
+		animation-delay: -0.32s;
+	}
+
+	.eltdf-pl-loading-bounce2 {
+		-webkit-animation-delay: -0.16s;
+		-moz-animation-delay: -0.16s;
+		animation-delay: -0.16s;
+	}
+}
+
+@-webkit-keyframes sk-bouncedelay {
+	0%, 80%, 100% {
+		-webkit-transform: scale(0);
+	}
+	40% {
+		-webkit-transform: scale(1.0);
+	}
+}
+
+@-moz-keyframes sk-bouncedelay {
+	0%, 80%, 100% {
+		-moz-transform: scale(0);
+	}
+	40% {
+		-moz-transform: scale(1.0);
+	}
+}
+
+@keyframes sk-bouncedelay {
+	0%, 80%, 100% {
+		-webkit-transform: scale(0);
+		transform: scale(0);
+	}
+	40% {
+		-webkit-transform: scale(1.0);
+		transform: scale(1.0);
+	}
+}
+/* ==========================================================================
+   Portfolio loading element style - end
+   ========================================================================== */

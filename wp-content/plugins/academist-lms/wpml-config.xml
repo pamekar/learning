@@ -1,0 +1,17 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">course</custom-type>
+		<custom-type translate="1">instructor</custom-type>
+		<custom-type translate="1">lesson</custom-type>
+		<custom-type translate="1">question</custom-type>
+		<custom-type translate="1">quiz</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">course-category</taxonomy>
+		<taxonomy translate="1">course-tag</taxonomy>
+		<taxonomy translate="1">instructor-category</taxonomy>
+		<taxonomy translate="1">lesson-category</taxonomy>
+		<taxonomy translate="1">question-category</taxonomy>
+		<taxonomy translate="1">quiz-category</taxonomy>
+	</taxonomies>
+</wpml-config>

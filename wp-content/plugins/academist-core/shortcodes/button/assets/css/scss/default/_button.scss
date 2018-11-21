@@ -1,0 +1,153 @@
+/* ==========================================================================
+   Button shortcode style - begin
+   ========================================================================== */
+
+.eltdf-btn {
+    @include eltdfButtonDefaultStyle();
+    @include eltdfButtonSize();
+    cursor: pointer;
+    
+    &.eltdf-btn-simple {
+        padding: 0 !important;
+        color: $default-text-color;
+        background-color: transparent;
+        border: 0;
+        vertical-align: middle;
+        font-weight: 500;
+
+        .eltdf-btn-text {
+            display: inline-block;
+            vertical-align: middle;
+
+            &:after{
+                content:'';
+                display: block;
+                border-bottom: 1px solid;
+                border-color: inherit;
+                position: absolute;
+                bottom: 3px;
+                right: 0;
+                width: 100%;
+            }
+        }
+
+        &:hover {
+            .eltdf-btn-text {
+    
+                &:after{
+                    @include eltdfAnimation(eltdf-draw-underline .8s);
+                }
+            }
+        }
+
+        @keyframes eltdf-draw-underline {
+            0% {
+                width: 100%;
+            }
+            30%, 50% {
+                width: 0;
+            }
+            100% {
+                right: unset;
+                left: 0;
+                width: 100%;
+            }
+        }
+
+        &:not(.eltdf-btn-custom-hover-bg):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            background-color: transparent !important;
+        }
+
+        &:not(.eltdf-btn-custom-border-hover):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            border-color: transparent !important;
+        }
+    }
+
+    &.eltdf-btn-solid {
+        @include eltdfButtonSolidColor();
+    }
+
+    &.eltdf-btn-outline {
+        @include eltdfButtonOutlineColor();
+    }
+
+    &.eltdf-btn-solid, &.eltdf-btn-outline {
+
+        &.eltdf-btn-arrow {
+
+            .eltdf-btn-text {
+                position: relative;
+                left: 0;
+                transition: left .2s ease-in-out;
+                display: inline-block;
+    
+                &:before {
+                    content: "\24";
+                    position: absolute;
+                    top: 1px;
+                    left: -18px;
+                    width: 20px;
+                    font-family: ElegantIcons;
+                    vertical-align: unset;
+                    color: currentColor;
+                    font-size: 19px;
+                    line-height: inherit;
+                    font-weight: 800;
+                    @include eltdfTransform(scale(0));
+                    font-style: normal;
+                    text-rendering: auto;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                    transition: .2s ease-in-out;
+                }
+            }
+    
+            &:hover {
+    
+                .eltdf-btn-text {
+                    left: 9px;
+    
+                    &:before {
+                        left: -21px;
+                        @include eltdfTransform(scale(1));
+                    }
+                }
+            }
+        }
+    }
+    
+    &.eltdf-btn-small {
+        @include eltdfButtonSize(small);
+    }
+    
+    &.eltdf-btn-large {
+        @include eltdfButtonSize(large);
+    }
+    
+    &.eltdf-btn-huge {
+        @include eltdfButtonSize(huge);
+    }
+
+    &.eltdf-btn-icon {
+
+        > i,
+        > span:not(.eltdf-btn-text) {
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+            margin: 0 0 0 4px;
+            font-size: 1.142857142857143em;
+            line-height: inherit;
+
+            &:before {
+                display: block;
+                line-height: inherit;
+            }
+        }
+    }
+}
+/* ==========================================================================
+   Button shortcode style - end
+   ========================================================================== */

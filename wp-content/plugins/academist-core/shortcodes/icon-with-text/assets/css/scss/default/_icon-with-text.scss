@@ -1,0 +1,124 @@
+/* ==========================================================================
+   Icon With Text shortcode style - begin
+   ========================================================================== */
+
+.eltdf-iwt {
+	@include eltdfRelativeHolderLayout();
+	
+	.eltdf-iwt-icon {
+		
+		a {
+			position: relative;
+			display: inline-block;
+			vertical-align: middle;
+		}
+		
+		.eltdf-icon-shortcode {
+			line-height: 1;
+			@include eltdfTransition(.3s);
+
+			&:hover {
+				@include eltdfTransform(translateY(-5px));
+			}
+			
+			&.eltdf-circle,
+			&.eltdf-square {
+				line-height: 2;
+			}
+		}
+	}
+	
+	.eltdf-iwt-title {
+		margin: 0;
+		line-height: 1.2em;
+		
+		a {
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+		}
+	}
+	
+	.eltdf-iwt-title-text {
+		display: block;
+	}
+	
+	.eltdf-iwt-text {
+		margin: 20px 0 0;
+	}
+	
+	&.eltdf-iwt-icon-left {
+		width: auto;
+		
+		.eltdf-iwt-icon,
+		.eltdf-iwt-content {
+			display: table-cell;
+			vertical-align: top;
+		}
+		
+		.eltdf-iwt-icon {
+			position: relative;
+			top: 1px;
+			
+			img {
+				max-width: none;
+			}
+		}
+		
+		.eltdf-iwt-content {
+			padding: 0 0 0 13px;
+		}
+	}
+	
+	&.eltdf-iwt-icon-left-from-title {
+		
+		.eltdf-iwt-icon,
+		.eltdf-iwt-title-text {
+			position: relative;
+			display: table-cell;
+			vertical-align: middle;
+		}
+		
+		.eltdf-iwt-icon {
+			
+			.eltdf-icon-element {
+				@include eltdfTransition(none);
+			}
+			
+			img {
+				max-width: none;
+			}
+		}
+		
+		.eltdf-iwt-title-text {
+			padding: 0 0 0 17px;
+		}
+	}
+	
+	&.eltdf-iwt-icon-top {
+		text-align: center;
+
+		&.eltdf-iwt-position-text-left{
+			text-align: left;
+		}
+
+		&.eltdf-iwt-position-text-right{
+			text-align: right;
+		}
+
+		&.eltdf-iwt-position-text-center{
+			text-align: center;
+		}
+		
+		.eltdf-iwt-content {
+			padding: 20px 0 0;
+		}
+
+		.eltdf-iwt-text {
+			margin: 10px 0;
+		}
+	}
+}
+/* ==========================================================================
+   Icon With Text shortcode style - end
+   ========================================================================== */

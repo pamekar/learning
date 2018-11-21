@@ -1,0 +1,633 @@
+/* ==========================================================================
+   Course shortcode style - begin
+   ========================================================================== */
+
+.eltdf-course-list-holder {
+    @include eltdfRelativeHolderLayout();
+
+    /***** Article Global Style - begin *****/
+
+    article {
+
+        .touch & {
+            cursor: pointer;
+        }
+
+        .eltdf-cl-item-inner {
+            @include eltdfRelativeHolderLayout();
+        }
+
+        .eltdf-cli-image {
+            @include eltdfRelativeHolderLayout();
+            overflow: hidden;
+
+            .eltdf-cli-category-holder {
+                position: absolute;
+                bottom: 30px;
+                padding: 8px 29px;
+                background-color: $first-main-color;
+                @include eltdfTransition(.3s);
+                color: #fff;
+                right: 0;
+                z-index: 1;
+
+                &:hover {
+                    background-color: $default-heading-color;
+                    color: #fff;
+                }
+
+                a {
+                    color: #fff;
+                    font-size: 14px;
+                    font-family: $default-heading-font;
+                    font-weight: 400;
+                    letter-spacing: 0.015em;
+                    text-transform: capitalize;
+                }
+            }
+
+            img {
+                display: block;
+                width: 100%;
+                @include eltdfTransitionTransform(.5s);
+                backface-visibility: hidden;
+            }
+        }
+
+        
+        .eltdf-instructor-name {
+                
+            &:after {
+                @include eltdfTransition(.3s);
+            }
+        }
+
+        .eltdf-cli-link {
+            @include eltdfAbsoluteHolderLayout();
+        }
+
+        .eltdf-cli-text-wrapper {
+            @include eltdfTableLayout();
+        }
+
+        .eltdf-cli-text {
+            @include eltdfTableCellLayout();
+
+            .eltdf-cli-title {
+                margin: 0;
+            }
+
+            .eltdf-cli-category-holder {
+                position: relative;
+                display: block;
+                margin: 3px 0 0;
+
+                a {
+                    position: relative;
+                    display: inline-block;
+                    vertical-align: middle;
+                    padding: 0 6px 0 0;
+                    margin: 0 3px 0 0;
+                    z-index: 8;
+
+                    &:after {
+                        position: absolute;
+                        top: 0;
+                        right: -3px;
+                        content: '/';
+                        color: inherit;
+                        font-size: 12px;
+                        line-height: inherit;
+                    }
+
+                    &:last-child {
+                        margin: 0;
+                        padding: 0;
+
+                        &:after {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.eltdf-cl-simple {
+        article.eltdf-cl-item {
+            display: block;
+            width: 100%;
+
+            .eltdf-cl-item-inner {
+                display: table;
+                width: 100%;
+                table-layout: fixed;
+                .eltdf-cli-image {
+                    width: 42.4%;
+                    display: table-cell;
+                    height: 100%;
+
+                    @include ipad-portrait {
+                        width: 100%;
+                        display: block;
+                    }
+
+                    .eltdf-cli-category-holder {
+                        padding: 8px 29px;
+                    }
+                }
+                .eltdf-cli-text-holder {
+                    width: 57.6%;
+                    display: table-cell;
+                    height: 100%;
+                    vertical-align: middle;
+                    padding-left: 31px;
+
+                    @include ipad-portrait {
+                        width: 100%;
+                        display: block;
+                        padding: 0;
+                    }
+
+                    .eltdf-cli-top-info {
+                        .eltdf-cli-title {
+                            display: inline-block;
+                            padding-right: 8px;
+                        }
+                        .eltdf-ci-price-holder {
+                            position: inherit;
+                            display: inline-block;
+                        }
+
+                        .eltdf-instructor-name {
+                            display: block;
+                        }
+                    }
+
+                    .eltdf-cli-bottom-info {
+                        .eltdf-cli-category-holder {
+                            float: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /***** Article Global Style - end *****/
+
+    /***** Specific Global Style - begin *****/
+
+    &.eltdf-cl-has-filter {
+
+        .eltdf-cl-inner {
+            overflow: hidden;
+        }
+    }
+
+    /***** Specific Global Style - end *****/
+
+    /***** Additional Features - begin *****/
+
+    &.eltdf-cl-has-animation {
+
+        article {
+            opacity: 0;
+            @include eltdfTransform(translateY(80px));
+            @include eltdfTransition(opacity .8s cubic-bezier(0.34, 0.52, 0.57, 1.04), transform .8s cubic-bezier(0.34, 0.52, 0.57, 1.04));
+
+            &.eltdf-item-show {
+                opacity: 1;
+                @include eltdfTransform(translateY(0));
+
+                &.eltdf-item-shown {
+                    @include eltdfTransition(none);
+                }
+            }
+
+            .touch & {
+                opacity: 1;
+                @include eltdfTransform(translateY(0));
+            }
+        }
+    }
+
+    /***** Additional Features - end *****/
+}
+
+/* ==========================================================================
+   Course shortcode style - end
+   ========================================================================== */
+
+/* ==========================================================================
+Course filter style - begin --- CATEGORY
+========================================================================== */
+
+.eltdf-cl-has-filter-category .eltdf-cl-filter-holder {
+    @include eltdfRelativeHolderLayout();
+    margin: 0 0 23px;
+    text-align: left;
+
+    ul {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 0 10px;
+            padding: 0 22px;
+            cursor: pointer;
+            overflow: hidden;
+            @include eltdfTransition(padding .2s ease);
+
+            &:first-child{
+                padding-left: 0;
+            }
+
+            &:before {
+                content: "\24";
+                position: absolute;
+                top: 0;
+                left: -25px;
+                width: 20px;
+                font-family: 'ElegantIcons';
+                vertical-align: unset;
+                color: $first-main-color;
+                font-size: 18px;
+                line-height: inherit;
+                font-weight: 800;
+                font-style: normal;
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                @include eltdfTransition(left .2s ease-in-out);
+            }
+
+            &:hover, &.eltdf-cl-current {
+
+                &:first-child{
+                    padding-left: 25px;
+                }
+
+                &:before {
+                    left: 0;
+                }
+            }
+
+            @include laptop-landscape-large {
+                padding: 0 16px;
+            }
+
+            @include ipad-landscape {
+                padding: 0 10px 0 22px;
+
+                &:first-child {
+                    padding-left: 25px;
+                }
+            }
+
+            span {
+                position: relative;
+                display: inline-block;
+                vertical-align: unset;
+                color: $default-heading-color;
+                font-family: $default-heading-font;
+                font-weight: 600;
+                font-size: 17px;
+                white-space: nowrap;
+                @include eltdfTransition(color .2s ease-out);
+            }
+
+            &.eltdf-pl-current {
+
+                span {
+                    color: $first-main-color;
+                }
+            }
+        }
+    }
+}
+/* ==========================================================================
+   Course filter style - end --- CATEGORY
+   ========================================================================== */
+
+
+/* ==========================================================================
+   Course filter style - begin
+   ========================================================================== */
+
+.eltdf-cl-filter-holder {
+    @include eltdfTableLayout();
+    text-align: center;
+    box-sizing: border-box;
+
+    @include phone-landscape {
+        display: inline-block;
+        vertical-align: top;
+        padding: 0;
+    }
+
+    .eltdf-course-layout-filter {
+        @include eltdfTableCellLayout();
+        width: 55px;
+        text-align: left;
+        padding-right: 10px;
+
+        @include phone-landscape {
+            display: block;
+        }
+
+        span {
+            display: inline-block;
+            vertical-align: top;
+            line-height: inherit;
+            cursor: pointer;
+
+            &.eltdf-active {
+                color: $first-main-color;
+            }
+
+            &:first-child {
+                font-size: 21px;
+                margin-right: 9px;
+            }
+
+            &:last-child {
+                font-size: 17px
+            }
+
+            i {
+                display: block;
+                line-height: inherit;
+                margin: 0;
+
+                &:before {
+                    display: block;
+                    line-height: inherit;
+                }
+            }
+        }
+    }
+
+    .eltdf-course-items-counter {
+        @include eltdfTableCellLayout();
+        width: calc(100% - 275px);
+        color: $default-text-color;
+        text-align: left;
+        white-space: nowrap;
+
+        @include phone-landscape {
+            display: block;
+            width: 100%;
+            margin: 15px 0;
+        }
+    }
+
+    .eltdf-course-items-order {
+        display: table-cell;
+        width: 200px;
+        text-align: right;
+
+        .select2-container--default{
+            margin: 0;
+        }
+
+        @include phone-landscape {
+            display: block;
+            text-align: inherit;
+        }
+
+        select {
+            width: 197px;
+        }
+
+        .select2-container.select2-container--default .select2-selection--single {
+
+        }
+    }
+}
+/* ==========================================================================
+   Course filter style - end
+   ========================================================================== */
+
+
+/* ==========================================================================
+   Course standard pagination style - begin
+   ========================================================================== */
+
+.eltdf-course-list-holder {
+
+    &.eltdf-cl-pag-standard {
+
+        .eltdf-cl-inner {
+            opacity: 1;
+            @include eltdfTransition(opacity .2s ease-out);
+        }
+
+        &.eltdf-cl-pag-standard-animate {
+
+            .eltdf-cl-filter-holder {
+                z-index: -1;
+            }
+
+            .eltdf-cl-inner {
+                opacity: 0;
+            }
+        }
+    }
+}
+
+.eltdf-cl-standard-pagination {
+    @include eltdfRelativeHolderLayout();
+    margin: 10px 0 30px;
+    clear: both;
+
+    ul {
+        @include eltdfRelativeHolderLayout();
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+
+        li {
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+            margin: 0 3px;
+            padding: 0;
+
+            a {
+                position: relative;
+                display: inline-block;
+                vertical-align: middle;
+                margin: 0;
+                padding: 0;
+                font-size: 19px;
+                font-family: $default-heading-font;
+                font-weight: 400;
+                color: $default-heading-color;
+
+                &:hover {
+                    color: $first-main-color;
+                }
+            }
+
+            &.eltdf-cl-pag-active {
+
+                a {
+                    color: $first-main-color;
+                }
+            }
+
+            &.eltdf-cl-pag-prev,
+            &.eltdf-cl-pag-next {
+                position: relative;
+                margin: 0 9px;
+
+                a {
+                    font-size: 22px;
+                    @include eltdfTransition(color .2s ease-out, opacity .2s ease-out);
+
+                    span {
+                        display: block;
+                        line-height: inherit;
+
+                        &:before {
+                            display: block;
+                            line-height: inherit;
+                        }
+                    }
+                }
+            }
+
+            &.eltdf-cl-pag-prev {
+
+                a {
+                    opacity: 0;
+                }
+            }
+
+            &.eltdf-cl-pag-next {
+
+                a {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+}
+/* ==========================================================================
+   Course standard pagination style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Course load more pagination style - begin
+   ========================================================================== */
+
+.eltdf-cl-load-more-holder {
+    @include eltdfRelativeHolderLayout();
+
+    .eltdf-cl-load-more {
+        margin: 0;
+        text-align: center;
+    }
+}
+/* ==========================================================================
+   Course load more pagination style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Course loading element style - begin
+   ========================================================================== */
+
+.eltdf-cl-loading {
+    position: relative;
+    display: none;
+    width: 100%;
+    margin: 40px 0 20px;
+    color: $default-heading-color;
+    text-align: center;
+
+    &.eltdf-filter-trigger {
+        position: absolute;
+        top: 250px;
+        left: 0;
+    }
+
+    &.eltdf-standard-pag-trigger {
+        position: absolute;
+        top: 50px;
+        left: 0;
+
+        .eltdf-cl-has-filter & {
+            top: 150px;
+        }
+    }
+
+    &.eltdf-showing {
+        display: block;
+    }
+
+    > div {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        width: 14px;
+        height: 14px;
+        margin: 0 3px;
+        background-color: $default-heading-color;
+        border-radius: 100%;
+        @include eltdfAnimation(sk-bouncedelay 1.4s infinite ease-in-out both);
+    }
+
+    .eltdf-cl-loading-bounce1 {
+        -webkit-animation-delay: -0.32s;
+        -moz-animation-delay: -0.32s;
+        animation-delay: -0.32s;
+    }
+
+    .eltdf-cl-loading-bounce2 {
+        -webkit-animation-delay: -0.16s;
+        -moz-animation-delay: -0.16s;
+        animation-delay: -0.16s;
+    }
+}
+
+@-webkit-keyframes sk-bouncedelay {
+    0%, 80%, 100% {
+        -webkit-transform: scale(0);
+    }
+    40% {
+        -webkit-transform: scale(1.0);
+    }
+}
+
+@-moz-keyframes sk-bouncedelay {
+    0%, 80%, 100% {
+        -moz-transform: scale(0);
+    }
+    40% {
+        -moz-transform: scale(1.0);
+    }
+}
+
+@keyframes sk-bouncedelay {
+    0%, 80%, 100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    40% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+}
+/* ==========================================================================
+   Course loading element style - end
+   ========================================================================== */

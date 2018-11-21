@@ -1,0 +1,70 @@
+/* ==========================================================================
+   Title responsive styles - begin
+   ========================================================================== */
+/* ==========================================================================
+   Title responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltdf-title-holder.eltdf-has-bg-image {
+    height: auto !important;
+    background-image: none !important;
+  }
+  .eltdf-title-holder.eltdf-has-bg-image .eltdf-title-image {
+    display: block;
+  }
+  .eltdf-title-holder.eltdf-has-bg-image .eltdf-title-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 100% !important;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .eltdf-title-holder.eltdf-title-va-header-bottom {
+    height: auto !important;
+  }
+  .eltdf-title-holder.eltdf-title-va-header-bottom .eltdf-title-wrapper {
+    padding-top: 0 !important;
+  }
+}
+
+/* ==========================================================================
+   Title responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Centered Title type responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltdf-title-holder.eltdf-centered-type .eltdf-page-subtitle {
+    padding: 0 !important;
+  }
+}
+
+/* ==========================================================================
+   Centered Title type responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Standard With Breadcrumbs Title type responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltdf-title-holder.eltdf-standard-with-breadcrumbs-type .eltdf-title-info,
+  .eltdf-title-holder.eltdf-standard-with-breadcrumbs-type .eltdf-breadcrumbs-info {
+    display: block;
+    width: 100%;
+  }
+  .eltdf-title-holder.eltdf-standard-with-breadcrumbs-type .eltdf-breadcrumbs-info {
+    margin: 10px 0 0;
+    text-align: initial;
+    white-space: inherit;
+  }
+}
+
+/* ==========================================================================
+   Standard With Breadcrumbs Title type responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Title responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=title-map-responsive.css.map */

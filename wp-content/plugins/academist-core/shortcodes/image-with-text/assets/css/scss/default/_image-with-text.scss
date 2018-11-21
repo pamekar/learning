@@ -1,0 +1,169 @@
+/* ==========================================================================
+   Image With Text shortcode style - begin
+   ========================================================================== */
+
+.eltdf-image-with-text-holder {
+    @include eltdfRelativeHolderLayout();
+
+    > a {
+        @include eltdfAbsoluteHolderLayout();
+        z-index: 1;
+    }
+
+	
+	&.eltdf-has-shadow {
+		
+		.eltdf-iwt-image {
+			box-shadow: $default-box-shadow;
+		}
+	}
+
+    &.eltdf-has-border {
+
+		.eltdf-iwt-image {
+			border: 1px solid #f1f1f1;
+		}
+	}
+	
+	.eltdf-iwt-image {
+		@include eltdfRelativeHolderLayout();
+		
+		a, img {
+			position: relative;
+			display: block;
+		}
+	}
+	
+	.eltdf-iwt-text-holder {
+		@include eltdfRelativeHolderLayout();
+	}
+	
+	.eltdf-iwt-title {
+		margin: 0 0 13px;
+	}
+
+    &.eltdf-title-animation {
+        .eltdf-iwt-text-holder {
+            overflow: hidden;
+        }
+        .eltdf-iwt-title {
+            @include eltdfTransition(padding .2s ease-in-out);
+            &:before {
+                position: absolute;
+                font-family: ElegantIcons;
+                font-size: 18px;
+                font-style: normal;
+                text-rendering: auto;
+                content: "\24";
+                top: 0;
+                left: -20px;
+                width: 20px;
+                vertical-align: unset;
+                color: $first-main-color;
+                line-height: inherit;
+                font-weight: 800;
+                @include eltdfTransition(left .2s ease-in-out);
+                -moz-osx-font-smoothing: grayscale;
+                -webkit-font-smoothing: antialiased;
+            }
+        }
+
+        &:hover {
+            .eltdf-iwt-title {
+                padding-left: 25px;
+
+                &:before {
+                    left: 0;
+                }
+            }
+        }
+    }
+
+    span.eltdf-iwt-title {
+        display: block;
+        font-family: $default-heading-font;
+        color: $default-heading-color;
+        font-size: 17px;
+        line-height: 24px;
+        font-weight: 600;
+    }
+	
+	.eltdf-iwt-text {
+		margin: 14px 0 0;
+	}
+
+    .eltdf-iwt-text-background-text-holder {
+        position: absolute;
+        top: 14px;
+        left: 43px;
+        > .eltdf-iwt-background-text {
+            font-size: 121px;
+            color: rgba($default-heading-color, 0.05);
+            font-family: 'Quentin';
+        }
+
+    }
+
+	
+	/***** Zoom Behavior Style - begin *****/
+	
+	&.eltdf-image-behavior-zoom {
+		
+		.eltdf-iwt-image {
+			overflow: hidden;
+			
+			.touch & {
+				cursor: pointer;
+			}
+			
+			&:hover {
+				
+				img {
+					@include eltdfTransform(scale(1.04));
+				}
+			}
+			
+			img {
+				@include eltdfTransform(scale(1));
+				@include eltdfTransitionTransform(.3s ease-in-out);
+			}
+		}
+	}
+	
+	/***** Zoom Behavior Style - end *****/
+	
+	/***** Grayscale Behavior Style - begin *****/
+	
+	&.eltdf-image-behavior-grayscale {
+		
+		.eltdf-iwt-image {
+			overflow: hidden;
+			
+			.touch & {
+				cursor: pointer;
+			}
+			
+			&:hover {
+				
+				img {
+					-webkit-filter: grayscale(0);
+					filter: none;
+				}
+			}
+			
+			img {
+				filter: url('img/desaturate.svg#grayscale');
+				-webkit-filter: grayscale(100%);
+				-moz-filter: grayscale(100%);
+				filter: gray;
+				filter: grayscale(100%);
+				@include eltdfTransition(all .3s ease-in-out);
+			}
+		}
+	}
+	
+	/***** Grayscale Behavior Style - end *****/
+}
+/* ==========================================================================
+   Image With Text shortcode style - end
+   ========================================================================== */

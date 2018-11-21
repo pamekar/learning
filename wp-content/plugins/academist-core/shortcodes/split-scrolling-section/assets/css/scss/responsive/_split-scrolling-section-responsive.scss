@@ -1,0 +1,27 @@
+/* ==========================================================================
+   Split Scrolling Section shortcode responsive style - begin
+   ========================================================================== */
+
+@include ipad-landscape {
+	.eltdf-split-scrolling-section{
+		.eltdf-sss-ms-left {
+			width: 100%;
+			float: left;
+			position: relative;
+			.eltdf-sss-ms-section {
+				padding: 0!important;
+			}
+		}
+		.eltdf-sss-ms-right {
+			width: 100%;
+			float: left;
+			margin: 38px 0 0;
+			.eltdf-sss-ms-section {
+				padding: 0!important;
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Split Scrolling Section shortcode responsive style - end
+   ========================================================================== */

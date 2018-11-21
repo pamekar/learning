@@ -1,0 +1,33 @@
+/* ==========================================================================
+# Instructor slider - begin
+	========================================================================== */
+
+.eltdf-instructor-slider-holder {
+
+    &.light-skin *{
+        color: white !important;
+    }
+
+    .eltdf-owl-slider {
+        margin: 0 !important;
+    }
+
+    @media screen and (min-width: 1700px) {
+
+        .owl-nav {
+            .owl-prev {
+                left: -180px;
+            }
+
+            .owl-next {
+                right: -180px;
+            }
+        }
+    }
+
+
+}
+
+/* ==========================================================================
+# Instructor slider - end
+	========================================================================== */

@@ -1,0 +1,85 @@
+/* ==========================================================================
+   Icon shortcode style - begin
+   ========================================================================== */
+
+.eltdf-icon-shortcode {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+	line-height: 1.1em;
+	
+    &.eltdf-circle,
+    &.eltdf-square {
+        width: 2em;
+        height: 2em;
+        line-height: 2em;
+        text-align: center;
+        background-color: $first-main-color;
+        @include eltdfTransition(background-color .15s ease-in-out, border-color .15s ease-in-out);
+
+        a {
+	        position: relative;
+	        display: inline-block;
+	        vertical-align: top;
+	        width: 100%;
+	        height: 100%;
+        }
+
+        .eltdf-icon-element {
+            color: #fff;
+            line-height: inherit;
+        }
+    }
+
+    &.eltdf-circle {
+        border-radius: 50%;
+    }
+
+    .eltdf-icon-element {
+	    display: block;
+	    line-height: inherit;
+        @include eltdfTransition(color .15s ease-in-out);
+	    
+	    &:before {
+		    display: block;
+		    line-height: inherit;
+	    }
+    }
+}
+
+.eltdf-icon-animation-holder {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+    @include eltdfTransform(scale(0));
+    @include eltdfTransition(transform 0.15s ease-in-out);
+
+    &.eltdf-icon-animation-show {
+        @include eltdfTransform(scale(1));
+    }
+}
+
+.eltdf-icon-tiny {
+    font-size: 1.33333333em;
+    line-height: .75em;
+    vertical-align: -15%;
+}
+
+.eltdf-icon-small {
+    font-size: 2em;
+}
+
+.eltdf-icon-medium {
+    font-size: 3em;
+}
+
+.eltdf-icon-large {
+    font-size: 4em;;
+}
+
+.eltdf-icon-huge {
+    font-size: 5em;
+}
+/* ==========================================================================
+   Icon shortcode style - end
+   ========================================================================== */

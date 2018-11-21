@@ -1,0 +1,1968 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+/* ==========================================================================
+   Custom Post Types styles
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio Single page style - begin
+   ========================================================================== */
+.eltdf-portfolio-single-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0 0 50px;
+}
+
+.eltdf-portfolio-single-holder .eltdf-ps-image-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.eltdf-portfolio-single-holder .eltdf-ps-image-holder .eltdf-ps-image:not(.eltdf-item-space) {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.eltdf-portfolio-single-holder .eltdf-ps-image-holder .eltdf-ps-image a, .eltdf-portfolio-single-holder .eltdf-ps-image-holder .eltdf-ps-image img {
+  position: relative;
+  display: block;
+}
+
+.eltdf-portfolio-single-holder .eltdf-ps-info-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.eltdf-portfolio-single-holder .eltdf-ps-info-holder .eltdf-ps-info-item {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0 0 10px;
+}
+
+.eltdf-portfolio-single-holder .eltdf-ps-info-holder .eltdf-ps-info-item p, .eltdf-portfolio-single-holder .eltdf-ps-info-holder .eltdf-ps-info-item a {
+  margin: 0;
+}
+
+.eltdf-portfolio-single-holder .eltdf-ps-info-holder .eltdf-ps-info-title {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Portfolio Single page style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio Single page specific style for types - begin
+   ========================================================================== */
+.eltdf-portfolio-single-holder .eltdf-ps-image-holder.eltdf-grid-masonry-list .eltdf-ps-image a {
+  height: 100%;
+}
+
+/* ==========================================================================
+   Portfolio Single page specific style for types - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio Single - Gallery layout style - begin
+   ========================================================================== */
+.eltdf-portfolio-single-holder.eltdf-ps-gallery-layout .eltdf-ps-image-holder {
+  width: 100%;
+}
+
+.eltdf-portfolio-single-holder.eltdf-ps-gallery-layout .eltdf-ps-image-holder .eltdf-ps-image {
+  float: left;
+}
+
+.eltdf-portfolio-single-holder.eltdf-ps-gallery-layout .eltdf-ps-image-holder .eltdf-ps-image a:hover:after {
+  opacity: 1;
+}
+
+.eltdf-portfolio-single-holder.eltdf-ps-gallery-layout .eltdf-ps-image-holder .eltdf-ps-image a:after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content: '';
+  background-color: rgba(37, 37, 37, 0.4);
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.eltdf-portfolio-single-holder.eltdf-ps-gallery-layout > .eltdf-grid-row {
+  margin-top: 40px;
+}
+
+/* ==========================================================================
+   Portfolio Single - Gallery layout style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio Single - Huge Images layout style - begin
+   ========================================================================== */
+.eltdf-portfolio-single-holder.eltdf-ps-huge-images-layout {
+  padding: 0 4%;
+  box-sizing: border-box;
+}
+
+.eltdf-portfolio-single-holder.eltdf-ps-huge-images-layout .eltdf-ps-image-holder {
+  margin: 0 0 40px;
+}
+
+.eltdf-portfolio-single-holder.eltdf-ps-huge-images-layout .eltdf-ps-image-holder .eltdf-ps-image {
+  margin: 0 0 30px;
+}
+
+.eltdf-portfolio-single-holder.eltdf-ps-huge-images-layout .eltdf-ps-image-holder .eltdf-ps-image:last-child {
+  margin: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .eltdf-portfolio-single-holder.eltdf-ps-huge-images-layout {
+    padding: 0 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-portfolio-single-holder.eltdf-ps-huge-images-layout {
+    padding: 0 30px;
+  }
+}
+
+/* ==========================================================================
+   Portfolio Single - Huge Images layout style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio Single - Images layout style - begin
+   ========================================================================== */
+.eltdf-portfolio-single-holder.eltdf-ps-images-layout .eltdf-ps-image-holder {
+  margin: 0 0 40px;
+}
+
+.eltdf-portfolio-single-holder.eltdf-ps-images-layout .eltdf-ps-image-holder .eltdf-ps-image {
+  margin: 0 0 30px;
+}
+
+.eltdf-portfolio-single-holder.eltdf-ps-images-layout .eltdf-ps-image-holder .eltdf-ps-image:last-child {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Portfolio Single - Images layout style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio Single - Masonry layout style - begin
+   ========================================================================== */
+.eltdf-portfolio-single-holder.eltdf-ps-masonry-layout > .eltdf-grid-row {
+  margin-top: 40px;
+}
+
+/* ==========================================================================
+   Portfolio Single - Masonry layout style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio Single - Slider layout style - begin
+   ========================================================================== */
+.eltdf-portfolio-single-holder.eltdf-ps-slider-layout .eltdf-ps-image-holder {
+  margin: 0 0 40px;
+}
+
+.eltdf-portfolio-single-holder.eltdf-ps-slider-layout .eltdf-ps-image-holder .eltdf-ps-image-inner {
+  visibility: hidden;
+}
+
+.eltdf-portfolio-single-holder.eltdf-ps-slider-layout .eltdf-ps-image-holder .eltdf-ps-image img {
+  width: 100%;
+}
+
+/* ==========================================================================
+   Portfolio Single - Slider layout style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio Single - Small Gallery layout style - begin
+   ========================================================================== */
+.eltdf-portfolio-single-holder.eltdf-ps-small-gallery-layout .eltdf-ps-image-holder {
+  width: 100%;
+}
+
+.eltdf-portfolio-single-holder.eltdf-ps-small-gallery-layout .eltdf-ps-image-holder .eltdf-ps-image {
+  float: left;
+}
+
+.eltdf-portfolio-single-holder.eltdf-ps-small-gallery-layout .eltdf-ps-image-holder .eltdf-ps-image a:hover:after {
+  opacity: 1;
+}
+
+.eltdf-portfolio-single-holder.eltdf-ps-small-gallery-layout .eltdf-ps-image-holder .eltdf-ps-image a:after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content: '';
+  background-color: rgba(37, 37, 37, 0.4);
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.eltdf-portfolio-single-holder.eltdf-ps-small-gallery-layout .eltdf-ps-content-item {
+  margin: 0 0 30px;
+}
+
+/* ==========================================================================
+   Portfolio Single - Small Gallery layout style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio Single - Small Images layout style - begin
+   ========================================================================== */
+.eltdf-portfolio-single-holder.eltdf-ps-small-images-layout .eltdf-ps-image-holder .eltdf-ps-image {
+  margin: 0 0 30px;
+}
+
+.eltdf-portfolio-single-holder.eltdf-ps-small-images-layout .eltdf-ps-image-holder .eltdf-ps-image:last-child {
+  margin: 0;
+}
+
+.eltdf-portfolio-single-holder.eltdf-ps-small-images-layout .eltdf-ps-content-item {
+  margin: 0 0 30px;
+}
+
+/* ==========================================================================
+   Portfolio Single - Small Images layout style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio Single - Small Masonry layout style - begin
+   ========================================================================== */
+.eltdf-portfolio-single-holder.eltdf-ps-small-masonry-layout .eltdf-ps-content-item {
+  margin: 0 0 30px;
+}
+
+/* ==========================================================================
+   Portfolio Single - Small Masonry layout style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio Single - Small Slider layout style - begin
+   ========================================================================== */
+.eltdf-portfolio-single-holder.eltdf-ps-small-slider-layout .eltdf-ps-image-holder .eltdf-ps-image-inner {
+  visibility: hidden;
+}
+
+.eltdf-portfolio-single-holder.eltdf-ps-small-slider-layout .eltdf-ps-image-holder .eltdf-ps-image img {
+  width: 100%;
+}
+
+.eltdf-portfolio-single-holder.eltdf-ps-small-slider-layout .eltdf-ps-content-item {
+  margin: 0 0 30px;
+}
+
+/* ==========================================================================
+   Portfolio Single - Small Slider layout style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio Single navigation style - begin
+   ========================================================================== */
+.eltdf-ps-navigation {
+  position: relative;
+  display: table;
+  width: 100%;
+  vertical-align: middle;
+  padding: 0;
+  margin: 60px 0 0;
+  clear: both;
+  box-sizing: border-box;
+}
+
+.eltdf-ps-full-width-custom-layout .eltdf-ps-navigation {
+  padding: 0 40px;
+}
+
+.eltdf-ps-navigation .eltdf-ps-back-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.eltdf-ps-navigation .eltdf-ps-back-btn a {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  cursor: pointer;
+  font-size: 23px;
+  line-height: 1;
+}
+
+.eltdf-ps-navigation .eltdf-ps-back-btn a span {
+  display: block;
+  line-height: inherit;
+}
+
+.eltdf-ps-navigation .eltdf-ps-back-btn a span:before, .eltdf-ps-navigation .eltdf-ps-back-btn a span:after {
+  display: block;
+  line-height: 14px;
+}
+
+.eltdf-ps-navigation .eltdf-ps-back-btn a span:after {
+  content: "\e0a6";
+}
+
+.eltdf-ps-navigation .eltdf-ps-prev,
+.eltdf-ps-navigation .eltdf-ps-next {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  width: 49%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.eltdf-ps-navigation .eltdf-ps-prev a,
+.eltdf-ps-navigation .eltdf-ps-next a {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 46px;
+  line-height: 55px;
+}
+
+.eltdf-ps-navigation .eltdf-ps-prev a .eltdf-ps-nav-mark,
+.eltdf-ps-navigation .eltdf-ps-next a .eltdf-ps-nav-mark {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.eltdf-ps-navigation .eltdf-ps-prev a .eltdf-ps-nav-mark:before,
+.eltdf-ps-navigation .eltdf-ps-next a .eltdf-ps-nav-mark:before {
+  display: block;
+  line-height: inherit;
+}
+
+.eltdf-ps-navigation .eltdf-ps-prev a .eltdf-ps-nav-mark {
+  left: 0;
+}
+
+.eltdf-ps-navigation .eltdf-ps-next {
+  text-align: right;
+}
+
+.eltdf-ps-navigation .eltdf-ps-next a .eltdf-ps-nav-mark {
+  right: 0;
+}
+
+/* ==========================================================================
+   Portfolio Single navigation style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio Single navigation style - begin
+   ========================================================================== */
+.eltdf-ps-related-posts-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 30px 0 0;
+  clear: both;
+}
+
+.eltdf-ps-related-posts-holder .eltdf-ps-related-posts {
+  margin: 0 -15px;
+}
+
+.eltdf-ps-related-posts-holder .eltdf-ps-related-post {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 25%;
+  float: left;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-ps-related-posts-holder .eltdf-ps-related-post {
+    width: 50%;
+  }
+  .eltdf-ps-related-posts-holder .eltdf-ps-related-post:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-ps-related-posts-holder .eltdf-ps-related-post {
+    width: 100%;
+  }
+}
+
+.eltdf-ps-related-posts-holder .eltdf-ps-related-image {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.eltdf-ps-related-posts-holder .eltdf-ps-related-image a, .eltdf-ps-related-posts-holder .eltdf-ps-related-image img {
+  display: block;
+}
+
+.eltdf-ps-related-posts-holder .eltdf-ps-related-text {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 20px 0 0;
+}
+
+.eltdf-ps-related-posts-holder .eltdf-ps-related-text .eltdf-ps-related-title {
+  margin: 0;
+}
+
+.eltdf-ps-related-posts-holder .eltdf-ps-related-text .eltdf-ps-related-categories {
+  margin: 6px 0 0;
+}
+
+/* ==========================================================================
+   Portfolio Single navigation style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio Category List shortcode style - begin
+   ========================================================================== */
+.eltdf-portfolio-category-list-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.touch .eltdf-portfolio-category-list-holder article {
+  cursor: pointer;
+}
+
+.eltdf-portfolio-category-list-holder article:hover .eltdf-pcli-text-holder {
+  opacity: 1;
+}
+
+.eltdf-portfolio-category-list-holder article .eltdf-pcl-item-inner {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.eltdf-portfolio-category-list-holder article .eltdf-pcli-image {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.eltdf-portfolio-category-list-holder article .eltdf-pcli-image img {
+  display: block;
+  width: 100%;
+}
+
+.eltdf-portfolio-category-list-holder article .eltdf-pcli-text-holder {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  background-color: rgba(37, 37, 37, 0.6);
+  opacity: 0;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.eltdf-portfolio-category-list-holder article .eltdf-pcli-text-wrapper {
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.eltdf-portfolio-category-list-holder article .eltdf-pcli-text {
+  position: relative;
+  display: table-cell;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.eltdf-portfolio-category-list-holder article .eltdf-pcli-title {
+  margin: 0;
+  color: #fff;
+}
+
+.eltdf-portfolio-category-list-holder article .eltdf-pcli-excerpt {
+  margin: 3px 0 0;
+  color: #fff;
+}
+
+.eltdf-portfolio-category-list-holder article .eltdf-pcli-link {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* ==========================================================================
+   Portfolio Category List shortcode style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio shortcode style - begin
+   ========================================================================== */
+.eltdf-portfolio-list-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  /***** Article Global Style - begin *****/
+  /***** Article Global Style - end *****/
+  /***** Specific Global Style - begin *****/
+  /***** Specific Global Style - end *****/
+  /***** Portfolio Types - end *****/
+  /***** Additional Features - begin *****/
+  /***** Additional Features - end *****/
+}
+
+.touch .eltdf-portfolio-list-holder article {
+  cursor: pointer;
+}
+
+.eltdf-portfolio-list-holder article .eltdf-pl-item-inner {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.eltdf-portfolio-list-holder article .eltdf-pli-image {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.eltdf-portfolio-list-holder article .eltdf-pli-image img {
+  display: block;
+  width: 100%;
+}
+
+.eltdf-portfolio-list-holder article .eltdf-pli-link {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.eltdf-portfolio-list-holder article .eltdf-pli-text-wrapper {
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.eltdf-portfolio-list-holder article .eltdf-pli-text {
+  position: relative;
+  display: table-cell;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.eltdf-portfolio-list-holder article .eltdf-pli-text .eltdf-pli-title {
+  margin: 0;
+}
+
+.eltdf-portfolio-list-holder article .eltdf-pli-text .eltdf-pli-category-holder {
+  position: relative;
+  display: block;
+  margin: 3px 0 0;
+}
+
+.eltdf-portfolio-list-holder article .eltdf-pli-text .eltdf-pli-category-holder a {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 6px 0 0;
+  margin: 0 3px 0 0;
+  z-index: 8;
+}
+
+.eltdf-portfolio-list-holder article .eltdf-pli-text .eltdf-pli-category-holder a:after {
+  position: absolute;
+  top: 0;
+  right: -4px;
+  content: '/';
+  color: inherit;
+  font-size: 12px;
+  line-height: inherit;
+}
+
+.eltdf-portfolio-list-holder article .eltdf-pli-text .eltdf-pli-category-holder a:last-child {
+  margin: 0;
+  padding: 0;
+}
+
+.eltdf-portfolio-list-holder article .eltdf-pli-text .eltdf-pli-category-holder a:last-child:after {
+  display: none;
+}
+
+.eltdf-portfolio-list-holder article .eltdf-pli-text .eltdf-pli-excerpt {
+  margin: 3px 0 0;
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-has-shadow article .eltdf-pli-image {
+  box-shadow: 0 0 4.85px 0.15px rgba(0, 0, 0, 0.09);
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-has-filter .eltdf-pl-inner {
+  overflow: hidden;
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-no-content .eltdf-pli-text-holder {
+  display: none;
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-masonry.eltdf-fixed-masonry-items article .eltdf-pl-item-inner,
+.eltdf-portfolio-list-holder.eltdf-pl-masonry.eltdf-fixed-masonry-items article .eltdf-pli-image {
+  height: 100%;
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-has-animation article {
+  opacity: 0;
+  -webkit-transform: translateY(80px);
+  -moz-transform: translateY(80px);
+  transform: translateY(80px);
+  -webkit-transition: opacity 0.8s cubic-bezier(0.34, 0.52, 0.57, 1.04), transform 0.8s cubic-bezier(0.34, 0.52, 0.57, 1.04);
+  -moz-transition: opacity 0.8s cubic-bezier(0.34, 0.52, 0.57, 1.04), transform 0.8s cubic-bezier(0.34, 0.52, 0.57, 1.04);
+  transition: opacity 0.8s cubic-bezier(0.34, 0.52, 0.57, 1.04), transform 0.8s cubic-bezier(0.34, 0.52, 0.57, 1.04);
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-has-animation article.eltdf-item-show {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-has-animation article.eltdf-item-show.eltdf-item-shown {
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+}
+
+.touch .eltdf-portfolio-list-holder.eltdf-pl-has-animation article {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  transform: translateY(0);
+}
+
+/* ==========================================================================
+   Portfolio shortcode style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio filter style - begin
+   ========================================================================== */
+.eltdf-pl-filter-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0 0 30px;
+  text-align: center;
+}
+
+.eltdf-pl-filter-holder ul {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.eltdf-pl-filter-holder ul li {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 10px;
+  padding: 0 22px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.eltdf-pl-filter-holder ul li:before {
+  content: "\24";
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 20px;
+  font-family: 'ElegantIcons';
+  vertical-align: unset;
+  color: #ff1949;
+  font-size: 18px;
+  line-height: inherit;
+  font-weight: 800;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: left 0.2s ease-in-out;
+  -moz-transition: left 0.2s ease-in-out;
+  transition: left 0.2s ease-in-out;
+}
+
+.eltdf-pl-filter-holder ul li:hover:before {
+  left: 0;
+}
+
+@media only screen and (max-width: 1440px) {
+  .eltdf-pl-filter-holder ul li {
+    padding: 0 16px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-pl-filter-holder ul li {
+    padding: 0 10px;
+  }
+}
+
+.eltdf-pl-filter-holder ul li span {
+  position: relative;
+  display: inline-block;
+  vertical-align: unset;
+  color: #252525;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  white-space: nowrap;
+  -webkit-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+}
+
+.eltdf-pl-filter-holder ul li.eltdf-pl-current span, .eltdf-pl-filter-holder ul li:hover span {
+  color: #ff1949;
+}
+
+/* ==========================================================================
+   Portfolio filter style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio standard pagination style - begin
+   ========================================================================== */
+.eltdf-portfolio-list-holder.eltdf-pl-pag-standard .eltdf-pl-inner {
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-pag-standard.eltdf-pl-pag-standard-animate .eltdf-pl-inner {
+  opacity: 0;
+}
+
+.eltdf-pl-standard-pagination {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  font-size: 19px;
+  font-weight: 400;
+  margin: 40px 0 0;
+  clear: both;
+}
+
+.eltdf-pl-standard-pagination ul {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.eltdf-pl-standard-pagination ul li {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 3px;
+}
+
+.eltdf-pl-standard-pagination ul li a {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  color: #252525;
+  margin: 0;
+  padding: 0;
+}
+
+.eltdf-pl-standard-pagination ul li a:hover {
+  color: #ff1949;
+}
+
+.eltdf-pl-standard-pagination ul li.eltdf-pag-active a {
+  color: #ff1949;
+}
+
+.eltdf-pl-standard-pagination ul li.eltdf-pag-prev, .eltdf-pl-standard-pagination ul li.eltdf-pag-next, .eltdf-pl-standard-pagination ul li.eltdf-pag-first, .eltdf-pl-standard-pagination ul li.eltdf-pag-last {
+  margin: 0 2px;
+}
+
+.eltdf-pl-standard-pagination ul li.eltdf-pag-prev a, .eltdf-pl-standard-pagination ul li.eltdf-pag-next a, .eltdf-pl-standard-pagination ul li.eltdf-pag-first a, .eltdf-pl-standard-pagination ul li.eltdf-pag-last a {
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.eltdf-pl-standard-pagination ul li.eltdf-pag-prev a span, .eltdf-pl-standard-pagination ul li.eltdf-pag-next a span, .eltdf-pl-standard-pagination ul li.eltdf-pag-first a span, .eltdf-pl-standard-pagination ul li.eltdf-pag-last a span {
+  display: block;
+  line-height: inherit;
+}
+
+.eltdf-pl-standard-pagination ul li.eltdf-pag-prev a span:before, .eltdf-pl-standard-pagination ul li.eltdf-pag-next a span:before, .eltdf-pl-standard-pagination ul li.eltdf-pag-first a span:before, .eltdf-pl-standard-pagination ul li.eltdf-pag-last a span:before {
+  display: block;
+  line-height: inherit;
+}
+
+.eltdf-pl-standard-pagination ul li.eltdf-pag-prev a {
+  opacity: 0;
+}
+
+.eltdf-pl-standard-pagination ul li.eltdf-pag-next a {
+  opacity: 1;
+}
+
+/* ==========================================================================
+   Portfolio standard pagination style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio load more pagination style - begin
+   ========================================================================== */
+.eltdf-pl-load-more-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.eltdf-pl-load-more-holder .eltdf-pl-load-more {
+  margin: 60px 0 0;
+  text-align: center;
+}
+
+/* ==========================================================================
+   Portfolio load more pagination style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio loading element style - begin
+   ========================================================================== */
+.eltdf-pl-loading {
+  position: relative;
+  display: none;
+  width: 100%;
+  margin: 40px 0 20px;
+  color: #252525;
+  text-align: center;
+}
+
+.eltdf-pl-loading.eltdf-filter-trigger {
+  position: absolute;
+  top: 250px;
+  left: 0;
+}
+
+.eltdf-pl-loading.eltdf-standard-pag-trigger {
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
+
+.eltdf-pl-has-filter .eltdf-pl-loading.eltdf-standard-pag-trigger {
+  top: 150px;
+}
+
+.eltdf-pl-loading.eltdf-showing {
+  display: block;
+}
+
+.eltdf-pl-loading > div {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 14px;
+  height: 14px;
+  margin: 0 3px;
+  background-color: #252525;
+  border-radius: 100%;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  -moz-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.eltdf-pl-loading .eltdf-pl-loading-bounce1 {
+  -webkit-animation-delay: -0.32s;
+  -moz-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.eltdf-pl-loading .eltdf-pl-loading-bounce2 {
+  -webkit-animation-delay: -0.16s;
+  -moz-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@-moz-keyframes sk-bouncedelay {
+  0%, 80%, 100% {
+    -moz-transform: scale(0);
+  }
+  40% {
+    -moz-transform: scale(1);
+  }
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+/* ==========================================================================
+   Portfolio loading element style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio Item Layout - Gallery Overlay style - begin
+   ========================================================================== */
+.eltdf-portfolio-list-holder.eltdf-pl-gallery-overlay.eltdf-pl-has-shadow .eltdf-pl-item-inner {
+  box-shadow: 0 0 4.85px 0.15px rgba(0, 0, 0, 0.09);
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-gallery-overlay article:hover .eltdf-pli-text-holder {
+  opacity: 1;
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-gallery-overlay article .eltdf-pl-item-inner {
+  overflow: hidden;
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-gallery-overlay article .eltdf-pli-text .eltdf-pli-title,
+.eltdf-portfolio-list-holder.eltdf-pl-gallery-overlay article .eltdf-pli-text .eltdf-pli-excerpt {
+  color: #fff;
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-gallery-overlay article .eltdf-pli-text .eltdf-pli-category-holder a {
+  color: #fff;
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-gallery-overlay article .eltdf-pli-text .eltdf-pli-category-holder a:hover {
+  color: #ff1949;
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-gallery-overlay .eltdf-pli-text-holder {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  background-color: rgba(37, 37, 37, 0.4);
+  opacity: 0;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+/* ==========================================================================
+   Portfolio Item Layout - Gallery Overlay style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio Item Layout - Gallery Slide From Image Bottom style - begin
+   ========================================================================== */
+.eltdf-portfolio-list-holder.eltdf-pl-gallery-slide-from-image-bottom.eltdf-pl-has-shadow .eltdf-pl-item-inner {
+  box-shadow: 0 0 4.85px 0.15px rgba(0, 0, 0, 0.09);
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-gallery-slide-from-image-bottom article:hover .eltdf-pli-text-holder {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-gallery-slide-from-image-bottom article:hover .eltdf-pli-text-wrapper {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-gallery-slide-from-image-bottom article .eltdf-pl-item-inner {
+  overflow: hidden;
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-gallery-slide-from-image-bottom .eltdf-pli-text-holder {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  padding: 15px 20px 10px;
+  background-color: #fff;
+  overflow: hidden;
+  box-sizing: border-box;
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  transform: translateY(100%);
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  -moz-transition: -moz-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-gallery-slide-from-image-bottom .eltdf-pli-text-wrapper {
+  -webkit-transform: translateY(-200%);
+  -moz-transform: translateY(-200%);
+  transform: translateY(-200%);
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  -moz-transition: -moz-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+}
+
+/* ==========================================================================
+   Portfolio Item Layout - Gallery Slide From Image Bottom style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio Item Layout - Standard Shader style - begin
+   ========================================================================== */
+.eltdf-portfolio-list-holder.eltdf-pl-standard-shader article:hover .eltdf-pli-image:after {
+  opacity: 1;
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-standard-shader article .eltdf-pli-image:after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content: '';
+  background-color: rgba(37, 37, 37, 0.4);
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 1;
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-standard-shader article .eltdf-pli-link {
+  z-index: 2;
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-standard-shader .eltdf-pli-text-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 35px 0 0;
+}
+
+/* ==========================================================================
+   Portfolio Item Layout - Standard Shader style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio Item Layout - Standard Switch Images style - begin
+   ========================================================================== */
+.eltdf-portfolio-list-holder.eltdf-pl-standard-switch-images article .eltdf-pli-image img {
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-standard-switch-images article .eltdf-pli-image img:nth-child(1) {
+  opacity: 1;
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-standard-switch-images article .eltdf-pli-image img:nth-child(2) {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-standard-switch-images article.eltdf-pl-has-switch-image:hover .eltdf-pli-image img:nth-child(1) {
+  opacity: 1;
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-standard-switch-images article.eltdf-pl-has-switch-image:hover .eltdf-pli-image img:nth-child(2) {
+  opacity: 1;
+}
+
+.eltdf-portfolio-list-holder.eltdf-pl-standard-switch-images .eltdf-pli-text-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 35px 0 0;
+}
+
+/* ==========================================================================
+   Portfolio Item Layout - Standard Switch Images style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio Project Info shortcode style - begin
+   ========================================================================== */
+.eltdf-portfolio-project-info {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.eltdf-portfolio-project-info .eltdf-ppi-label {
+  margin: 0;
+  padding: 0;
+}
+
+.eltdf-portfolio-project-info > div {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.eltdf-portfolio-project-info > div a {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 5px 0 0;
+}
+
+.eltdf-portfolio-project-info > div a:last-child {
+  margin: 0;
+}
+
+.eltdf-portfolio-project-info .eltdf-ppi-title {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.eltdf-portfolio-project-info .eltdf-ppi-image {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.eltdf-portfolio-project-info .eltdf-ppi-image img {
+  display: block;
+}
+
+/* ==========================================================================
+   Portfolio Project Info shortcode style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio Slider shortcode style - begin
+   ========================================================================== */
+.eltdf-portfolio-slider-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.eltdf-portfolio-slider-holder .eltdf-owl-slider {
+  margin: 0 !important;
+}
+
+.eltdf-portfolio-slider-holder .eltdf-portfolio-list-holder.eltdf-nav-light-skin .owl-nav .owl-prev,
+.eltdf-portfolio-slider-holder .eltdf-portfolio-list-holder.eltdf-nav-light-skin .owl-nav .owl-next {
+  color: #fff;
+}
+
+.eltdf-portfolio-slider-holder .eltdf-portfolio-list-holder.eltdf-nav-dark-skin .owl-nav .owl-prev,
+.eltdf-portfolio-slider-holder .eltdf-portfolio-list-holder.eltdf-nav-dark-skin .owl-nav .owl-next {
+  color: #252525;
+}
+
+.eltdf-portfolio-slider-holder .eltdf-portfolio-list-holder.eltdf-pag-light-skin .owl-dots .owl-dot span {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.eltdf-portfolio-slider-holder .eltdf-portfolio-list-holder.eltdf-pag-light-skin .owl-dots .owl-dot.active span, .eltdf-portfolio-slider-holder .eltdf-portfolio-list-holder.eltdf-pag-light-skin .owl-dots .owl-dot:hover span {
+  background-color: #ff1949;
+}
+
+.eltdf-portfolio-slider-holder .eltdf-portfolio-list-holder.eltdf-pag-dark-skin .owl-dots .owl-dot span {
+  background-color: rgba(37, 37, 37, 0.2);
+}
+
+.eltdf-portfolio-slider-holder .eltdf-portfolio-list-holder.eltdf-pag-dark-skin .owl-dots .owl-dot.active span, .eltdf-portfolio-slider-holder .eltdf-portfolio-list-holder.eltdf-pag-dark-skin .owl-dots .owl-dot:hover span {
+  background-color: #ff1949;
+}
+
+.eltdf-portfolio-slider-holder .eltdf-portfolio-list-holder.eltdf-pag-on-slider .owl-nav .owl-prev,
+.eltdf-portfolio-slider-holder .eltdf-portfolio-list-holder.eltdf-pag-on-slider .owl-nav .owl-next {
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.eltdf-portfolio-slider-holder .eltdf-portfolio-list-holder.eltdf-pag-on-slider .owl-dots {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  width: 100%;
+  margin: 0;
+}
+
+/* ==========================================================================
+   Portfolio Slider shortcode style - end
+   ========================================================================== */
+.eltdf-team-single-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.eltdf-team-single-holder .eltdf-name {
+  margin: 0 0 20px;
+}
+
+.eltdf-team-single-holder .eltdf-position {
+  margin: 0;
+  color: #ababab;
+}
+
+.eltdf-team-single-holder .eltdf-position .eltdf-icon-shortcode {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+
+.eltdf-team-single-holder .eltdf-position .eltdf-icon-shortcode a, .eltdf-team-single-holder .eltdf-position .eltdf-icon-shortcode span, .eltdf-team-single-holder .eltdf-position .eltdf-icon-shortcode i {
+  color: #999;
+}
+
+.eltdf-team-single-holder .eltdf-ts-info-row {
+  padding: 10px 0;
+  border-bottom: 1px solid #dadada;
+  color: #ababab;
+  font-size: 12px;
+}
+
+.eltdf-team-single-holder .eltdf-ts-info-row:last-child {
+  border: 0;
+}
+
+.eltdf-team-single-holder .eltdf-ts-info-row .eltdf-ts-bio-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+  font-size: 18px;
+}
+
+.eltdf-team-single-holder .eltdf-ts-info-row .eltdf-ts-bio-info {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.eltdf-team-single-holder .eltdf-team-single-content {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 30px 0 0;
+}
+
+/* ==========================================================================
+# Team list - begin
+	========================================================================== */
+.eltdf-team-list-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+/* ==========================================================================
+# Team list - end
+========================================================================== */
+/* ==========================================================================
+# Team info bellow - begin
+	========================================================================== */
+.eltdf-team.info-bellow .eltdf-team-inner {
+  text-align: left;
+  width: 100%;
+}
+
+.eltdf-team.info-bellow .eltdf-team-image {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+}
+
+.eltdf-team.info-bellow .eltdf-team-image a {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.eltdf-team.info-bellow .eltdf-team-image a:hover:after {
+  opacity: 0.3;
+}
+
+.eltdf-team.info-bellow .eltdf-team-image a:after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.eltdf-team.info-bellow .eltdf-team-image img {
+  display: block;
+}
+
+.eltdf-team.info-bellow .eltdf-team-title-holder {
+  margin: 25px 0 0;
+}
+
+.eltdf-team.info-bellow .eltdf-team-name {
+  font-size: 32px;
+  line-height: 1.1em;
+  margin: 0 0 16px;
+}
+
+.eltdf-team.info-bellow .eltdf-team-name:hover {
+  color: #d0d0d0;
+}
+
+.eltdf-team.info-bellow .eltdf-team-position {
+  margin: 0;
+  font-size: 20px;
+  color: #737373;
+  font-weight: 300;
+}
+
+.eltdf-team.info-bellow .eltdf-team-social-holder-between {
+  margin: 15px 0 0;
+}
+
+.eltdf-team.info-bellow .eltdf-icon-shortcode {
+  margin: 0 8px;
+  font-size: 20px;
+}
+
+.eltdf-team.info-bellow .eltdf-icon-shortcode:first-child {
+  margin-left: 0;
+}
+
+/* ==========================================================================
+# Team info bellow - end
+	========================================================================== */
+/* ==========================================================================
+# Team info hover - begin
+	========================================================================== */
+.eltdf-team.info-hover .eltdf-team-inner {
+  position: relative;
+}
+
+.eltdf-team.info-hover .eltdf-team-inner:hover .eltdf-team-info {
+  opacity: 1;
+}
+
+.eltdf-team.info-hover .eltdf-team-image img {
+  display: block;
+}
+
+.eltdf-team.info-hover .eltdf-team-image:hover .eltdf-team-info-tb {
+  opacity: 1;
+}
+
+.eltdf-team.info-hover .eltdf-team-name,
+.eltdf-team.info-hover .eltdf-team-position,
+.eltdf-team.info-hover .eltdf-team-text,
+.eltdf-team.info-hover .eltdf-icon-shortcode,
+.eltdf-team.info-hover .eltdf-icon-shortcode > * {
+  color: #000;
+}
+
+.eltdf-team.info-hover .eltdf-team-info-tb {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  opacity: 0;
+  background: rgba(255, 255, 255, 0.85);
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+
+.eltdf-team.info-hover .eltdf-team-info-tc {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.eltdf-team.info-hover .eltdf-team-name {
+  margin: 0 0 9px;
+}
+
+.eltdf-team.info-hover .eltdf-team-position {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.eltdf-team.info-hover .eltdf-team-social-holder-between {
+  margin: 15px 0 0;
+}
+
+.eltdf-team.info-hover .eltdf-icon-shortcode {
+  margin: 0 8px;
+  font-size: 20px;
+}
+
+.eltdf-team.info-hover .eltdf-icon-shortcode:first-child {
+  margin-left: 0;
+}
+
+.eltdf-team.info-hover .eltdf-team-overlay-link {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+/* ==========================================================================
+# Team info bellow - end
+	========================================================================== */
+/* ==========================================================================
+# Team slider - begin
+	========================================================================== */
+.eltdf-team-slider-holder .eltdf-owl-slider .owl-nav .owl-prev {
+  left: 0;
+}
+
+.eltdf-team-slider-holder .eltdf-owl-slider .owl-nav .owl-next {
+  right: 0;
+}
+
+/* ==========================================================================
+# Team slider - end
+	========================================================================== */
+/* ==========================================================================
+   Testimonials image pagination style - begin
+   ========================================================================== */
+.eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder {
+  width: 118% !important;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider {
+  padding-left: 30px;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-testimonial-content {
+  background: transparent;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-testimonial-content .eltdf-testimonial-text-holder {
+  padding: 0 0 0 2%;
+  background: 0 0;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-testimonial-content .eltdf-testimonial-text-holder:after {
+  content: none;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-testimonial-content .eltdf-testimonial-text-holder .eltdf-testimonial-title {
+  font-size: 45px;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-slider-item:not(.eltdf-animate-right):not(.eltdf-animate-left):not(.eltdf-push-active-right):not(.eltdf-push-active-left) {
+  -webkit-transform: translate3d(100%, 0, 0);
+  -moz-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-slider-item .eltdf-testimonial-text-holder .eltdf-testimonial-title {
+  -webkit-transform: translate3d(0, 0, 0) !important;
+  -moz-transform: translate3d(0, 0, 0) !important;
+  transform: translate3d(0, 0, 0) !important;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-slider-item .eltdf-testimonial-text-holder .eltdf-testimonial-author {
+  -webkit-transform: translate3d(0, 0, 0) !important;
+  -moz-transform: translate3d(0, 0, 0) !important;
+  transform: translate3d(0, 0, 0) !important;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-slider-item .eltdf-testimonial-image-holder {
+  width: 10%;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder .eltdf-testimonials-slider-nav {
+  margin-top: 33px;
+  width: 84%;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder .eltdf-testimonials-slider-nav .eltdf-btn-ts-next, .eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder .eltdf-testimonials-slider-nav .eltdf-btn-ts-prev {
+  -webkit-transform: translate3d(0, -150%, 0);
+  -moz-transform: translate3d(0, -150%, 0);
+  transform: translate3d(0, -150%, 0);
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder .eltdf-testimonials-slider-nav .eltdf-btn-ts-next {
+  right: 0;
+  left: -15px;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-simple .eltdf-custom-testimonials-slider-holder .eltdf-testimonials-slider-nav .eltdf-btn-ts-prev {
+  left: -5px;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-big .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-slider-item.eltdf-animate-left .eltdf-testimonial-content .eltdf-testimonial-text-holder, .eltdf-testimonials-holder.eltdf-testimonials-big .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-slider-item.eltdf-animate-right .eltdf-testimonial-content .eltdf-testimonial-text-holder {
+  background-position: 310px !important;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-big .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-testimonial-content .eltdf-testimonial-text-holder {
+  background-position: 410px;
+  background-size: auto;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-big .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-testimonial-content .eltdf-testimonial-text-holder:after {
+  content: none;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-big .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-testimonial-content .eltdf-testimonial-text-holder .eltdf-testimonial-title {
+  font-size: 45px;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-big .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-slider-item .eltdf-testimonial-image-holder {
+  width: 28%;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-big .eltdf-custom-testimonials-slider-holder .eltdf-custom-testimonials-slider .eltdf-slider-item .eltdf-testimonial-image-holder .eltdf-testimonial-image img {
+  height: inherit !important;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-big .eltdf-custom-testimonials-slider-holder .eltdf-testimonials-slider-nav {
+  width: 60.7%;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-big .eltdf-custom-testimonials-slider-holder .eltdf-testimonials-slider-nav .eltdf-btn-ts-next, .eltdf-testimonials-holder.eltdf-testimonials-big .eltdf-custom-testimonials-slider-holder .eltdf-testimonials-slider-nav .eltdf-btn-ts-prev {
+  -webkit-transform: translate3d(0, -394%, 0);
+  -moz-transform: translate3d(0, -394%, 0);
+  transform: translate3d(0, -394%, 0);
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-custom-testimonials-slider-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-custom-testimonials-slider {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-custom-testimonials-slider .eltdf-slider-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 22;
+  will-change: transform;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-testimonials {
+  padding: 0;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-testimonial-content {
+  background: #ff1949;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-testimonial-image-holder {
+  position: relative;
+  display: table-cell;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  width: 50%;
+  text-align: center;
+  line-height: 0;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-testimonial-image-holder img {
+  display: flex;
+  border-radius: unset;
+  object-fit: cover;
+  height: 100% !important;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-testimonial-text-holder {
+  background: url("../img/quote.png") center no-repeat;
+  position: relative;
+  display: table-cell;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  width: 50%;
+  padding: 0 3% 0 7.5%;
+  box-sizing: border-box;
+  background-size: contain;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-testimonial-text-holder:after {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: '';
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-width: 15px;
+  margin-top: -15px;
+  border-right-color: #ff1949;
+  z-index: 5;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-testimonial-text-holder .entry-title {
+  margin: 20px 42px 0 0;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-testimonials-author-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 9px 0 0;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-testimonials-author-holder .eltdf-testimonial-image {
+  float: left;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-testimonials-author-holder .eltdf-testimonial-author {
+  padding: 3px 0 0 110px;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-testimonials-slider-nav {
+  width: 50%;
+  float: right;
+  padding: 0 50px;
+  box-sizing: border-box;
+  height: 0;
+  z-index: 234;
+  right: 0;
+  position: absolute;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-testimonials-slider-nav .eltdf-btn-ts-next, .eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-testimonials-slider-nav .eltdf-btn-ts-prev {
+  position: relative;
+  display: inline-block;
+  -webkit-transform: translate3d(0, -310%, 0);
+  -moz-transform: translate3d(0, -310%, 0);
+  transform: translate3d(0, -310%, 0);
+  top: unset;
+  vertical-align: middle;
+  color: #fff;
+  background: 0 0;
+  user-select: none;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-testimonials-slider-nav .eltdf-btn-ts-next span, .eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-testimonials-slider-nav .eltdf-btn-ts-prev span {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 41px;
+  line-height: 1;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-testimonials-slider-nav .eltdf-btn-ts-next {
+  right: 0;
+  left: -5px;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-testimonials-slider-nav .eltdf-btn-ts-prev {
+  left: 5px;
+}
+
+@media screen and (max-width: 680px) {
+  .eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-testimonials-slider-nav {
+    display: none !important;
+  }
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-slider-item .eltdf-testimonial-image {
+  transition: .3s;
+  -webkit-transform: translate3d(-150px, 0, 0);
+  -moz-transform: translate3d(-150px, 0, 0);
+  transform: translate3d(-150px, 0, 0);
+  opacity: 0;
+  user-select: none;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-slider-item .eltdf-testimonial-text-holder {
+  background-position: 100px;
+  transition: 1s .3s;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-slider-item .eltdf-testimonial-text-holder:after {
+  transition: 1s .3s;
+  -webkit-transform: translate3d(10px, 0, 0);
+  -moz-transform: translate3d(10px, 0, 0);
+  transform: translate3d(10px, 0, 0);
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-slider-item .eltdf-testimonial-text-holder .eltdf-testimonial-title {
+  opacity: 0;
+  transition: 1s .3s;
+  -webkit-transform: translate3d(0, 10px, 0);
+  -moz-transform: translate3d(0, 10px, 0);
+  transform: translate3d(0, 10px, 0);
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-slider-item .eltdf-testimonial-text-holder .eltdf-testimonial-author {
+  opacity: 0;
+  transition: .5s .4s;
+  -webkit-transform: translate3d(0, 10px, 0);
+  -moz-transform: translate3d(0, 10px, 0);
+  transform: translate3d(0, 10px, 0);
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-slider-item.eltdf-animate-left .eltdf-testimonial-image, .eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-slider-item.eltdf-animate-right .eltdf-testimonial-image {
+  will-change: opacity;
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  transition: transform .5s .4s, opacity .6s .5s;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-slider-item.eltdf-animate-left .eltdf-testimonial-text-holder, .eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-slider-item.eltdf-animate-right .eltdf-testimonial-text-holder {
+  background-position: 0 !important;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-slider-item.eltdf-animate-left .eltdf-testimonial-text-holder:after, .eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-slider-item.eltdf-animate-right .eltdf-testimonial-text-holder:after {
+  -webkit-transform: translate3d(0, 0, 0) !important;
+  -moz-transform: translate3d(0, 0, 0) !important;
+  transform: translate3d(0, 0, 0) !important;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-slider-item.eltdf-animate-left .eltdf-testimonial-text-holder .eltdf-testimonial-title, .eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-slider-item.eltdf-animate-right .eltdf-testimonial-text-holder .eltdf-testimonial-title {
+  opacity: 1 !important;
+  -webkit-transform: translate3d(0, 0, 0) !important;
+  -moz-transform: translate3d(0, 0, 0) !important;
+  transform: translate3d(0, 0, 0) !important;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-slider-item.eltdf-animate-left .eltdf-testimonial-text-holder .eltdf-testimonial-author, .eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-slider-item.eltdf-animate-right .eltdf-testimonial-text-holder .eltdf-testimonial-author {
+  opacity: 1 !important;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-animate-left {
+  -webkit-animation: eltdf-push-left 0.6s;
+  -moz-animation: eltdf-push-left 0.6s;
+  animation: eltdf-push-left 0.6s;
+  z-index: 44 !important;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-animate-right {
+  -webkit-animation: eltdf-push-right 0.6s;
+  -moz-animation: eltdf-push-right 0.6s;
+  animation: eltdf-push-right 0.6s;
+  z-index: 44 !important;
+}
+
+@keyframes eltdf-push-left {
+  0% {
+    -webkit-transform: translate3d(100%, 0, 0);
+    -moz-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes eltdf-push-right {
+  0% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    -moz-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-push-active-left {
+  -webkit-transform: translate3d(-100%, 0, 0);
+  -moz-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  transition: .6s;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-push-active-right {
+  -webkit-transform: translate3d(100%, 0, 0);
+  -moz-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+  transition: .6s;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-slider .eltdf-disabled-nav {
+  pointer-events: none;
+}
+
+/* ==========================================================================
+   Testimonials image pagination style - end
+   ========================================================================== */
+/* ==========================================================================
+   Testimonials shortcode style - begin
+   ========================================================================== */
+.eltdf-testimonials-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  /* Light/Dark styles */
+}
+
+.eltdf-testimonials-holder .eltdf-testimonials,
+.eltdf-testimonials-holder .eltdf-testimonial-content,
+.eltdf-testimonials-holder .eltdf-testimonial-text-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.eltdf-testimonials-holder .eltdf-testimonials {
+  box-sizing: border-box;
+}
+
+.eltdf-testimonials-holder .eltdf-testimonial-image img {
+  width: auto !important;
+  border-radius: 5em;
+}
+
+.eltdf-testimonials-holder .eltdf-testimonial-author {
+  font-size: 19px;
+  font-weight: 300;
+}
+
+.eltdf-testimonials-holder.eltdf-testimonials-light .eltdf-testimonial-title,
+.eltdf-testimonials-holder.eltdf-testimonials-light .eltdf-testimonial-text,
+.eltdf-testimonials-holder.eltdf-testimonials-light .eltdf-testimonial-author {
+  color: #fff;
+}
+
+/* ==========================================================================
+   Testimonials shortcode style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../../../../plugins/academist-core/assets/css/custom-post-types-map.css.map */

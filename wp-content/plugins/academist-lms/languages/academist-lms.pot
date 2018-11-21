@@ -1,0 +1,2094 @@
+# Copyright (C) 2018 Academist LMS
+# This file is distributed under the same license as the Academist LMS package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Academist LMS 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/academist-lms\n"
+"POT-Creation-Date: 2018-08-01 14:49:44+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:54
+msgid "Course Settings"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:64
+#: post-types/course/admin/options/course-options-map.php:89
+msgid "Show Title Area"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:65
+msgid "Enabling this option will show title area on your single course page"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:75
+msgid "Course Instructor"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:76
+msgid "Select instructor for this course"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:89
+msgid "Course Duration"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:90
+msgid "Set duration for course"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:102
+msgid "General Curriculum Description"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:103
+msgid "Set general description of course curriculum"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:115
+msgid "Course Duration Parameter"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:116
+msgid "Choose parameter for course duration"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:120
+#: post-types/course/shortcodes/course-search/course-search.php:77
+#: post-types/course/shortcodes/course-slider/course-slider.php:231
+#: post-types/course/shortcodes/course-slider/course-slider.php:251
+#: post-types/instructor/shortcodes/instructor/instructor.php:62
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:120
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:49
+#: widgets/course-list-widget/course-list.php:35
+msgid "Default"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:121
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:50
+#: post-types/quiz/admin/meta-boxes/quiz-meta-boxes.php:50
+msgid "Minutes"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:122
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:51
+#: post-types/quiz/admin/meta-boxes/quiz-meta-boxes.php:51
+msgid "Hours"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:123
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:52
+msgid "Days"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:124
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:53
+msgid "Weeks"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:133
+msgid "Maximum Students"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:134
+msgid "Set maximal number of students"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:146
+msgid "Number of Re-Takes"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:147
+msgid "Set maximal number of retakes"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:160
+msgid "Featured Course"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:161
+msgid "Enable this option to set course featured"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:170
+msgid "Pre-Required Course"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:171
+msgid "Select course that needs to be completed before attending"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:184
+#: post-types/quiz/admin/meta-boxes/quiz-meta-boxes.php:73
+msgid "Passing Percentage"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:185
+msgid "Set value required to pass the course"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:198
+msgid "Free Course"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:199
+msgid "Enabling this option will set course to be free"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:221
+#: post-types/course/shortcodes/course-search/course-search.php:246
+#: post-types/course/shortcodes/course-table/templates/parts/table-h.php:23
+msgid "Price"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:222
+msgid "Set price for course"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:234
+msgid "Discount"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:235
+msgid "Enter discount value for course"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:248
+msgid "Course Members"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:249
+msgid "Enabling this option will show all members that buy/start this course"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:259
+msgid "Course Forum"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:260
+msgid "Select forum for this course"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:273
+msgid "Course Curriculum"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:281
+#: post-types/course/helper-functions.php:219
+#: post-types/instructor/helper-functions.php:132
+msgid "Curriculum"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-meta-boxes.php:282
+msgid "Organize lessons and quizzes into sections."
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-sections-meta-boxes.php:69
+#: post-types/course/admin/meta-boxes/course-sections-meta-boxes.php:196
+msgid "Section Name"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-sections-meta-boxes.php:73
+#: post-types/course/admin/meta-boxes/course-sections-meta-boxes.php:200
+msgid "Section Title"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-sections-meta-boxes.php:79
+#: post-types/course/admin/meta-boxes/course-sections-meta-boxes.php:206
+msgid "Section Description"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-sections-meta-boxes.php:119
+#: post-types/course/admin/meta-boxes/course-sections-meta-boxes.php:150
+#: post-types/course/admin/meta-boxes/course-sections-meta-boxes.php:167
+#: post-types/course/admin/meta-boxes/course-sections-meta-boxes.php:226
+msgid "Remove Section"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-sections-meta-boxes.php:161
+#: post-types/course/admin/meta-boxes/course-sections-meta-boxes.php:220
+#: post-types/lesson/lesson-register.php:71
+msgid "Add New Lesson"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-sections-meta-boxes.php:162
+#: post-types/course/admin/meta-boxes/course-sections-meta-boxes.php:221
+#: post-types/quiz/quiz-register.php:71
+msgid "Add New Quiz"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-sections-meta-boxes.php:180
+msgid "Add New Section"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-sections-meta-boxes.php:259
+msgid "Remove Lesson"
+msgstr ""
+
+#: post-types/course/admin/meta-boxes/course-sections-meta-boxes.php:292
+msgid "Remove Quiz"
+msgstr ""
+
+#: post-types/course/admin/options/course-options-map.php:9
+#: post-types/course/helper-functions.php:897
+#: post-types/course/shortcodes/course-search/course-search.php:183
+#: post-types/course/templates/single/parts/prerequired-info.php:3
+msgid "Course"
+msgstr ""
+
+#: post-types/course/admin/options/course-options-map.php:16
+msgid "Course Archive"
+msgstr ""
+
+#: post-types/course/admin/options/course-options-map.php:26
+msgid "Number of Items"
+msgstr ""
+
+#: post-types/course/admin/options/course-options-map.php:27
+msgid "Set number of items for your course list on archive pages. Default value is 12"
+msgstr ""
+
+#: post-types/course/admin/options/course-options-map.php:39
+#: post-types/course/shortcodes/course-list/course-list.php:51
+#: post-types/course/shortcodes/course-slider/course-slider.php:58
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:53
+#: widgets/course-list-widget/course-list.php:33
+msgid "Number of Columns"
+msgstr ""
+
+#: post-types/course/admin/options/course-options-map.php:41
+msgid "Set number of columns for your course list on archive pages. Default value is Four columns"
+msgstr ""
+
+#: post-types/course/admin/options/course-options-map.php:51
+msgid "Space Between Items"
+msgstr ""
+
+#: post-types/course/admin/options/course-options-map.php:53
+msgid "Set space size between course items for your course list on archive pages. Default value is normal"
+msgstr ""
+
+#: post-types/course/admin/options/course-options-map.php:63
+#: post-types/course/shortcodes/course-list/course-list.php:79
+#: post-types/course/shortcodes/course-slider/course-slider.php:73
+msgid "Image Proportions"
+msgstr ""
+
+#: post-types/course/admin/options/course-options-map.php:65
+msgid "Set image proportions for your course list on archive pages. Default value is landscape"
+msgstr ""
+
+#: post-types/course/admin/options/course-options-map.php:68
+#: post-types/course/shortcodes/course-list/course-list.php:81
+#: post-types/course/shortcodes/course-slider/course-slider.php:75
+msgid "Original"
+msgstr ""
+
+#: post-types/course/admin/options/course-options-map.php:69
+#: post-types/course/shortcodes/course-list/course-list.php:83
+#: post-types/course/shortcodes/course-slider/course-slider.php:77
+msgid "Landscape"
+msgstr ""
+
+#: post-types/course/admin/options/course-options-map.php:70
+#: post-types/course/shortcodes/course-list/course-list.php:84
+#: post-types/course/shortcodes/course-slider/course-slider.php:78
+msgid "Portrait"
+msgstr ""
+
+#: post-types/course/admin/options/course-options-map.php:71
+#: post-types/course/shortcodes/course-list/course-list.php:82
+#: post-types/course/shortcodes/course-slider/course-slider.php:76
+msgid "Square"
+msgstr ""
+
+#: post-types/course/admin/options/course-options-map.php:78
+msgid "Course Single"
+msgstr ""
+
+#: post-types/course/admin/options/course-options-map.php:90
+msgid "Enabling this option will show title area on single courses"
+msgstr ""
+
+#: post-types/course/admin/options/course-options-map.php:103
+msgid "Show Comments"
+msgstr ""
+
+#: post-types/course/admin/options/course-options-map.php:104
+msgid "Enabling this option will show comments on your page"
+msgstr ""
+
+#: post-types/course/admin/options/course-options-map.php:114
+msgid "Course Single Slug"
+msgstr ""
+
+#: post-types/course/admin/options/course-options-map.php:115
+msgid "Enter if you wish to use a different Single Course slug (Note: After entering slug, navigate to Settings -> Permalinks and click \"Save\" in order for changes to take effect)"
+msgstr ""
+
+#: post-types/course/admin/taxonomy-meta-fields/course-category-custom-fields.php:17
+msgid "Icon Pack"
+msgstr ""
+
+#: post-types/course/admin/taxonomy-meta-fields/course-category-custom-fields.php:18
+msgid "Choose icon from icon pack for taxonomy"
+msgstr ""
+
+#: post-types/course/admin/taxonomy-meta-fields/course-category-custom-fields.php:27
+msgid "Image"
+msgstr ""
+
+#: post-types/course/admin/taxonomy-meta-fields/course-category-custom-fields.php:28
+msgid "Choose custom image for taxonomy"
+msgstr ""
+
+#: post-types/course/course-register.php:99
+msgid "Academist Courses"
+msgstr ""
+
+#: post-types/course/course-register.php:100
+msgid "Academist Course"
+msgstr ""
+
+#: post-types/course/course-register.php:101
+#: post-types/course/course-register.php:204
+msgid "New Course"
+msgstr ""
+
+#: post-types/course/course-register.php:102
+#: post-types/course/course-register.php:103
+#: post-types/course/course-register.php:205
+msgid "Add New Course"
+msgstr ""
+
+#: post-types/course/course-register.php:104
+msgid "Edit Course"
+msgstr ""
+
+#: post-types/course/course-register.php:135
+#: post-types/course/course-register.php:145
+#: post-types/course/course-register.php:212
+#: post-types/course/course-register.php:213
+msgid "Course Categories"
+msgstr ""
+
+#: post-types/course/course-register.php:136
+msgid "Course Category"
+msgstr ""
+
+#: post-types/course/course-register.php:137
+msgid "Search Course Categories"
+msgstr ""
+
+#: post-types/course/course-register.php:138
+msgid "All Course Categories"
+msgstr ""
+
+#: post-types/course/course-register.php:139
+msgid "Parent Course Category"
+msgstr ""
+
+#: post-types/course/course-register.php:140
+msgid "Parent Course Category:"
+msgstr ""
+
+#: post-types/course/course-register.php:141
+msgid "Edit Course Category"
+msgstr ""
+
+#: post-types/course/course-register.php:142
+msgid "Update Course Category"
+msgstr ""
+
+#: post-types/course/course-register.php:143
+msgid "Add New Course Category"
+msgstr ""
+
+#: post-types/course/course-register.php:144
+msgid "New Course Category Name"
+msgstr ""
+
+#: post-types/course/course-register.php:170
+#: post-types/course/course-register.php:180
+#: post-types/course/course-register.php:220
+#: post-types/course/course-register.php:221
+msgid "Course Tags"
+msgstr ""
+
+#: post-types/course/course-register.php:171
+msgid "Course Tag"
+msgstr ""
+
+#: post-types/course/course-register.php:172
+msgid "Search Course Tags"
+msgstr ""
+
+#: post-types/course/course-register.php:173
+msgid "All Course Tags"
+msgstr ""
+
+#: post-types/course/course-register.php:174
+msgid "Parent Course Tag"
+msgstr ""
+
+#: post-types/course/course-register.php:175
+msgid "Parent Course Tags:"
+msgstr ""
+
+#: post-types/course/course-register.php:176
+msgid "Edit Course Tag"
+msgstr ""
+
+#: post-types/course/course-register.php:177
+msgid "Update Course Tag"
+msgstr ""
+
+#: post-types/course/course-register.php:178
+msgid "Add New Course Tag"
+msgstr ""
+
+#: post-types/course/course-register.php:179
+msgid "New Course Tag Name"
+msgstr ""
+
+#: post-types/course/helper-functions.php:209
+msgid "Description"
+msgstr ""
+
+#: post-types/course/helper-functions.php:229
+#: post-types/course/templates/single/parts/reviews-list.php:2
+msgid "Reviews"
+msgstr ""
+
+#: post-types/course/helper-functions.php:239
+#: post-types/course/templates/single/parts/members.php:58
+msgid "Members"
+msgstr ""
+
+#: post-types/course/helper-functions.php:249
+msgid "Forum"
+msgstr ""
+
+#: post-types/course/helper-functions.php:282
+msgid "Video:"
+msgstr ""
+
+#: post-types/course/helper-functions.php:287
+msgid "Audio:"
+msgstr ""
+
+#: post-types/course/helper-functions.php:292
+#: post-types/course/helper-functions.php:297
+msgid "Reading:"
+msgstr ""
+
+#: post-types/course/helper-functions.php:306
+msgid "Graded:"
+msgstr ""
+
+#: post-types/course/helper-functions.php:309
+#: post-types/quiz/admin/meta-boxes/quiz-questions-meta-boxes.php:43
+#: post-types/quiz/helper-functions.php:609
+msgid "Question"
+msgstr ""
+
+#: post-types/course/helper-functions.php:309
+#: post-types/quiz/helper-functions.php:609
+msgid "Questions"
+msgstr ""
+
+#: post-types/course/helper-functions.php:314
+msgid "video"
+msgstr ""
+
+#: post-types/course/helper-functions.php:314
+msgid "videos"
+msgstr ""
+
+#: post-types/course/helper-functions.php:317
+msgid "audio"
+msgstr ""
+
+#: post-types/course/helper-functions.php:317
+msgid "audios"
+msgstr ""
+
+#: post-types/course/helper-functions.php:320
+msgid "reading"
+msgstr ""
+
+#: post-types/course/helper-functions.php:320
+msgid "readings"
+msgstr ""
+
+#: post-types/course/helper-functions.php:519
+msgid "Apply now"
+msgstr ""
+
+#: post-types/course/helper-functions.php:586
+#: post-types/course/helper-functions.php:828
+#: post-types/course/helper-functions.php:1042
+#: post-types/question/helper-functions.php:41
+#: post-types/question/helper-functions.php:86
+#: post-types/question/helper-functions.php:208
+#: post-types/question/helper-functions.php:266
+#: post-types/quiz/helper-functions.php:196
+#: post-types/quiz/helper-functions.php:236
+#: post-types/quiz/helper-functions.php:364
+msgid "All fields are empty"
+msgstr ""
+
+#: post-types/course/helper-functions.php:622
+#: post-types/course/helper-functions.php:1092
+#: post-types/course/templates/single/parts/completed.php:3
+#: post-types/course/templates/single/parts/completed.php:7
+msgid "Completed"
+msgstr ""
+
+#: post-types/course/helper-functions.php:632
+msgid "Item finished successfully"
+msgstr ""
+
+#: post-types/course/helper-functions.php:859
+msgid "Course Retaken"
+msgstr ""
+
+#: post-types/course/helper-functions.php:1028
+msgid "List of filtered courses"
+msgstr ""
+
+#: post-types/course/helper-functions.php:1176
+msgid "Course Item"
+msgstr ""
+
+#: post-types/course/helper-functions.php:1177
+msgid "Show Social Share for Course Items"
+msgstr ""
+
+#: post-types/course/profile/profile-functions.php:8
+#: post-types/instructor/helper-functions.php:124
+msgid "Courses"
+msgstr ""
+
+#: post-types/course/profile/profile-functions.php:15
+msgid "Courses Wishlist"
+msgstr ""
+
+#: post-types/course/profile/templates/courses-list.php:35
+#: post-types/course/shortcodes/course-table/templates/parts/button.php:5
+#: post-types/course/templates/single/parts/retake-form.php:6
+#: post-types/course/templates/single/parts/retake-form.php:10
+msgid "Retake"
+msgstr ""
+
+#: post-types/course/profile/templates/courses-list.php:37
+#: post-types/course/shortcodes/course-table/templates/parts/button.php:7
+#: post-types/instructor/admin/meta-boxes/instructor-meta-boxes.php:48
+msgid "Resume"
+msgstr ""
+
+#: post-types/course/profile/templates/courses-list.php:39
+#: post-types/course/shortcodes/course-table/templates/parts/button.php:9
+msgid "Start "
+msgstr ""
+
+#: post-types/course/profile/templates/courses-list.php:53
+msgid "Your courses list is empty."
+msgstr ""
+
+#: post-types/course/profile/templates/favorites-list.php:30
+msgid "Your favorites list is empty."
+msgstr ""
+
+#: post-types/course/search/parts/loop.php:48
+msgid "No posts were found."
+msgstr ""
+
+#: post-types/course/shortcodes/course-features/course-features.php:29
+msgid "Academist Course Features"
+msgstr ""
+
+#: post-types/course/shortcodes/course-features/course-features.php:31
+#: post-types/course/shortcodes/course-list/course-list.php:44
+#: post-types/course/shortcodes/course-search/course-search.php:25
+#: post-types/course/shortcodes/course-slider/course-slider.php:44
+#: post-types/course/shortcodes/course-table/course-table.php:43
+#: post-types/instructor/shortcodes/instructor/instructor.php:32
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:46
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:38
+msgid "by ACADEMIST LMS"
+msgstr ""
+
+#: post-types/course/shortcodes/course-features/course-features.php:38
+msgid "Selected Course"
+msgstr ""
+
+#: post-types/course/shortcodes/course-features/course-features.php:43
+msgid "If you left this field empty then course ID will be of the current page"
+msgstr ""
+
+#: post-types/course/shortcodes/course-features/course-features.php:48
+#: widgets/course-features-widget/course-features.php:32
+msgid "Show Course Duration"
+msgstr ""
+
+#: post-types/course/shortcodes/course-features/course-features.php:55
+#: widgets/course-features-widget/course-features.php:38
+msgid "Show Course Units"
+msgstr ""
+
+#: post-types/course/shortcodes/course-features/course-features.php:62
+#: widgets/course-features-widget/course-features.php:44
+msgid "Show Course Students"
+msgstr ""
+
+#: post-types/course/shortcodes/course-features/course-features.php:69
+#: widgets/course-features-widget/course-features.php:50
+msgid "Show Course Passing Percentage"
+msgstr ""
+
+#: post-types/course/shortcodes/course-features/course-features.php:76
+#: widgets/course-features-widget/course-features.php:56
+msgid "Show Course Maximum Retakes"
+msgstr ""
+
+#: post-types/course/shortcodes/course-features/course-features.php:125
+msgid "Duration"
+msgstr ""
+
+#: post-types/course/shortcodes/course-features/course-features.php:149
+msgid "Lectures"
+msgstr ""
+
+#: post-types/course/shortcodes/course-features/course-features.php:154
+msgid "Quizzes"
+msgstr ""
+
+#: post-types/course/shortcodes/course-features/course-features.php:170
+#: post-types/course/shortcodes/course-list/templates/parts/students.php:9
+#: post-types/course/shortcodes/course-table/templates/parts/table-h.php:18
+msgid "Students"
+msgstr ""
+
+#: post-types/course/shortcodes/course-features/course-features.php:185
+msgid "Pass Percentage"
+msgstr ""
+
+#: post-types/course/shortcodes/course-features/course-features.php:200
+msgid "Max Retakes"
+msgstr ""
+
+#: post-types/course/shortcodes/course-features/course-features.php:227
+#: post-types/course/shortcodes/course-features/course-features.php:258
+#: post-types/course/shortcodes/course-list/course-list.php:265
+#: post-types/course/shortcodes/course-list/course-list.php:705
+#: post-types/course/shortcodes/course-list/course-list.php:736
+#: post-types/course/shortcodes/course-slider/course-slider.php:431
+#: post-types/course/shortcodes/course-slider/course-slider.php:462
+#: post-types/course/shortcodes/course-table/course-table.php:284
+#: post-types/course/shortcodes/course-table/course-table.php:315
+#: post-types/instructor/shortcodes/instructor/instructor.php:143
+#: post-types/instructor/shortcodes/instructor/instructor.php:174
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:339
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:370
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:248
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:279
+msgid "Id"
+msgstr ""
+
+#: post-types/course/shortcodes/course-features/course-features.php:227
+#: post-types/course/shortcodes/course-features/course-features.php:255
+#: post-types/course/shortcodes/course-list/course-list.php:705
+#: post-types/course/shortcodes/course-list/course-list.php:733
+#: post-types/course/shortcodes/course-slider/course-slider.php:431
+#: post-types/course/shortcodes/course-slider/course-slider.php:459
+#: post-types/course/shortcodes/course-table/course-table.php:284
+#: post-types/course/shortcodes/course-table/course-table.php:312
+#: post-types/instructor/admin/meta-boxes/instructor-meta-boxes.php:18
+#: post-types/instructor/shortcodes/instructor/instructor.php:143
+#: post-types/instructor/shortcodes/instructor/instructor.php:171
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:339
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:367
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:248
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:276
+msgid "Title"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:42
+msgid "Academist Course List"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:53
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:55
+#: widgets/course-list-widget/course-list.php:42
+msgid "Default value is Three"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:59
+#: widgets/course-list-widget/course-list.php:47
+msgid "Space Between Courses"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:66
+msgid "Number of Courses Per Page"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:67
+msgid "Set number of items for your course list. Enter -1 to show all."
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:73
+msgid "Enable Image"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:85
+msgid "Thumbnail"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:86
+#: post-types/course/shortcodes/course-search/course-search.php:79
+#: post-types/course/shortcodes/course-slider/course-slider.php:79
+msgid "Medium"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:87
+#: post-types/course/shortcodes/course-search/course-search.php:80
+#: post-types/course/shortcodes/course-slider/course-slider.php:80
+msgid "Large"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:89
+msgid "Set image proportions for your courses list."
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:95
+#: post-types/course/shortcodes/course-slider/course-slider.php:88
+#: post-types/course/shortcodes/course-table/course-table.php:50
+msgid "One-Category Course List"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:96
+#: post-types/course/shortcodes/course-slider/course-slider.php:89
+#: post-types/course/shortcodes/course-table/course-table.php:51
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:75
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:67
+msgid "Enter one category slug (leave empty for showing all categories)"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:101
+#: post-types/course/shortcodes/course-slider/course-slider.php:94
+#: post-types/course/shortcodes/course-table/course-table.php:56
+msgid "Show Only Courses with Listed IDs"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:107
+#: post-types/course/shortcodes/course-slider/course-slider.php:100
+#: post-types/course/shortcodes/course-table/course-table.php:62
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:86
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:78
+msgid "Delimit ID numbers by comma (leave empty for all)"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:112
+#: post-types/course/shortcodes/course-table/course-table.php:67
+msgid "One-Tag Courses List"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:113
+#: post-types/course/shortcodes/course-slider/course-slider.php:106
+#: post-types/course/shortcodes/course-table/course-table.php:68
+msgid "Enter one tag slug (leave empty for showing all tags)"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:118
+#: post-types/course/shortcodes/course-slider/course-slider.php:111
+#: post-types/course/shortcodes/course-table/course-table.php:73
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:91
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:83
+#: widgets/course-categories-widget/course-categories.php:38
+#: widgets/course-list-widget/course-list.php:59
+msgid "Order By"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:125
+#: post-types/course/shortcodes/course-slider/course-slider.php:118
+#: post-types/course/shortcodes/course-table/course-table.php:80
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:98
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:90
+#: widgets/course-categories-widget/course-categories.php:48
+#: widgets/course-list-widget/course-list.php:65
+msgid "Order"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:132
+msgid "Item Style"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:134
+msgid "Standard "
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:135
+msgid "Minimal "
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:136
+msgid "Hover "
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:138
+#: post-types/course/shortcodes/course-list/course-list.php:145
+#: post-types/course/shortcodes/course-list/course-list.php:154
+#: post-types/course/shortcodes/course-list/course-list.php:162
+#: post-types/course/shortcodes/course-list/course-list.php:169
+#: post-types/course/shortcodes/course-list/course-list.php:177
+#: post-types/course/shortcodes/course-list/course-list.php:185
+#: post-types/course/shortcodes/course-list/course-list.php:194
+#: post-types/course/shortcodes/course-list/course-list.php:201
+#: post-types/course/shortcodes/course-list/course-list.php:209
+#: post-types/course/shortcodes/course-list/course-list.php:217
+#: post-types/course/shortcodes/course-list/course-list.php:225
+#: post-types/course/shortcodes/course-slider/course-slider.php:127
+#: post-types/course/shortcodes/course-slider/course-slider.php:135
+#: post-types/course/shortcodes/course-slider/course-slider.php:143
+#: post-types/course/shortcodes/course-slider/course-slider.php:150
+#: post-types/course/shortcodes/course-slider/course-slider.php:157
+#: post-types/course/shortcodes/course-slider/course-slider.php:164
+#: post-types/course/shortcodes/course-slider/course-slider.php:172
+#: post-types/course/shortcodes/course-slider/course-slider.php:179
+#: post-types/course/shortcodes/course-slider/course-slider.php:186
+#: post-types/course/shortcodes/course-table/course-table.php:89
+#: post-types/course/shortcodes/course-table/course-table.php:96
+#: post-types/course/shortcodes/course-table/course-table.php:103
+#: post-types/course/shortcodes/course-table/course-table.php:110
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:113
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:125
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:105
+msgid "Content Layout"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:143
+#: post-types/course/shortcodes/course-slider/course-slider.php:125
+msgid "Enable Title"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:151
+#: post-types/course/shortcodes/course-slider/course-slider.php:132
+#: widgets/course-list-widget/course-list.php:71
+msgid "Title Tag"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:159
+#: post-types/course/shortcodes/course-slider/course-slider.php:140
+#: widgets/course-list-widget/course-list.php:77
+msgid "Title Text Transform"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:167
+#: post-types/course/shortcodes/course-search/course-search.php:40
+#: post-types/course/shortcodes/course-slider/course-slider.php:148
+#: post-types/course/shortcodes/course-table/course-table.php:87
+msgid "Enable Instructor"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:175
+#: post-types/course/shortcodes/course-search/course-search.php:48
+#: post-types/course/shortcodes/course-slider/course-slider.php:155
+#: post-types/course/shortcodes/course-table/course-table.php:94
+msgid "Enable Price"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:183
+#: post-types/course/shortcodes/course-slider/course-slider.php:162
+msgid "Enable Excerpt"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:191
+#: post-types/course/shortcodes/course-slider/course-slider.php:169
+msgid "Excerpt Length"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:192
+#: post-types/course/shortcodes/course-slider/course-slider.php:170
+msgid "Number of Characters"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:199
+#: post-types/course/shortcodes/course-slider/course-slider.php:177
+#: post-types/course/shortcodes/course-table/course-table.php:101
+msgid "Enable Students"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:207
+#: post-types/course/shortcodes/course-search/course-search.php:32
+#: post-types/course/shortcodes/course-slider/course-slider.php:184
+#: post-types/course/shortcodes/course-table/course-table.php:108
+msgid "Enable Category"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:215
+msgid "Category Boxed"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:223
+msgid "Enable Ratings"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:231
+msgid "Pagination Type"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:233
+msgid "None"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:234
+msgid "Standard"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:235
+msgid "Load More"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:236
+msgid "Infinite Scroll"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:238
+#: post-types/course/shortcodes/course-list/course-list.php:245
+#: post-types/course/shortcodes/course-list/course-list.php:256
+#: post-types/course/shortcodes/course-list/course-list.php:269
+#: post-types/course/shortcodes/course-list/course-list.php:277
+#: post-types/course/shortcodes/course-list/course-list.php:286
+msgid "Additional Features"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:243
+msgid "Load More Top Margin (px or %)"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:250
+msgid "Enable Filter"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:252
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:126
+msgid "No"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:253
+#: post-types/course/shortcodes/course-list/course-list.php:642
+#: post-types/course/shortcodes/course-list/course-list.php:670
+#: post-types/course/shortcodes/course-slider/course-slider.php:368
+#: post-types/course/shortcodes/course-slider/course-slider.php:396
+#: post-types/course/shortcodes/course-table/course-table.php:221
+#: post-types/course/shortcodes/course-table/course-table.php:249
+#: post-types/course/shortcodes/course-table/templates/parts/table-h.php:8
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:276
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:304
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:185
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:213
+msgid "Category"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:254
+msgid "Different View"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:261
+msgid "Filter Order By"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:263
+#: widgets/course-categories-widget/course-categories.php:40
+msgid "Name"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:264
+msgid "Count"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:266
+#: widgets/course-categories-widget/course-categories.php:41
+msgid "Slug"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:274
+msgid "Filter Center"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:282
+msgid "Enable Article Animation"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:283
+msgid "Enabling this option you will enable appears animation for your course list items"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/course-list.php:770
+#: post-types/course/shortcodes/course-list/course-list.php:798
+#: post-types/course/shortcodes/course-slider/course-slider.php:496
+#: post-types/course/shortcodes/course-slider/course-slider.php:524
+#: post-types/course/shortcodes/course-table/course-table.php:349
+#: post-types/course/shortcodes/course-table/course-table.php:377
+msgid "Tag"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/templates/filters/filter.php:12
+msgid "Show all"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/templates/pagination/load-more.php:15
+msgid "Load more"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/templates/parts/filter.php:8
+msgid "Showing"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/templates/parts/filter.php:12
+msgid "of"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/templates/parts/filter.php:17
+msgid "Newly Published"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/templates/parts/filter.php:18
+msgid "A-Z"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/templates/parts/filter.php:19
+msgid "Z-A"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/templates/parts/image.php:8
+msgid "Course Featured Image"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/templates/parts/posts-not-found.php:1
+#: post-types/course/shortcodes/course-table/templates/parts/posts-not-found.php:3
+#: post-types/instructor/shortcodes/instructor-list/templates/instructor-holder.php:18
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/templates/parts/price.php:7
+#: post-types/course/shortcodes/course-search/course-search.php:247
+#: post-types/course/shortcodes/course-table/templates/parts/price.php:7
+#: post-types/course/templates/single/parts/course-type.php:7
+msgid "Free"
+msgstr ""
+
+#: post-types/course/shortcodes/course-list/templates/parts/ratings.php:10
+msgid "Ratings"
+msgstr ""
+
+#: post-types/course/shortcodes/course-search/course-search.php:23
+msgid "Academist Advanced Course Search"
+msgstr ""
+
+#: post-types/course/shortcodes/course-search/course-search.php:33
+msgid "Enable category as parameter for search"
+msgstr ""
+
+#: post-types/course/shortcodes/course-search/course-search.php:41
+msgid "Enable instructor as parameter for search"
+msgstr ""
+
+#: post-types/course/shortcodes/course-search/course-search.php:49
+msgid "Enable price as parameter for search"
+msgstr ""
+
+#: post-types/course/shortcodes/course-search/course-search.php:56
+msgid "Button Text"
+msgstr ""
+
+#: post-types/course/shortcodes/course-search/course-search.php:57
+#: post-types/course/templates/single/popup-holder.php:20
+msgid "Search"
+msgstr ""
+
+#: post-types/course/shortcodes/course-search/course-search.php:59
+#: post-types/course/shortcodes/course-search/course-search.php:70
+#: post-types/course/shortcodes/course-search/course-search.php:84
+#: post-types/course/shortcodes/course-search/course-search.php:90
+#: post-types/course/shortcodes/course-search/course-search.php:96
+#: post-types/course/shortcodes/course-search/course-search.php:103
+#: post-types/course/shortcodes/course-search/course-search.php:109
+#: post-types/course/shortcodes/course-search/course-search.php:115
+#: post-types/course/shortcodes/course-search/course-search.php:121
+msgid "Button Style"
+msgstr ""
+
+#: post-types/course/shortcodes/course-search/course-search.php:64
+msgid "Button Type"
+msgstr ""
+
+#: post-types/course/shortcodes/course-search/course-search.php:66
+msgid "Solid"
+msgstr ""
+
+#: post-types/course/shortcodes/course-search/course-search.php:67
+msgid "Outline"
+msgstr ""
+
+#: post-types/course/shortcodes/course-search/course-search.php:75
+msgid "Button Size"
+msgstr ""
+
+#: post-types/course/shortcodes/course-search/course-search.php:78
+msgid "Small"
+msgstr ""
+
+#: post-types/course/shortcodes/course-search/course-search.php:89
+msgid "Button Color"
+msgstr ""
+
+#: post-types/course/shortcodes/course-search/course-search.php:95
+msgid "Button Hover Color"
+msgstr ""
+
+#: post-types/course/shortcodes/course-search/course-search.php:101
+msgid "Button Background Color"
+msgstr ""
+
+#: post-types/course/shortcodes/course-search/course-search.php:108
+msgid "Button Hover Background Color"
+msgstr ""
+
+#: post-types/course/shortcodes/course-search/course-search.php:114
+msgid "Button Border Color"
+msgstr ""
+
+#: post-types/course/shortcodes/course-search/course-search.php:120
+msgid "Button Hover Border Color"
+msgstr ""
+
+#: post-types/course/shortcodes/course-search/course-search.php:230
+#: post-types/course/shortcodes/course-table/templates/parts/table-h.php:13
+#: post-types/instructor/helper-functions.php:199
+msgid "Instructor"
+msgstr ""
+
+#: post-types/course/shortcodes/course-search/course-search.php:248
+msgid "Paid"
+msgstr ""
+
+#: post-types/course/shortcodes/course-slider/course-slider.php:42
+msgid "Academist Course Slider"
+msgstr ""
+
+#: post-types/course/shortcodes/course-slider/course-slider.php:51
+msgid "Number of Course Items"
+msgstr ""
+
+#: post-types/course/shortcodes/course-slider/course-slider.php:53
+msgid "Set number of items for your course slider. Enter -1 to show all"
+msgstr ""
+
+#: post-types/course/shortcodes/course-slider/course-slider.php:60
+msgid "Number of courses that are showing at the same time in slider (on smaller screens is responsive so there will be less items shown). Default value is Four"
+msgstr ""
+
+#: post-types/course/shortcodes/course-slider/course-slider.php:66
+msgid "Space Between Course Items"
+msgstr ""
+
+#: post-types/course/shortcodes/course-slider/course-slider.php:82
+msgid "Set image proportions for your course slider."
+msgstr ""
+
+#: post-types/course/shortcodes/course-slider/course-slider.php:105
+msgid "One-Tag Course List"
+msgstr ""
+
+#: post-types/course/shortcodes/course-slider/course-slider.php:191
+msgid "Enable Slider Loop"
+msgstr ""
+
+#: post-types/course/shortcodes/course-slider/course-slider.php:194
+#: post-types/course/shortcodes/course-slider/course-slider.php:202
+#: post-types/course/shortcodes/course-slider/course-slider.php:209
+#: post-types/course/shortcodes/course-slider/course-slider.php:216
+#: post-types/course/shortcodes/course-slider/course-slider.php:224
+#: post-types/course/shortcodes/course-slider/course-slider.php:236
+#: post-types/course/shortcodes/course-slider/course-slider.php:244
+#: post-types/course/shortcodes/course-slider/course-slider.php:256
+#: post-types/course/shortcodes/course-slider/course-slider.php:268
+msgid "Slider Settings"
+msgstr ""
+
+#: post-types/course/shortcodes/course-slider/course-slider.php:199
+msgid "Enable Slider Autoplay"
+msgstr ""
+
+#: post-types/course/shortcodes/course-slider/course-slider.php:207
+msgid "Slide Duration"
+msgstr ""
+
+#: post-types/course/shortcodes/course-slider/course-slider.php:208
+msgid "Default value is 5000 (ms)"
+msgstr ""
+
+#: post-types/course/shortcodes/course-slider/course-slider.php:214
+msgid "Slide Animation Duration"
+msgstr ""
+
+#: post-types/course/shortcodes/course-slider/course-slider.php:215
+msgid "Speed of slide animation in milliseconds. Default value is 600."
+msgstr ""
+
+#: post-types/course/shortcodes/course-slider/course-slider.php:221
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:110
+msgid "Enable Slider Navigation Arrows"
+msgstr ""
+
+#: post-types/course/shortcodes/course-slider/course-slider.php:229
+msgid "Navigation Skin"
+msgstr ""
+
+#: post-types/course/shortcodes/course-slider/course-slider.php:232
+#: post-types/course/shortcodes/course-slider/course-slider.php:252
+#: post-types/instructor/shortcodes/instructor/instructor.php:63
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:121
+msgid "Light"
+msgstr ""
+
+#: post-types/course/shortcodes/course-slider/course-slider.php:233
+#: post-types/course/shortcodes/course-slider/course-slider.php:253
+msgid "Dark"
+msgstr ""
+
+#: post-types/course/shortcodes/course-slider/course-slider.php:241
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:117
+msgid "Enable Slider Pagination"
+msgstr ""
+
+#: post-types/course/shortcodes/course-slider/course-slider.php:249
+msgid "Pagination Skin"
+msgstr ""
+
+#: post-types/course/shortcodes/course-slider/course-slider.php:261
+msgid "Pagination Position"
+msgstr ""
+
+#: post-types/course/shortcodes/course-slider/course-slider.php:263
+msgid "Below Slider"
+msgstr ""
+
+#: post-types/course/shortcodes/course-slider/course-slider.php:264
+msgid "On Slider"
+msgstr ""
+
+#: post-types/course/shortcodes/course-table/course-table.php:41
+msgid "Academist Course Table"
+msgstr ""
+
+#: post-types/course/shortcodes/course-table/templates/parts/button.php:12
+msgid "Enroll"
+msgstr ""
+
+#: post-types/course/shortcodes/course-table/templates/parts/table-h.php:4
+msgid "Course program"
+msgstr ""
+
+#: post-types/course/templates/single/parts/cart-button.php:3
+#: post-types/course/templates/single/parts/cart-button.php:7
+msgid "View Cart"
+msgstr ""
+
+#: post-types/course/templates/single/parts/categories.php:8
+msgid "Categories:"
+msgstr ""
+
+#: post-types/course/templates/single/parts/complete-form.php:7
+#: post-types/course/templates/single/parts/complete-form.php:11
+msgid "Complete"
+msgstr ""
+
+#: post-types/course/templates/single/parts/content.php:2
+msgid "About this course"
+msgstr ""
+
+#: post-types/course/templates/single/parts/curriculum.php:7
+msgid "Syllabus"
+msgstr ""
+
+#: post-types/course/templates/single/parts/curriculum.php:23
+msgid "0/"
+msgstr ""
+
+#: post-types/course/templates/single/parts/curriculum.php:59
+#: post-types/course/templates/single/parts/popup-items-list.php:44
+msgid "preview"
+msgstr ""
+
+#: post-types/course/templates/single/parts/instructor.php:9
+msgid "Instructor:"
+msgstr ""
+
+#: post-types/course/templates/single/parts/members.php:59
+msgid "Lorem Ipsn gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit."
+msgstr ""
+
+#: post-types/course/templates/single/parts/members.php:63
+msgid "Total number of students in course:"
+msgstr ""
+
+#: post-types/course/templates/single/parts/popup-navigation.php:13
+msgid "Previous"
+msgstr ""
+
+#: post-types/course/templates/single/parts/popup-navigation.php:21
+msgid "Next"
+msgstr ""
+
+#: post-types/course/templates/single/parts/prerequired-info.php:3
+msgid "must be completed first"
+msgstr ""
+
+#: post-types/course/templates/single/parts/reviews-list.php:3
+msgid ""
+"Lorem Ipsn gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. \n"
+"    Sed non mauris vitae erat consequat auctor eu in elit."
+msgstr ""
+
+#: post-types/course/templates/single/parts/reviews.php:5
+msgid "Reviews:"
+msgstr ""
+
+#: post-types/course/templates/single/parts/social.php:10
+msgid "Share:"
+msgstr ""
+
+#: post-types/instructor/admin/meta-boxes/instructor-meta-boxes.php:9
+msgid "Instructor Info"
+msgstr ""
+
+#: post-types/instructor/admin/meta-boxes/instructor-meta-boxes.php:19
+msgid "The members's title"
+msgstr ""
+
+#: post-types/instructor/admin/meta-boxes/instructor-meta-boxes.php:28
+msgid "Brief Vita"
+msgstr ""
+
+#: post-types/instructor/admin/meta-boxes/instructor-meta-boxes.php:29
+msgid "The members's brief vita"
+msgstr ""
+
+#: post-types/instructor/admin/meta-boxes/instructor-meta-boxes.php:38
+msgid "Email"
+msgstr ""
+
+#: post-types/instructor/admin/meta-boxes/instructor-meta-boxes.php:39
+msgid "The members's email"
+msgstr ""
+
+#: post-types/instructor/admin/meta-boxes/instructor-meta-boxes.php:49
+msgid "Upload members's resume"
+msgstr ""
+
+#: post-types/instructor/admin/meta-boxes/instructor-meta-boxes.php:58
+msgid "Social Link "
+msgstr ""
+
+#: post-types/instructor/admin/meta-boxes/instructor-meta-boxes.php:72
+msgid "Icon "
+msgstr ""
+
+#: post-types/instructor/admin/meta-boxes/instructor-meta-boxes.php:91
+msgid "Link"
+msgstr ""
+
+#: post-types/instructor/admin/meta-boxes/instructor-meta-boxes.php:100
+msgid "Target"
+msgstr ""
+
+#: post-types/instructor/instructor-register.php:92
+#: post-types/instructor/instructor-register.php:93
+#: post-types/instructor/shortcodes/instructor/instructor.php:30
+msgid "Academist Instructor"
+msgstr ""
+
+#: post-types/instructor/instructor-register.php:94
+msgid "New Instructor"
+msgstr ""
+
+#: post-types/instructor/instructor-register.php:95
+msgid "Add New Instructor"
+msgstr ""
+
+#: post-types/instructor/instructor-register.php:96
+msgid "Edit Instructor"
+msgstr ""
+
+#: post-types/instructor/instructor-register.php:122
+#: post-types/instructor/instructor-register.php:132
+msgid "Instructor Categories"
+msgstr ""
+
+#: post-types/instructor/instructor-register.php:123
+msgid "Instructor Category"
+msgstr ""
+
+#: post-types/instructor/instructor-register.php:124
+msgid "Search Instructor Categories"
+msgstr ""
+
+#: post-types/instructor/instructor-register.php:125
+msgid "All Instructor Categories"
+msgstr ""
+
+#: post-types/instructor/instructor-register.php:126
+msgid "Parent Instructor Category"
+msgstr ""
+
+#: post-types/instructor/instructor-register.php:127
+msgid "Parent Instructor Category:"
+msgstr ""
+
+#: post-types/instructor/instructor-register.php:128
+msgid "Edit Instructor Category"
+msgstr ""
+
+#: post-types/instructor/instructor-register.php:129
+msgid "Update Instructor Category"
+msgstr ""
+
+#: post-types/instructor/instructor-register.php:130
+msgid "Add New Instructor Category"
+msgstr ""
+
+#: post-types/instructor/instructor-register.php:131
+msgid "New Instructor Category Name"
+msgstr ""
+
+#: post-types/instructor/shortcodes/instructor/instructor.php:39
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:105
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:97
+msgid "Instructor Layout"
+msgstr ""
+
+#: post-types/instructor/shortcodes/instructor/instructor.php:41
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:107
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:99
+msgid "Info Bellow"
+msgstr ""
+
+#: post-types/instructor/shortcodes/instructor/instructor.php:42
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:108
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:100
+msgid "Info on Hover"
+msgstr ""
+
+#: post-types/instructor/shortcodes/instructor/instructor.php:43
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:109
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:101
+msgid "Simple"
+msgstr ""
+
+#: post-types/instructor/shortcodes/instructor/instructor.php:44
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:110
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:102
+msgid "Minimal"
+msgstr ""
+
+#: post-types/instructor/shortcodes/instructor/instructor.php:50
+msgid "Select Instructor"
+msgstr ""
+
+#: post-types/instructor/shortcodes/instructor/instructor.php:55
+msgid "If you left this field empty then project ID will be of the current page"
+msgstr ""
+
+#: post-types/instructor/shortcodes/instructor/instructor.php:60
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:118
+msgid "Instructor Text Skin"
+msgstr ""
+
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:44
+msgid "Academist Instructor List"
+msgstr ""
+
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:60
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:52
+msgid "Space Between Instructors"
+msgstr ""
+
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:67
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:59
+msgid "Number of Instructors per page"
+msgstr ""
+
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:68
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:60
+msgid "Set number of items for your instructor list. Enter -1 to show all."
+msgstr ""
+
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:74
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:66
+msgid "One-Category Instructor List"
+msgstr ""
+
+#: post-types/instructor/shortcodes/instructor-list/instructor-list.php:80
+msgid "Show Only Instructors with Listed IDs"
+msgstr ""
+
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:36
+msgid "Academist Instructor Slider"
+msgstr ""
+
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:45
+msgid "Number of Columns in Row"
+msgstr ""
+
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:72
+msgid "Show Only Projects with Listed IDs"
+msgstr ""
+
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:124
+msgid "Enable Light Skin"
+msgstr ""
+
+#: post-types/instructor/shortcodes/instructor-slider/instructor-slider.php:127
+msgid "Yes"
+msgstr ""
+
+#: post-types/instructor/templates/single/parts/address.php:4
+msgid "lives in: "
+msgstr ""
+
+#: post-types/instructor/templates/single/parts/birth-date.php:4
+msgid "born on: "
+msgstr ""
+
+#: post-types/instructor/templates/single/parts/email.php:4
+msgid "email: "
+msgstr ""
+
+#: post-types/instructor/templates/single/parts/phone.php:4
+msgid "phone: "
+msgstr ""
+
+#: post-types/instructor/templates/single/parts/resume.php:6
+msgid "Download Resume"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:10
+msgid "Lesson Settings"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:18
+msgid "Lesson Description"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:19
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:32
+msgid "Set duration for lesson"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:31
+msgid "Lesson Duration"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:44
+msgid "Lesson Duration Parameter"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:45
+msgid "Choose parameter for lesson duration"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:63
+msgid "Free Lesson"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:64
+msgid "Enabling this option will set lesson to be free"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:73
+msgid "Lesson Post Message"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:74
+msgid "Set message that will be displayed after the lesson is completed"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:86
+msgid "Lesson Type"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:87
+msgid "Choose desired lesson type"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:90
+msgid "Reading"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:91
+msgid "Video"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:92
+msgid "Audio"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:115
+msgid "Video Type"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:116
+msgid "Choose video type"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:119
+msgid "Video Service"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:120
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:195
+msgid "Self Hosted"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:136
+msgid "Video URL"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:137
+msgid "Enter Video URL"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:146
+msgid "Video MP4"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:147
+msgid "Enter video URL for MP4 format"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:161
+msgid "Video Image"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:162
+msgid "Enter video image"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:189
+msgid "Audio Type"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:190
+msgid "Choose audio type"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:194
+msgid "Audio Service"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:211
+msgid "Audio URL"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:212
+msgid "Enter audio URL"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:221
+msgid "Audio Link"
+msgstr ""
+
+#: post-types/lesson/admin/meta-boxes/lesson-meta-boxes.php:222
+msgid "Enter audio link"
+msgstr ""
+
+#: post-types/lesson/lesson-register.php:68
+msgid "Academist Lessons"
+msgstr ""
+
+#: post-types/lesson/lesson-register.php:69
+msgid "Academist Lesson"
+msgstr ""
+
+#: post-types/lesson/lesson-register.php:70
+msgid "New Lesson"
+msgstr ""
+
+#: post-types/lesson/lesson-register.php:72
+msgid "Edit Lesson"
+msgstr ""
+
+#: post-types/lesson/templates/single/parts/audio.php:12
+msgid "Your browser don't support audio player"
+msgstr ""
+
+#: post-types/lesson/templates/single/parts/video.php:23
+msgid "No video playback capabilities"
+msgstr ""
+
+#: post-types/lesson/templates/single/parts/video.php:23
+msgid "Video Thumb"
+msgstr ""
+
+#: post-types/question/admin/meta-boxes/question-meta-boxes.php:9
+msgid "Question Settings"
+msgstr ""
+
+#: post-types/question/admin/meta-boxes/question-meta-boxes.php:18
+msgid "Question Description"
+msgstr ""
+
+#: post-types/question/admin/meta-boxes/question-meta-boxes.php:19
+msgid "Set duration for question"
+msgstr ""
+
+#: post-types/question/admin/meta-boxes/question-meta-boxes.php:31
+msgid "Question Type"
+msgstr ""
+
+#: post-types/question/admin/meta-boxes/question-meta-boxes.php:32
+msgid "Choose type for question"
+msgstr ""
+
+#: post-types/question/admin/meta-boxes/question-meta-boxes.php:36
+msgid "Multi Choice"
+msgstr ""
+
+#: post-types/question/admin/meta-boxes/question-meta-boxes.php:37
+msgid "Single Choice"
+msgstr ""
+
+#: post-types/question/admin/meta-boxes/question-meta-boxes.php:38
+msgid "Text"
+msgstr ""
+
+#: post-types/question/admin/meta-boxes/question-meta-boxes.php:73
+msgid "Answer text"
+msgstr ""
+
+#: post-types/question/admin/meta-boxes/question-meta-boxes.php:81
+msgid "Correct?"
+msgstr ""
+
+#: post-types/question/admin/meta-boxes/question-meta-boxes.php:107
+msgid "Answer"
+msgstr ""
+
+#: post-types/question/admin/meta-boxes/question-meta-boxes.php:119
+msgid "Question Points"
+msgstr ""
+
+#: post-types/question/admin/meta-boxes/question-meta-boxes.php:120
+msgid "Enter points that are given for correct answer"
+msgstr ""
+
+#: post-types/question/admin/meta-boxes/question-meta-boxes.php:132
+msgid "Question Hint"
+msgstr ""
+
+#: post-types/question/admin/meta-boxes/question-meta-boxes.php:133
+msgid "Set Hint that can be displayed to student"
+msgstr ""
+
+#: post-types/question/question-register.php:68
+msgid "Academist Questions"
+msgstr ""
+
+#: post-types/question/question-register.php:69
+msgid "Academist Question"
+msgstr ""
+
+#: post-types/question/question-register.php:70
+msgid "New Question"
+msgstr ""
+
+#: post-types/question/question-register.php:71
+msgid "Add New Question"
+msgstr ""
+
+#: post-types/question/question-register.php:72
+msgid "Edit Question"
+msgstr ""
+
+#: post-types/question/templates/single/parts/actions-check-form.php:18
+msgid "Check Answer"
+msgstr ""
+
+#: post-types/question/templates/single/parts/actions-hint-form.php:16
+msgid "Hint"
+msgstr ""
+
+#: post-types/question/templates/single/parts/actions-next-form.php:19
+msgid "Next >"
+msgstr ""
+
+#: post-types/question/templates/single/parts/actions-prev-form.php:19
+msgid "< Previous"
+msgstr ""
+
+#: post-types/quiz/admin/meta-boxes/quiz-meta-boxes.php:10
+msgid "Quiz Settings"
+msgstr ""
+
+#: post-types/quiz/admin/meta-boxes/quiz-meta-boxes.php:18
+msgid "Quiz Description"
+msgstr ""
+
+#: post-types/quiz/admin/meta-boxes/quiz-meta-boxes.php:19
+#: post-types/quiz/admin/meta-boxes/quiz-meta-boxes.php:32
+msgid "Set duration for quiz"
+msgstr ""
+
+#: post-types/quiz/admin/meta-boxes/quiz-meta-boxes.php:31
+msgid "Quiz Duration"
+msgstr ""
+
+#: post-types/quiz/admin/meta-boxes/quiz-meta-boxes.php:44
+msgid "Quiz Duration Parameter"
+msgstr ""
+
+#: post-types/quiz/admin/meta-boxes/quiz-meta-boxes.php:45
+msgid "Choose parameter for quiz duration"
+msgstr ""
+
+#: post-types/quiz/admin/meta-boxes/quiz-meta-boxes.php:49
+msgid "Seconds"
+msgstr ""
+
+#: post-types/quiz/admin/meta-boxes/quiz-meta-boxes.php:60
+msgid "Number of Retakes"
+msgstr ""
+
+#: post-types/quiz/admin/meta-boxes/quiz-meta-boxes.php:61
+msgid "Set allowed number of quiz retakes."
+msgstr ""
+
+#: post-types/quiz/admin/meta-boxes/quiz-meta-boxes.php:74
+msgid "Set value required to pass the quiz"
+msgstr ""
+
+#: post-types/quiz/admin/meta-boxes/quiz-meta-boxes.php:86
+msgid "Quiz Post Message"
+msgstr ""
+
+#: post-types/quiz/admin/meta-boxes/quiz-meta-boxes.php:87
+msgid "Set message that will be displayed after the quiz is completed"
+msgstr ""
+
+#: post-types/quiz/admin/meta-boxes/quiz-questions-meta-boxes.php:21
+msgid "Quiz Questions"
+msgstr ""
+
+#: post-types/quiz/admin/meta-boxes/quiz-questions-meta-boxes.php:29
+msgid "Add Question"
+msgstr ""
+
+#: post-types/quiz/helper-functions.php:569
+#: post-types/quiz/helper-functions.php:581
+msgid "Start quiz"
+msgstr ""
+
+#: post-types/quiz/helper-functions.php:573
+msgid "No attempts allowed"
+msgstr ""
+
+#: post-types/quiz/helper-functions.php:588
+msgid "Resume quiz"
+msgstr ""
+
+#: post-types/quiz/helper-functions.php:635
+msgid "(hh:mm:ss)"
+msgstr ""
+
+#: post-types/quiz/quiz-register.php:68
+msgid "Academist Quizes"
+msgstr ""
+
+#: post-types/quiz/quiz-register.php:69
+msgid "Academist Quiz"
+msgstr ""
+
+#: post-types/quiz/quiz-register.php:70
+msgid "New Quiz"
+msgstr ""
+
+#: post-types/quiz/quiz-register.php:72
+msgid "Edit Quiz"
+msgstr ""
+
+#: post-types/quiz/templates/single/parts/actions-finish.php:16
+msgid "Finish"
+msgstr ""
+
+#: post-types/quiz/templates/single/parts/info-top-active.php:11
+msgid "(mm:ss)"
+msgstr ""
+
+#: post-types/quiz/templates/single/parts/results.php:4
+msgid "Other results"
+msgstr ""
+
+#: post-types/quiz/templates/single/parts/results.php:10
+msgid "#"
+msgstr ""
+
+#: post-types/quiz/templates/single/parts/results.php:13
+msgid "Date"
+msgstr ""
+
+#: post-types/quiz/templates/single/parts/results.php:16
+#: post-types/quiz/templates/single/parts/status.php:16
+msgid "Time"
+msgstr ""
+
+#: post-types/quiz/templates/single/parts/results.php:19
+msgid "Result"
+msgstr ""
+
+#: post-types/quiz/templates/single/parts/status.php:9
+msgid "You have reached "
+msgstr ""
+
+#: post-types/quiz/templates/single/parts/status.php:9
+msgid " of "
+msgstr ""
+
+#: post-types/quiz/templates/single/parts/status.php:9
+msgid " points "
+msgstr ""
+
+#: post-types/quiz/templates/single/parts/status.php:12
+msgid "Correct"
+msgstr ""
+
+#: post-types/quiz/templates/single/parts/status.php:13
+msgid "Wrong"
+msgstr ""
+
+#: post-types/quiz/templates/single/parts/status.php:14
+msgid "Empty"
+msgstr ""
+
+#: post-types/quiz/templates/single/parts/status.php:15
+msgid "Points"
+msgstr ""
+
+#: post-types/quiz/templates/single/parts/status.php:22
+msgid "Your quiz grade - failed. Quiz requirement"
+msgstr ""
+
+#: post-types/quiz/templates/single/parts/status.php:26
+msgid "Your quiz grade - success."
+msgstr ""
+
+#: widgets/course-categories-widget/course-categories.php:7
+msgid "Academist Course Categories Widget"
+msgstr ""
+
+#: widgets/course-categories-widget/course-categories.php:8
+msgid "Display list of your course categories"
+msgstr ""
+
+#: widgets/course-categories-widget/course-categories.php:22
+#: widgets/course-features-widget/course-features.php:22
+#: widgets/course-list-widget/course-list.php:23
+msgid "Widget Title"
+msgstr ""
+
+#: widgets/course-categories-widget/course-categories.php:27
+msgid "Number of Categories"
+msgstr ""
+
+#: widgets/course-categories-widget/course-categories.php:32
+msgid "Parent Category"
+msgstr ""
+
+#: widgets/course-categories-widget/course-categories.php:33
+msgid "Leave empty for all or fill in parent category slug"
+msgstr ""
+
+#: widgets/course-categories-widget/course-categories.php:42
+msgid "ID"
+msgstr ""
+
+#: widgets/course-features-widget/course-features.php:7
+msgid "Academist Course Features Widget"
+msgstr ""
+
+#: widgets/course-features-widget/course-features.php:8
+msgid "Display your course features"
+msgstr ""
+
+#: widgets/course-features-widget/course-features.php:27
+msgid "Course ID. If empty, current page ID will be used"
+msgstr ""
+
+#: widgets/course-list-widget/course-list.php:8
+msgid "Academist Course List Widget"
+msgstr ""
+
+#: widgets/course-list-widget/course-list.php:9
+msgid "Display list of your course"
+msgstr ""
+
+#: widgets/course-list-widget/course-list.php:28
+msgid "Number of Posts"
+msgstr ""
+
+#: widgets/course-list-widget/course-list.php:36
+msgid "One"
+msgstr ""
+
+#: widgets/course-list-widget/course-list.php:37
+msgid "Two"
+msgstr ""
+
+#: widgets/course-list-widget/course-list.php:38
+msgid "Three"
+msgstr ""
+
+#: widgets/course-list-widget/course-list.php:39
+msgid "Four"
+msgstr ""
+
+#: widgets/course-list-widget/course-list.php:40
+msgid "Five"
+msgstr ""
+
+#: widgets/course-list-widget/course-list.php:53
+msgid "Category Slug"
+msgstr ""
+
+#: widgets/course-list-widget/course-list.php:54
+msgid "Leave empty for all or use comma for list"
+msgstr ""
+
+#: widgets/course-list-widget/course-list.php:83
+msgid "Show Course Instructor"
+msgstr ""
+
+#: widgets/course-list-widget/course-list.php:89
+msgid "Show Course Price"
+msgstr ""
+
+#: widgets/course-list-widget/course-list.php:95
+msgid "Show Course Featured Image"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Academist LMS"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Plugin that adds post types for LMS extension"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Elated Themes"
+msgstr ""

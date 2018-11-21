@@ -1,0 +1,73 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+/* ==========================================================================
+   Shortcodes responsive styles
+   ========================================================================== */
+@media only screen and (max-width: 1280px) {
+  .eltdf-instagram-list-holder.eltdf-il-four-columns .eltdf-il-item {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1025px) {
+  .eltdf-instagram-list-holder.eltdf-il-four-columns .eltdf-il-item:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .eltdf-instagram-list-holder.eltdf-il-five-columns .eltdf-il-item {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1025px) {
+  .eltdf-instagram-list-holder.eltdf-il-five-columns .eltdf-il-item:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-instagram-list-holder.eltdf-il-three-columns .eltdf-il-item {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .eltdf-instagram-list-holder.eltdf-il-three-columns .eltdf-il-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-instagram-list-holder.eltdf-il-four-columns .eltdf-il-item {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .eltdf-instagram-list-holder.eltdf-il-four-columns .eltdf-il-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-instagram-list-holder.eltdf-il-five-columns .eltdf-il-item {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .eltdf-instagram-list-holder.eltdf-il-five-columns .eltdf-il-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-instagram-list-holder .eltdf-il-item {
+    width: 100% !important;
+  }
+}
+
+/*# sourceMappingURL=../../../../plugins/academist-instagram-feed/assets/css/shortcodes-map-responsive.css.map */

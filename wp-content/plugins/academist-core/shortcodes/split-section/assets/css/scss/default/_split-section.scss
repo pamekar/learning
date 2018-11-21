@@ -1,0 +1,58 @@
+/* ==========================================================================
+   Split Section styles - begin
+   ========================================================================== */
+
+.eltdf-ss-holder {
+	@include eltdfRelativeHolderLayout();
+
+	&.eltdf-ss-image-right {
+		
+		.eltdf-ss-image {
+			left: 50%;
+		}
+
+		.eltdf-ss-content {
+			left: 0;
+		}
+	}
+	
+	.eltdf-ss-image {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 50%;
+		height: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		
+		img {
+			display: none
+		}
+	}
+
+	.eltdf-ss-content {
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		left: 50%;
+		width: 50%;
+		padding: 30px;
+		box-sizing: border-box;
+	}
+	
+	.eltdf-ss-title {
+		margin: 0;
+	}
+	
+	.eltdf-ss-text {
+		margin: 14px 0 0;
+	}
+	
+	.eltdf-ss-link {
+		margin: 25px 0 0;
+	}
+}
+/* ==========================================================================
+   Split Section styles - end
+   ========================================================================== */

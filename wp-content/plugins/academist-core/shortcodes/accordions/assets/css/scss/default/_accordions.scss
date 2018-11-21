@@ -1,0 +1,187 @@
+/* ==========================================================================
+   Accordions shortcode style - begin
+   ========================================================================== */
+
+.eltdf-accordion-holder {
+    @include eltdfRelativeHolderLayout();
+
+    .eltdf-accordion-title {
+        position: relative;
+        cursor: pointer;
+        margin: 0;
+        box-sizing: border-box;
+        @include eltdfTransform(translateZ(0px));
+        @include eltdfTransition(color .2s ease-out, background-color .2s ease-out);
+	
+	    .eltdf-tab-title {
+		    display: block;
+		    line-height: inherit;
+			font-family: $default-heading-font;
+			font-size: 17px;
+			font-weight: 700;
+			color: $default-heading-color;
+	    }
+
+        .eltdf-accordion-mark {
+            position: absolute;
+            top: 50%;
+	        left: 0;
+            width: 20px;
+	        height: 20px;
+	        margin: -1px 0 0;
+	        font-size: 20px;
+	        line-height: 20px;
+            text-align: center;
+            @include eltdfTransform(translateY(-50%));
+			color: $first-main-color;
+        }
+	    
+	    &.ui-state-active,
+	    &.ui-state-hover {
+		
+		    .eltdf-accordion-mark {
+			    
+			    span {
+				    
+				    &.eltdf_icon_minus {
+					    opacity: 1;
+				    }
+				    
+				    &.eltdf_icon_plus {
+					    opacity: 0;
+				    }
+			    }
+		    }
+	    }
+    }
+
+    .eltdf-accordion-content {
+        margin: 0;
+	    
+	    p {
+		    margin: 0;
+	    }
+    }
+	
+	&.eltdf-ac-boxed {
+		
+		&.eltdf-white-skin {
+			
+			.eltdf-accordion-title {
+				background-color: #fff;
+			}
+		}
+		
+		.eltdf-accordion-title {
+			margin: 0;
+			padding: 20px 0;
+			border-bottom: 2px dotted #e1e1e1;
+			@include eltdfTransition(all 0.2s ease);
+			overflow: hidden;
+
+			&:before {
+				content: "\24";
+				position: absolute;
+				top: initial;
+				left: -35px;
+				width: 20px;
+				font-family: 'ElegantIcons';
+				vertical-align: unset;
+				color: $first-main-color;
+				font-size: 22px;
+				line-height: inherit;
+				font-weight: 800;
+				font-style: normal;
+				text-rendering: auto;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+				@include eltdfTransition(left .2s ease-in-out);
+			}
+
+			&.ui-state-active, &.ui-state-hover {
+				padding-left: 30px;
+
+				&:before {
+					left: 0;
+				}
+			}
+			
+			&:first-child {
+				margin: 0;
+			}
+			
+			.eltdf-accordion-mark {
+				left: 10px;
+			}
+			
+			&.ui-state-active,
+			&.ui-state-hover {
+				color: #fff;
+			}
+
+			&.ui-state-active {
+				border-color: transparent;
+			}
+
+		}
+
+		.eltdf-accordion-content {
+			margin: 0;
+			padding-bottom: 24px;
+			border-bottom: 2px dotted #e1e1e1;
+		}
+	}
+	
+	&.eltdf-ac-simple {
+		@include eltdfTransition(all 0.2s ease);
+		overflow: hidden;
+
+		.eltdf-accordion-title {
+			padding: 7px 0 6px 30px;
+
+			&:before {
+				content: "\56";
+				position: absolute;
+				top: initial;
+				left: 0;
+				width: 20px;
+				font-family: 'dripicons-v2';
+				vertical-align: unset;
+				color: $first-main-color;
+				font-size: 20px;
+				line-height: inherit;
+				font-weight: 800;
+				font-style: normal;
+				text-rendering: auto;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+				@include eltdfTransition(all .2s ease-in-out);
+
+			}
+
+			&.ui-state-active {
+				padding-left: 30px;
+
+				&:before {
+					-webkit-transform: rotate(90deg);
+					-moz-transform: rotate(90deg);
+					-o-transform: rotate(90deg);
+					-ms-transform: rotate(90deg);
+					transform: rotate(90deg);;
+				}
+			}
+
+			&:first-child {
+				margin: 0;
+			}
+
+		}
+		
+		.eltdf-accordion-content {
+			padding: 0 0 16px 30px;
+		}
+	}
+}
+/* ==========================================================================
+   Accordions shortcode style - end
+   ========================================================================== */

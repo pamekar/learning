@@ -1,0 +1,103 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+/* ==========================================================================
+   Widgets styles
+   ========================================================================== */
+/* ==========================================================================
+   Twitter widget style - begin
+   ========================================================================== */
+.widget.widget_eltdf_twitter_widget {
+  margin: 0 0 20px;
+}
+
+.widget.widget_eltdf_twitter_widget .eltdf-twitter-widget {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.widget.widget_eltdf_twitter_widget .eltdf-twitter-widget li {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.widget.widget_eltdf_twitter_widget .eltdf-twitter-widget li:not(:last-child) {
+  margin: 0 0 22px;
+}
+
+.widget.widget_eltdf_twitter_widget .eltdf-twitter-widget li .eltdf-twitter-icon {
+  font-size: 18px;
+  color: #ff1949;
+}
+
+.widget.widget_eltdf_twitter_widget .eltdf-twitter-widget li .eltdf-tweet-text {
+  position: relative;
+}
+
+.widget.widget_eltdf_twitter_widget .eltdf-twitter-widget li .eltdf-tweet-text span {
+  color: #444444;
+}
+
+.widget.widget_eltdf_twitter_widget .eltdf-twitter-widget li .eltdf-tweet-text a {
+  position: relative;
+  color: #444444;
+}
+
+.widget.widget_eltdf_twitter_widget .eltdf-twitter-widget li .eltdf-tweet-text a:hover {
+  color: #ff1949;
+}
+
+.widget.widget_eltdf_twitter_widget .eltdf-twitter-widget li .eltdf-tweet-text a.eltdf-tweet-time {
+  display: block;
+}
+
+.widget.widget_eltdf_twitter_widget .eltdf-twitter-widget li .eltdf-tweet-text a.eltdf-tweet-time span {
+  margin: 0 2px 0 0;
+}
+
+.widget.widget_eltdf_twitter_widget .eltdf-twitter-widget.eltdf-twitter-standard li .eltdf-twitter-icon {
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+.widget.widget_eltdf_twitter_widget .eltdf-twitter-widget.eltdf-twitter-standard li .eltdf-tweet-text {
+  padding: 0 0 0 40px;
+}
+
+.widget.widget_eltdf_twitter_widget .eltdf-twitter-widget.eltdf-twitter-slider {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  padding: 0 40px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.widget.widget_eltdf_twitter_widget .eltdf-twitter-widget.eltdf-twitter-slider li {
+  overflow: hidden;
+}
+
+.widget.widget_eltdf_twitter_widget .eltdf-twitter-widget.eltdf-twitter-slider li .eltdf-tweet-text a.eltdf-tweet-time {
+  margin: 21px 0 0;
+}
+
+.widget.widget_eltdf_twitter_widget .eltdf-twitter-widget.eltdf-twitter-slider .owl-nav .owl-prev {
+  left: 0;
+}
+
+.widget.widget_eltdf_twitter_widget .eltdf-twitter-widget.eltdf-twitter-slider .owl-nav .owl-next {
+  right: 0;
+}
+
+/* ==========================================================================
+   Twitter widget style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../../../../plugins/academist-twitter-feed/assets/css/widgets-map.css.map */

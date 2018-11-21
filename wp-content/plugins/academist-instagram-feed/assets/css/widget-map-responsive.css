@@ -1,0 +1,41 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+/* ==========================================================================
+   Widgets responsive styles
+   ========================================================================== */
+/* ==========================================================================
+   Instagram widget responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltdf-instagram-feed:not(.eltdf-instagram-carousel) li img {
+    width: 100%;
+  }
+  .eltdf-instagram-feed:not(.eltdf-instagram-carousel).eltdf-col-6 li {
+    width: 25%;
+  }
+  .eltdf-instagram-feed:not(.eltdf-instagram-carousel).eltdf-col-9 li {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-instagram-feed:not(.eltdf-instagram-carousel).eltdf-col-6 li {
+    width: 33.33333%;
+  }
+  .eltdf-instagram-feed:not(.eltdf-instagram-carousel).eltdf-col-9 li {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-instagram-feed:not(.eltdf-instagram-carousel) li {
+    width: 50% !important;
+  }
+}
+
+/* ==========================================================================
+   Instagram widget responsive style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../../../../plugins/academist-instagram-feed/assets/css/widget-map-responsive.css.map */

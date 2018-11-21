@@ -1,0 +1,56 @@
+/* ==========================================================================
+   Instagram widget responsive style - begin
+   ========================================================================== */
+
+@include ipad-landscape {
+	
+	.eltdf-instagram-feed:not(.eltdf-instagram-carousel) {
+		
+		li {
+			
+			img {
+				width: 100%;
+			}
+		}
+		
+		$instagram_columns: ('eltdf-col-6', 'eltdf-col-9');
+		
+		@for $i from 0 to length($instagram_columns) {
+			&.#{nth($instagram_columns,$i+1)} {
+				$instagram_column_width: 100%/4;
+				
+				li {
+					width: $instagram_column_width;
+				}
+			}
+		}
+	}
+}
+
+@include ipad-portrait {
+	
+	.eltdf-instagram-feed:not(.eltdf-instagram-carousel) {
+		$instagram_columns: ('eltdf-col-6', 'eltdf-col-9');
+		
+		@for $i from 0 to length($instagram_columns) {
+			&.#{nth($instagram_columns,$i+1)} {
+				$instagram_column_width: 100%/3;
+				
+				li {
+					width: $instagram_column_width;
+				}
+			}
+		}
+	}
+}
+
+@include phone-landscape {
+	
+	.eltdf-instagram-feed:not(.eltdf-instagram-carousel) li {
+		width: 50% !important;
+	}
+}
+
+/* ==========================================================================
+   Instagram widget responsive style - end
+   ========================================================================== */

@@ -1,0 +1,94 @@
+/* ==========================================================================
+# Instructor simple - begin
+	========================================================================== */
+
+.eltdf-instructor {
+    &.simple {
+
+        &.eltdf-light-skin {
+            .eltdf-instructor-name,
+            .eltdf-instructor-position,
+            .eltdf-instructor-excerpt {
+                color: #fff;
+            }
+
+            .eltdf-icon-shortcode {
+                a {
+                    color: #fff;
+
+                    &:hover {
+                        color: $first-main-color;
+                    }
+                }
+            }
+        }
+
+        .eltdf-instructor-inner {
+            @include eltdfTableLayout();
+            text-align: left;
+            width: 100%;
+        }
+
+        .eltdf-instructor-image {
+            @include eltdfTableCellLayout();
+            width: 140px;
+            padding-right: 35px;
+            img {
+                display: block;
+            }
+        }
+
+        .eltdf-instructor-info {
+            @include eltdfTableCellLayout();
+        }
+
+        .eltdf-instructor-name {
+            margin: 0;
+            line-height: 30px;
+        }
+
+        .eltdf-instructor-position {
+            margin: 0;
+            color: $default-heading-color;
+            font-weight: 400;
+            font-family: $default-heading-font;
+            line-height: 35px;
+        }
+
+        .eltdf-instructor-social {
+            .eltdf-instructor-social-wrapp {
+                .eltdf-icon-shortcode {
+                    margin: 0 3px;
+
+                    &:first-child {
+                        margin-left: 0;
+                    }
+
+                    a {
+                        color: #231f20;
+
+                        &:hover {
+                            color: $first-main-color;
+                        }
+
+                        .eltdf-icon-element {
+                            font-size: 12px;
+
+                            &.social_twitter{
+                                margin: 3px 0 0;
+                            }
+
+                            &.social_googleplus{
+                                margin: 4px 0 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ==========================================================================
+# Instructor simple - end
+	========================================================================== */

@@ -1,0 +1,40 @@
+/* ==========================================================================
+   Separator shortcode style - begin
+   ========================================================================== */
+
+.eltdf-separator-holder {
+    position: relative;
+    height: auto;
+    font-size: 0;
+    line-height: 1em;
+
+    &.eltdf-separator-center {
+        text-align: center;
+    }
+	
+    &.eltdf-separator-left {
+        text-align: left;
+    }
+	
+    &.eltdf-separator-right {
+        text-align: right;
+    }
+
+    &.eltdf-separator-full-width {
+	    
+        .eltdf-separator {
+            width: 100% !important;
+        }
+    }
+}
+
+.eltdf-separator {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    border-bottom: 1px solid #ebebeb;
+    margin: 10px 0;
+}
+/* ==========================================================================
+   Separator shortcode style - end
+   ========================================================================== */

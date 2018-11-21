@@ -1,0 +1,97 @@
+/* ==========================================================================
+# Instructor info hover - begin
+	========================================================================== */
+
+.eltdf-instructor {
+    &.info-hover {
+
+        .eltdf-instructor-inner {
+            position: relative;
+
+            &:hover {
+
+                .eltdf-instructor-info {
+                    opacity: 1;
+                }
+            }
+        }
+
+        .eltdf-instructor-image img {
+            display: block;
+        }
+
+        .eltdf-instructor-image {
+            &:hover{
+                .eltdf-instructor-info-tb {
+                    opacity: 1;
+                }
+            }
+        }
+
+        .eltdf-instructor-name,
+        .eltdf-instructor-position,
+        .eltdf-instructor-text,
+        .eltdf-icon-shortcode,
+        .eltdf-icon-shortcode > * {
+            color: #000;
+        }
+
+        .eltdf-instructor-info-tb {
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            text-align: left;
+            opacity: 0;
+            background: rgba(#fff, 0.85);
+            @include eltdfTransition(opacity 0.2s ease-out);
+
+        }
+
+        .eltdf-instructor-info-tc {
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 25px;
+            box-sizing: border-box;
+        }
+
+        .eltdf-instructor-name {
+            margin: 0;
+        }
+
+        .eltdf-instructor-position {
+            margin: 0;
+            font-size: 14px;
+            color: $default-text-color;
+        }
+
+        .eltdf-instructor-social-holder-between {
+            margin: 15px 0 0;
+        }
+
+        .eltdf-icon-shortcode {
+            margin: 0 8px;
+            font-size: 20px;
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+
+        .eltdf-instructor-overlay-link {
+            position: absolute;
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+        }
+    }
+}
+
+/* ==========================================================================
+# Instructor info bellow - end
+	========================================================================== */

@@ -1,0 +1,158 @@
+/* ==========================================================================
+   Course Item Layout - Standard style - begin
+   ========================================================================== */
+
+.eltdf-course-list-holder {
+
+    &.eltdf-cl-standard{
+
+        article {
+            &:hover {
+                .eltdf-cl-item-inner {
+
+                    img {
+                        @include eltdfTransform(scale(1.03));
+                    }
+
+                    .eltdf-instructor-name {
+
+                        &:after {
+                            width: 50px !important;
+                        }
+                    }
+                }
+            }
+
+            .eltdf-cli-image {
+                margin: 0 0 24px;
+            }
+
+            .eltdf-cl-item-inner {
+                @include eltdfTransition(box-shadow .2s);
+                @include eltdfTransition(transform .2s);
+                padding-top: 3px;
+                padding-bottom: 15px;
+            }
+            .eltdf-cli-text-holder {
+
+                .eltdf-cli-text {
+                    position: relative;
+                }
+
+                .eltdf-cli-top-info {
+                    .eltdf-cli-title {
+                        margin: 0 0 4px;
+                    }
+
+                    .eltdf-instructor-name {
+                        font-family: $default-heading-font;
+                        color: $default-heading-color;
+                        font-weight: 400;
+                        letter-spacing: 0.015em;
+                        position: relative;
+                        
+                        &:after {
+                            content: '';
+                            position: absolute;
+                            bottom: -27px;
+                            left: 0;
+                            width: 38px;
+                            height: 3px;
+                            background-color: $first-main-color;
+                        }
+                    }
+                }
+
+                .eltdf-cli-excerpt {
+                    margin-top: 46px;
+                    margin-bottom: 26px;
+                }
+
+                .eltdf-cli-bottom-info {
+                    .eltdf-cli-category-holder,
+                    .eltdf-students-number-holder,
+                    .eltdf-course-ratings {
+                        display: inline-block;
+                        vertical-align: middle;
+                        font-size: 13px;
+                        color: $default-heading-color;
+                        font-family: $default-heading-font;
+                        font-weight: 400;
+                    }
+
+                    .eltdf-course-ratings,
+                    .eltdf-students-number-holder {
+                        float: left;
+                        margin-right: 16px;
+                        font-size: 13px;
+
+                        .eltdf-student-icon{
+                            vertical-align: text-top;
+                        }
+
+                        .icon {
+                            font-size: 13px;
+                            margin-right: 3px;
+                        }
+                    }
+
+                    .eltdf-course-ratings {
+
+                        span.icon {
+                            position: relative;
+                            top: 1px;
+                        }
+                    }
+
+                    .eltdf-cli-category-holder {
+                        text-align: right;
+                        float: right;
+                        margin: 0 0 0 5px;
+                        .eltdf-category-icon {
+                            font-size: 13px;
+                        }
+                    }
+                    .eltdf-cli-category{
+                        color: #b9b9b9;
+                        font-weight: 700;
+                        font-size: 13px;
+                        text-transform: uppercase;
+                    }
+
+                    .eltdf-ci-price-holder {
+                        text-align: right;
+                        float: right;
+
+                        span {
+                            color: $first-main-color;
+                            font-family: $default-heading-font;
+                            font-weight: 500;
+                            text-transform: capitalize;
+                            font-size: 20px;
+                        }
+                        .eltdf-ci-price-value {
+
+                        }
+                        .eltdf-ci-price-free {
+
+                        }
+                    }
+
+                    @media screen and (min-width: 769px) and (max-width: 1400px) {
+                        .eltdf-ci-price-holder {
+                            text-align: right !important;
+                            float: right;
+                        }
+                    }
+                }
+
+            }
+
+
+
+        }
+    }
+}
+/* ==========================================================================
+   Course Item Layout - Standard style - end
+   ========================================================================== */

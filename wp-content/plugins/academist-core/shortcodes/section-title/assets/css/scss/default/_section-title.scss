@@ -1,0 +1,91 @@
+/* ==========================================================================
+   Section Title shortcode styles - begin
+   ========================================================================== */
+
+.eltdf-section-title-holder {
+    @include eltdfRelativeHolderLayout();
+	box-sizing: border-box;
+	
+	&.eltdf-st-two-columns {
+		
+		$space_label: ('tiny', 'small', 'normal');
+		$space_width: (5, 10, 15);
+		
+		@for $i from 0 to length($space_label) {
+			&.eltdf-st-#{nth($space_label,$i+1)}-space {
+				$column_width: nth($space_width,$i+1);
+				
+				.eltdf-st-inner {
+					margin: 0 -#{$column_width}px;
+				}
+			
+				.eltdf-st-title,
+				.eltdf-st-text {
+					padding: 0 #{$column_width}px;
+				}
+			}
+		}
+		
+		.eltdf-st-title,
+		.eltdf-st-text {
+			position: relative;
+			display: inline-block;
+			vertical-align: middle;
+			width: 50%;
+			float: left;
+			margin: 0;
+			box-sizing: border-box;
+		}
+		
+		&.eltdf-st-title-left {
+			
+			.eltdf-st-title {
+				text-align: right;
+			}
+			
+			.eltdf-st-text {
+				text-align: left;
+			}
+		}
+		
+		&.eltdf-st-title-right {
+			
+			.eltdf-st-title {
+				float: right;
+				text-align: left;
+			}
+			
+			.eltdf-st-text {
+				text-align: right;
+			}
+		}
+	}
+	
+    .eltdf-st-title {
+	    display: block;
+        margin: 0;
+	    
+	    .eltdf-st-title-bold {
+		    font-weight: 700;
+	    }
+	    
+	    .eltdf-st-title-light {
+		    font-weight: 300;
+	    }
+
+		.eltdf-st-title-color {
+			color: $first-main-color;
+		}
+    }
+    
+    .eltdf-st-text {
+	    display: block;
+        margin: 14px 0 0;
+		font-size: 19px;
+    }
+}
+/* ==========================================================================
+   Section Title shortcode styles - end
+   ========================================================================== */
+
+

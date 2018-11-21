@@ -1,0 +1,90 @@
+/* ==========================================================================
+# Team info bellow - begin
+	========================================================================== */
+
+.eltdf-team {
+    &.info-bellow {
+
+        .eltdf-team-inner {
+            text-align: left;
+            width: 100%;
+        }
+
+        .eltdf-team-image {
+            position: relative;
+            overflow: hidden;
+            display: block;
+            margin: 0 auto;
+
+            a {
+                position: relative;
+                display: block;
+                width: 100%;
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                &:hover {
+
+                    &:after {
+                        opacity: 0.3;
+                    }
+                }
+
+                &:after {
+                    content: '';
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    top: 0;
+                    left: 0;
+                    background-color: #fff;
+                    opacity: 0;
+
+                    @include eltdfTransition(opacity 0.3s ease);
+                }
+            }
+
+            img {
+                display: block;
+            }
+        }
+
+        .eltdf-team-title-holder {
+            margin: 25px 0 0;
+        }
+
+        .eltdf-team-name {
+            font-size: 32px;
+            line-height: 1.1em;
+            margin: 0 0 16px;
+            &:hover {
+                color: #d0d0d0;
+            }
+        }
+
+        .eltdf-team-position {
+            margin: 0;
+            font-size: 20px;
+            color: #737373;
+            font-weight: 300;
+        }
+
+        .eltdf-team-social-holder-between {
+            margin: 15px 0 0;
+        }
+
+        .eltdf-icon-shortcode {
+            margin: 0 8px;
+            font-size: 20px;
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+/* ==========================================================================
+# Team info bellow - end
+	========================================================================== */

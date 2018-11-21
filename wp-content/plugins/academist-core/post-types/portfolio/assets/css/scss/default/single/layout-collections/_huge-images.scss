@@ -1,0 +1,34 @@
+/* ==========================================================================
+   Portfolio Single - Huge Images layout style - begin
+   ========================================================================== */
+
+.eltdf-portfolio-single-holder {
+    
+    &.eltdf-ps-huge-images-layout {
+        padding: 0 4%;
+	    box-sizing: border-box;
+	    
+        .eltdf-ps-image-holder {
+            margin: 0 0 40px;
+        
+            .eltdf-ps-image {
+                margin: 0 0 30px;
+            
+                &:last-child {
+                    margin: 0;
+                }
+            }
+        }
+	    
+	    @include laptop-landscape {
+		    padding: 0 40px;
+	    }
+	
+	    @include ipad-portrait {
+		    padding: 0 30px;
+	    }
+    }
+}
+/* ==========================================================================
+   Portfolio Single - Huge Images layout style - end
+   ========================================================================== */

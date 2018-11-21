@@ -1,0 +1,64 @@
+.eltdf-membership-dashboard-content-holder {
+    .eltdf-lms-profile-courses-holder {
+        .eltdf-lms-profile-course-item {
+            @include eltdfTableLayout();
+            margin-bottom: 20px;
+        }
+        .eltdf-lms-profile-course-item-image {
+            @include eltdfTableCellLayout();
+            width: 150px;
+            padding-right: 35px;
+        }
+        .eltdf-lms-profile-course-item-title {
+            @include eltdfTableCellLayout();
+            > * {
+                margin: 0;
+            }
+        }
+        .eltdf-profile-course-status {
+            font-size: 15px;
+        }
+        @include phone-portrait {
+            .eltdf-lms-profile-course-item,
+            .eltdf-lms-profile-course-item-image,
+            .eltdf-lms-profile-course-item-title {
+                display: block;
+                width: 100%;
+            }
+
+        }
+    }
+
+    .eltdf-lms-profile-favorites-holder {
+        .eltdf-lms-profile-favorite-item {
+            @include eltdfTableLayout();
+            margin-bottom: 20px;
+        }
+        .eltdf-lms-profile-favorite-item-image {
+            @include eltdfTableCellLayout();
+            width: 150px;
+            padding-right: 35px;
+        }
+        .eltdf-lms-profile-favorite-item-title {
+            @include eltdfTableCellLayout();
+            > * {
+                margin: 0;
+            }
+            .eltdf-membership-item-favorites {
+                vertical-align: middle;
+                > i {
+                    color: $first-main-color;
+                }
+            }
+        }
+        @include phone-portrait {
+            .eltdf-lms-profile-favorite-item,
+            .eltdf-lms-profile-favorite-item-image,
+            .eltdf-lms-profile-favorite-item-title {
+                display: block;
+                width: 100%;
+            }
+
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.eltdf-question-answer-wrapper {
+    .eltdf-answer-wrapper {
+        input[type="text"] {
+            border-style: solid;
+        }
+        &.eltdf-true {
+            input[type="text"] {
+                border-color: green;
+            }
+            label {
+                color: green;
+            }
+        }
+        &.eltdf-false {
+            input[type="text"] {
+                border-color: red;
+            }
+            label {
+                color: red;
+                text-decoration: line-through;
+            }
+        }
+        &.eltdf-base-true {
+            input[type="text"] {
+                border-color: green;
+            }
+            label {
+                color: green;
+            }
+        }
+        .eltdf-base-answer {
+            color: green;
+        }
+    }
+}

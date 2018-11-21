@@ -1,0 +1,30 @@
+/* ==========================================================================
+# Instructor slider responsive - begin
+	========================================================================== */
+
+.eltdf-instructor-slider-holder {
+    .eltdf-owl-slider {
+        .owl-nav {
+            @include phone-landscape {
+                .owl-prev {
+                    left: -20px;
+                }
+
+                .owl-next {
+                    right: -20px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: $phone-landscape){
+        .eltdf-owl-slider.owl-drag .owl-item{
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+    }
+}
+
+/* ==========================================================================
+# Instructor slider responsive - end
+	========================================================================== */

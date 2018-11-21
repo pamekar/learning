@@ -1,0 +1,71 @@
+/* ==========================================================================
+   Portfolio Category List shortcode style - begin
+   ========================================================================== */
+
+.eltdf-portfolio-category-list-holder {
+    @include eltdfRelativeHolderLayout();
+
+    article {
+
+	    .touch & {
+		    cursor: pointer;
+	    }
+	
+	    &:hover {
+		
+		    .eltdf-pcli-text-holder {
+			    opacity: 1;
+		    }
+	    }
+
+	    .eltdf-pcl-item-inner {
+		    @include eltdfRelativeHolderLayout();
+		    overflow: hidden;
+	    }
+	    
+	    .eltdf-pcli-image {
+		    @include eltdfRelativeHolderLayout();
+		    
+		    img {
+			    display: block;
+			    width: 100%;
+		    }
+	    }
+	
+	    .eltdf-pcli-text-holder {
+		    @include eltdfAbsoluteHolderLayout();
+		    padding: 20px;
+		    background-color: rgba($default-heading-color, .6);
+		    opacity: 0;
+		    text-align: center;
+		    box-sizing: border-box;
+		    @include eltdfTransition(opacity .2s ease-in-out);
+	    }
+
+	    .eltdf-pcli-text-wrapper {
+	        @include eltdfTableLayout();
+	    }
+
+	    .eltdf-pcli-text {
+		    @include eltdfTableCellLayout();
+	    }
+	
+	    .eltdf-pcli-title {
+		    margin: 0;
+		    color: #fff;
+	    }
+	    
+	    .eltdf-pcli-excerpt {
+		    margin: 3px 0 0;
+		    color: #fff;
+	    }
+	
+	    .eltdf-pcli-link {
+		    @include eltdfAbsoluteHolderLayout();
+	    }
+    }
+}
+
+/* ==========================================================================
+   Portfolio Category List shortcode style - end
+   ========================================================================== */

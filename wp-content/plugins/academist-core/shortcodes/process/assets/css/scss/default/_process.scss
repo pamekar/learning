@@ -1,0 +1,189 @@
+/* ==========================================================================
+   Process shortcode style - begin
+   ========================================================================== */
+
+.eltdf-process-holder {
+	@include eltdfRelativeHolderLayout();
+	
+	$columns: ('two', 'three', 'four');
+	@for $i from 0 to length($columns) {
+		&.eltdf-#{nth($columns, $i+1)}-columns {
+			$column_width: 100%/($i+2);
+			
+			.eltdf-mark-horizontal-holder {
+				
+				.eltdf-process-mark {
+					width: $column_width;
+				}
+			}
+			
+			.eltdf-mark-vertical-holder {
+				
+				.eltdf-process-mark {
+					height: $column_width;
+				}
+			}
+			
+			.eltdf-process-item {
+				width: $column_width;
+			}
+		}
+	}
+	
+	&.eltdf-process-appeared {
+		
+		.eltdf-process-circle {
+			opacity: 1;
+			@include eltdfTransform(scale(1));
+		}
+		
+		.eltdf-mark-horizontal-holder {
+			
+			.eltdf-process-line {
+				width: 100%;
+			}
+		}
+		
+		.eltdf-mark-vertical-holder {
+			
+			.eltdf-process-line {
+				height: 100%;
+			}
+		}
+		
+		.eltdf-process-item {
+			opacity: 1;
+		}
+	}
+	
+	.eltdf-mark-horizontal-holder {
+		@include eltdfRelativeHolderLayout();
+		clear: both;
+		
+		.eltdf-process-mark {
+			float: left;
+		}
+		
+		.eltdf-process-line {
+			top: 50%;
+			left: 50%;
+			width: 0;
+			height: 1px;
+			@include eltdfTransition(width .4s ease .1s);
+		}
+	}
+	
+	.eltdf-mark-vertical-holder {
+		position: absolute;
+		top: 26px;
+		left: 0;
+		display: none;
+		width: 46px;
+		height: 100%;
+		
+		.eltdf-process-line {
+			top: 23px;
+			left: 50%;
+			width: 1px;
+			height: 0;
+			@include eltdfTransition(height .4s ease .1s);
+		}
+	}
+	
+	.eltdf-process-mark {
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+		
+		&:last-child {
+			
+			.eltdf-process-line {
+				display: none;
+			}
+		}
+		
+		@for $i from 2 to 5 {
+			
+			&:nth-child(#{$i}) {
+				
+				.eltdf-process-circle {
+					-webkit-transition-delay: #{.5 * ($i - 1)}s;
+					-moz-transition-delay: #{.5 * ($i - 1)}s;
+					transition-delay: #{.5 * ($i - 1)}s;
+				}
+				
+				.eltdf-process-line {
+					-webkit-transition-delay: #{.6 * ($i - 1)}s;
+					-moz-transition-delay: #{.6 * ($i - 1)}s;
+					transition-delay: #{.6 * ($i - 1)}s;
+				}
+			}
+		}
+	}
+	
+	.eltdf-process-circle {
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		width: 46px;
+		height: 46px;
+		font-size: 18px;
+		line-height: 46px;
+		font-weight: 700;
+		color: #fff;
+		background-color: $first-main-color;
+		border-radius: 100%;
+		opacity: 0;
+		-webkit-transition: opacity .2s ease, -webkit-transform .3s ease;
+		-moz-transition: opacity .2s ease, -moz-transform .3s ease;
+		transition: opacity .2s ease, transform .3s ease;
+		@include eltdfTransform(scale(.6));
+	}
+	
+	.eltdf-process-line {
+		position: absolute;
+		background-color: $first-main-color;
+	}
+	
+	.eltdf-process-inner {
+		margin: 0 -15px;
+	}
+	
+	.eltdf-process-item {
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		float: left;
+		padding: 0 15px;
+		opacity: 0;
+		text-align: center;
+		box-sizing: border-box;
+		@include eltdfTransition(opacity .2s ease);
+		
+		@for $i from 2 to 5 {
+			
+			&:nth-child(#{$i}) {
+				-webkit-transition-delay: #{.5 * ($i - 1)}s;
+				-moz-transition-delay: #{.5 * ($i - 1)}s;
+				transition-delay: #{.5 * ($i - 1)}s;
+			}
+		}
+	}
+	
+	.eltdf-pi-content {
+		@include eltdfRelativeHolderLayout();
+		margin: 26px 0 10px;
+	}
+	
+	.eltdf-pi-title {
+		margin: 0;
+	}
+	
+	.eltdf-pi-text {
+		margin: 11px 0 0;
+	}
+}
+/* ==========================================================================
+   Process shortcode style - end
+   ========================================================================== */

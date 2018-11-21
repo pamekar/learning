@@ -1,0 +1,47 @@
+/* ==========================================================================
+   Education Timeline shortcode style - begin
+   ========================================================================== */
+.eltdf-tml-holder {
+
+	.eltdf-tml-title {
+		margin: 19px 0 35px;
+	}
+	
+	.eltdf-timeline {
+		position: relative;
+
+		.eltdf-tml-item-holder {
+			position: relative;
+			padding-bottom: 7px;
+			
+			&.eltdf-appeared {
+
+				.eltdf-tml-item-content {
+					opacity: 1;
+					@include eltdfTransform(translateX(0));
+				}
+			}
+			
+			.eltdf-tml-item-content {
+				padding-bottom: 12px;
+				opacity: 0;
+				@include eltdfTransform(translateX(-20px));
+				@include eltdfTransition(all .5s);
+				
+				.eltdf-tml-item-title {
+					margin: 0 0 4px;
+				}
+				
+				.eltdf-tml-item-subtitle {
+					margin: 0;
+					line-height: 26px;
+					font-size: 14px;
+				}
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+   Education Timeline shortcode style - end
+   ========================================================================== */

@@ -1,0 +1,97 @@
+/* ==========================================================================
+# Team info hover - begin
+	========================================================================== */
+
+.eltdf-team {
+    &.info-hover {
+
+        .eltdf-team-inner {
+            position: relative;
+
+            &:hover {
+
+                .eltdf-team-info {
+                    opacity: 1;
+                }
+            }
+        }
+
+        .eltdf-team-image img {
+            display: block;
+        }
+
+        .eltdf-team-image {
+            &:hover{
+                .eltdf-team-info-tb {
+                    opacity: 1;
+                }
+            }
+        }
+
+        .eltdf-team-name,
+        .eltdf-team-position,
+        .eltdf-team-text,
+        .eltdf-icon-shortcode,
+        .eltdf-icon-shortcode > * {
+            color: #000;
+        }
+
+        .eltdf-team-info-tb {
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            text-align: left;
+            opacity: 0;
+            background: rgba(#fff, 0.85);
+            @include eltdfTransition(opacity 0.2s ease-out);
+
+        }
+
+        .eltdf-team-info-tc {
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 25px;
+            box-sizing: border-box;
+        }
+
+        .eltdf-team-name {
+            margin: 0 0 9px;
+        }
+
+        .eltdf-team-position {
+            margin: 0;
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        .eltdf-team-social-holder-between {
+            margin: 15px 0 0;
+        }
+
+        .eltdf-icon-shortcode {
+            margin: 0 8px;
+            font-size: 20px;
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+
+        .eltdf-team-overlay-link {
+            position: absolute;
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+        }
+    }
+}
+
+/* ==========================================================================
+# Team info bellow - end
+	========================================================================== */

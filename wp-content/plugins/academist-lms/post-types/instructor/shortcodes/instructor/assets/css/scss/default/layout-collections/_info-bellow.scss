@@ -1,0 +1,106 @@
+/* ==========================================================================
+# Instructor info bellow - begin
+	========================================================================== */
+
+.eltdf-instructor {
+    &.info-bellow {
+
+        &.eltdf-light-skin {
+            .eltdf-instructor-name,
+            .eltdf-instructor-position,
+            .eltdf-instructor-excerpt {
+                color: #fff;
+            }
+
+            .eltdf-icon-shortcode {
+                a {
+                    color: #fff;
+
+                    &:hover {
+                        span {
+                            color: $first-main-color !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        .eltdf-instructor-inner {
+            text-align: left;
+            width: 100%;
+        }
+
+        .eltdf-instructor-image {
+            position: relative;
+            overflow: hidden;
+            display: block;
+            margin: 0 auto;
+
+            a {
+                position: relative;
+                display: block;
+                width: 100%;
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                &:hover {
+                    img {
+                        @include eltdfTransform(scale(1.03));
+                    }
+                }
+            }
+
+            img {
+                display: block;
+                @include eltdfTransition(.5s);
+            }
+        }
+
+        .eltdf-instructor-title-holder {
+            margin: 33px 0 0;
+        }
+
+        .eltdf-instructor-name {
+            line-height: 1.1em;
+            margin: 0;
+            &:hover {
+                color: $first-main-color;
+            }
+        }
+
+        .eltdf-instructor-position {
+            margin: 10px 0 0;
+            font-size: 15px;
+            color: $default-text-color;
+            font-weight: 400;
+        }
+
+        .eltdf-instructor-social-holder-between {
+            margin: 5px 0 0;
+        }
+
+        .eltdf-icon-shortcode {
+            margin: 0 3px;
+            font-size: 12px;
+
+            a {
+                color: #231f20;
+                &:hover {
+                    span {
+                        color: $first-main-color !important;
+                    }
+                }
+            }
+
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+/* ==========================================================================
+# Instructor info bellow - end
+	========================================================================== */

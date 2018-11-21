@@ -1,0 +1,34 @@
+.eltdf-meta-box {
+  margin: -6px -12px -12px; }
+  .eltdf-meta-box .eltdf-meta-box-holder {
+    width: 100%; }
+  .eltdf-meta-box .eltdf-meta-box-holder .eltdf-page-form-section th {
+    width: 250px; }
+  .eltdf-meta-box .eltdf-meta-box-holder .eltdf-page-form-section th p {
+    font-weight: 400;
+    color: #9e9e9e; }
+  .eltdf-meta-box .eltdf-meta-box-hidden {
+    display: none; }
+  .eltdf-meta-box .eltdf-meta-box-holder .eltdf-page-form-container-holder .eltdf-page-form-container-holder {
+    border-left: none;
+    margin-left: 0; }
+  .eltdf-meta-box .eltdf-page.btn-default {
+    margin-right: 0; }
+
+div.inside > div > div > div.eltdf-page-form-section:first-child {
+  border-top: none; 
+}
+
+.eltdf-meta-box-holder .eltdf-page-section-subtitle {
+    color: #374a59;
+    font-weight: 400;
+    display: inline-block;
+    margin: 15px 0 15px;
+    font-size: 14px;
+    position: relative;
+    left: 0px;
+    padding: 0px 20px;
+    border-left: 3px solid #54a2af;
+}
+
+/*# sourceMappingURL=eltdf-meta-boxes.css.map */

@@ -1,0 +1,69 @@
+
+.eltdf-instagram-list-holder {
+	@include eltdfRelativeHolderLayout();
+	clear: both;
+	
+	&:not(.eltdf-il-one-column) {
+		
+		.eltdf-il-item {
+			float: left;
+		}
+	}
+	
+	.eltdf-instagram-carousel {
+		.eltdf-il-item {
+			width: auto !important;
+			padding: 0 !important;
+			margin: 0 !important;
+			float: none !important;
+		}
+	}
+	
+	.eltdf-il-item {
+		@include eltdfRelativeHolderLayout();
+		padding: 0;
+		box-sizing: border-box;
+	}
+	
+	$columns_number: ('two', 'three', 'four', 'five');
+	
+	@for $i from 0 to length($columns_number) {
+		&.eltdf-il-#{nth($columns_number,$i+1)}-columns {
+			
+			.eltdf-il-item {
+				width: 100% / ($i+2);
+			}
+			
+			@if ($i > 1) { // set different break point for four and five columns
+				@media only screen and (min-width: $laptop-landscape-medium-plus-pixel) {
+					.eltdf-il-item {
+						
+						&:nth-child(#{$i+2}n+1) {
+							clear: both;
+						}
+					}
+				}
+			} @else if ($i == 1) { // set different break point for three columns
+				@media only screen and (min-width: $laptop-landscape-plus-pixel) {
+					
+					.eltdf-il-item {
+						
+						&:nth-child(#{$i+2}n+1) {
+							clear: both;
+						}
+					}
+				}
+			} @else {
+				@media only screen and (min-width: $ipad-landscape-plus-pixel) {
+					
+					.eltdf-il-item {
+						
+						&:nth-child(#{$i+2}n+1) {
+							clear: both;
+						}
+					}
+				}
+			}
+		}
+	}
+}

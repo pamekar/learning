@@ -1,0 +1,102 @@
+/* ==========================================================================
+   Twitter widget style - begin
+   ========================================================================== */
+
+.widget.widget_eltdf_twitter_widget {
+	margin: 0 0 20px;
+	
+	.eltdf-twitter-widget {
+		@include eltdfRelativeHolderLayout();
+		margin: 0;
+		
+		li {
+			@include eltdfRelativeHolderLayout();
+			
+			&:not(:last-child) {
+				margin: 0 0 22px;
+			}
+			
+			.eltdf-twitter-icon {
+				font-size: 18px;
+				color: $first-main-color;
+			}
+			
+			.eltdf-tweet-text {
+				position: relative;
+				
+				span {
+					color: $default-text-color;
+				}
+				
+				a {
+					position: relative;
+					color: $default-text-color;
+					
+					&:hover {
+						color: $first-main-color;
+					}
+					
+					&.eltdf-tweet-time {
+						display: block;
+						
+						span {
+							margin: 0 2px 0 0;
+						}
+					}
+				}
+			}
+		}
+		
+		&.eltdf-twitter-standard {
+			
+			li {
+				
+				.eltdf-twitter-icon {
+					position: absolute;
+					top: 2px;
+					left: 0;
+				}
+				
+				.eltdf-tweet-text {
+					padding: 0 0 0 40px;
+				}
+			}
+		}
+		
+		&.eltdf-twitter-slider {
+			@include eltdfRelativeHolderLayout();
+			padding: 0 40px;
+			text-align: center;
+			box-sizing: border-box;
+			
+			li {
+				overflow: hidden;
+				
+				.eltdf-tweet-text {
+					
+					a {
+						
+						&.eltdf-tweet-time {
+							margin: 21px 0 0;
+						}
+					}
+				}
+			}
+			
+			.owl-nav {
+				
+				.owl-prev {
+					left: 0;
+				}
+				
+				.owl-next {
+					right: 0;
+				}
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+   Twitter widget style - end
+   ========================================================================== */

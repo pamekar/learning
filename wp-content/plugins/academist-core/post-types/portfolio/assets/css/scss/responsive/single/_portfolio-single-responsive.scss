@@ -1,0 +1,31 @@
+/* ==========================================================================
+   Portfolio Single page responsive style - begin
+   ========================================================================== */
+
+.eltdf-portfolio-single-holder {
+	
+    .eltdf-ps-image-holder {
+	    
+	    &.eltdf-ps-gallery-images {
+		
+		    @include phone-landscape {
+			
+			    .eltdf-ps-image {
+				    width: 100% !important; // !important is set to override all other stronger selectors
+			    }
+		    }
+		
+		    /***** Columns Layout - end *****/
+	    }
+    }
+	
+	@include ipad-landscape {
+		
+		.eltdf-ps-info-holder {
+			margin: 30px 0 0 !important; // can be set inline in option
+		}
+	}
+}
+/* ==========================================================================
+   Portfolio Single page responsive style - end
+   ========================================================================== */

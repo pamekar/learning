@@ -1,0 +1,44 @@
+/* Login/Register/Password form - start
+   ========================================================================== */
+
+.eltdf-wp-reset-pass-holder {
+    .eltdf-btn {
+        margin: 10px 0 0;
+        width: 100%;
+        &.eltdf-facebook-login {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.eltdf-wp-login-holder {
+    .eltdf-btn {
+        margin: 17px 0 15px;
+        width: 100%;
+        &.eltdf-facebook-login {
+            margin-bottom: 0;
+        }
+    }
+}
+.eltdf-wp-register-holder {
+    .eltdf-btn {
+        margin: 10px 0 0;
+        width: 100%;
+        z-index: 1;
+
+        &.eltdf-facebook-login {
+            margin-bottom: 0;
+        }
+
+        .eltdf-log-in-text {
+            z-index: 2;
+        }
+
+        .eltdf-btn-hover-item {
+            z-index: -1;
+        }
+    }
+}
+
+/* Login/Register/Password form - end
+   ========================================================================== */

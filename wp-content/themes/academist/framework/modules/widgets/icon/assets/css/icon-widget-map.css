@@ -1,0 +1,57 @@
+/* ==========================================================================
+   Icon widget style - begin
+   ========================================================================== */
+footer .eltdf-icon-widget-holder {
+  display: block;
+  font-family: "Poppins", sans-serif;
+}
+
+.eltdf-icon-widget-holder {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.eltdf-icon-widget-holder > * {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+}
+
+.eltdf-icon-widget-holder .eltdf-icon-text {
+  padding: 0 0 0 10px;
+}
+
+.eltdf-icon-widget-holder .eltdf-icon-text.eltdf-no-icon {
+  padding: 0;
+}
+
+.eltdf-dark-header .eltdf-page-header > div:not(.eltdf-sticky-header):not(.fixed) .eltdf-icon-widget-holder {
+  color: #252525 !important;
+}
+
+.eltdf-dark-header .eltdf-page-header > div:not(.eltdf-sticky-header):not(.fixed) .eltdf-icon-widget-holder:hover {
+  color: #ff1949 !important;
+}
+
+.eltdf-light-header .eltdf-page-header > div:not(.eltdf-sticky-header):not(.fixed) .eltdf-icon-widget-holder {
+  color: #fff !important;
+}
+
+.eltdf-light-header .eltdf-page-header > div:not(.eltdf-sticky-header):not(.fixed) .eltdf-icon-widget-holder:hover {
+  color: #ff1949 !important;
+}
+
+/* ==========================================================================
+   Icon widget style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=icon-widget-map.css.map */

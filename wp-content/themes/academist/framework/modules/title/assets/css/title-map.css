@@ -1,0 +1,219 @@
+/* ==========================================================================
+   Title styles - begin
+   ========================================================================== */
+/* ==========================================================================
+   Title style - begin
+   ========================================================================== */
+.eltdf-title-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 240px;
+  background-color: #f6f6f6;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  z-index: 101;
+}
+
+.eltdf-title-holder.eltdf-title-full-width .eltdf-grid {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.eltdf-title-holder.eltdf-bg-responsive {
+  height: auto !important;
+}
+
+.eltdf-title-holder.eltdf-bg-responsive .eltdf-title-image {
+  display: block;
+}
+
+.eltdf-title-holder.eltdf-bg-responsive .eltdf-title-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.eltdf-title-holder.eltdf-bg-parallax {
+  background-attachment: fixed;
+}
+
+.eltdf-title-holder .eltdf-title-image {
+  display: none;
+}
+
+.eltdf-title-holder .eltdf-title-image img {
+  display: block;
+  width: 100%;
+}
+
+.eltdf-title-holder .eltdf-title-wrapper {
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.eltdf-title-holder .eltdf-title-inner {
+  position: relative;
+  display: table-cell;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+}
+
+/* ==========================================================================
+   Title style - end
+   ========================================================================== */
+/* ==========================================================================
+   Breadcrumbs Title type style - begin
+   ========================================================================== */
+.eltdf-title-holder.eltdf-breadcrumbs-type .eltdf-breadcrumbs {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  color: #444444;
+}
+
+.eltdf-title-holder.eltdf-breadcrumbs-type .eltdf-breadcrumbs.eltdf-has-inline-style a {
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+
+.eltdf-title-holder.eltdf-breadcrumbs-type .eltdf-breadcrumbs.eltdf-has-inline-style a:hover {
+  color: inherit;
+  opacity: 0.9;
+}
+
+.eltdf-title-holder.eltdf-breadcrumbs-type .eltdf-breadcrumbs a,
+.eltdf-title-holder.eltdf-breadcrumbs-type .eltdf-breadcrumbs span {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  color: inherit;
+}
+
+.eltdf-title-holder.eltdf-breadcrumbs-type .eltdf-breadcrumbs a:hover {
+  color: #252525;
+}
+
+/* ==========================================================================
+   Breadcrumbs Title type style - end
+   ========================================================================== */
+/* ==========================================================================
+   Centered Title type style - begin
+   ========================================================================== */
+.eltdf-title-holder.eltdf-centered-type .eltdf-title-inner {
+  text-align: center;
+}
+
+.eltdf-title-holder.eltdf-centered-type .eltdf-page-title {
+  margin: 0;
+}
+
+.eltdf-title-holder.eltdf-centered-type .eltdf-page-subtitle {
+  display: block;
+  margin: 10px 0 0;
+  box-sizing: border-box;
+}
+
+/* ==========================================================================
+   Centered Title type style - end
+   ========================================================================== */
+/* ==========================================================================
+   Standard With Breadcrumbs Title type style - begin
+   ========================================================================== */
+.eltdf-title-holder.eltdf-standard-with-breadcrumbs-type .eltdf-title-info,
+.eltdf-title-holder.eltdf-standard-with-breadcrumbs-type .eltdf-breadcrumbs-info {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.eltdf-title-holder.eltdf-standard-with-breadcrumbs-type .eltdf-title-info {
+  width: 99%;
+}
+
+.eltdf-title-holder.eltdf-standard-with-breadcrumbs-type .eltdf-breadcrumbs-info {
+  width: 1%;
+  white-space: nowrap;
+  font-weight: 400;
+}
+
+.eltdf-title-holder.eltdf-standard-with-breadcrumbs-type .eltdf-page-title {
+  margin: 0 0 8px 0;
+}
+
+.eltdf-title-holder.eltdf-standard-with-breadcrumbs-type .eltdf-page-subtitle {
+  margin: 5px 0 0;
+}
+
+.eltdf-title-holder.eltdf-standard-with-breadcrumbs-type .eltdf-breadcrumbs {
+  color: #252525;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.eltdf-title-holder.eltdf-standard-with-breadcrumbs-type .eltdf-breadcrumbs.eltdf-has-inline-style a {
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+
+.eltdf-title-holder.eltdf-standard-with-breadcrumbs-type .eltdf-breadcrumbs.eltdf-has-inline-style a:hover {
+  color: inherit;
+  opacity: 0.9;
+}
+
+.eltdf-title-holder.eltdf-standard-with-breadcrumbs-type .eltdf-breadcrumbs a,
+.eltdf-title-holder.eltdf-standard-with-breadcrumbs-type .eltdf-breadcrumbs span {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  color: inherit;
+}
+
+.eltdf-title-holder.eltdf-standard-with-breadcrumbs-type .eltdf-breadcrumbs .eltdf-current + .eltdf-current {
+  padding-left: 7px;
+}
+
+.eltdf-title-holder.eltdf-standard-with-breadcrumbs-type .eltdf-breadcrumbs a:hover {
+  color: #ff1949;
+}
+
+/* ==========================================================================
+   Standard With Breadcrumbs Title type style - end
+   ========================================================================== */
+/* ==========================================================================
+   Standard Title type style - begin
+   ========================================================================== */
+.eltdf-title-holder.eltdf-standard-type .eltdf-page-title {
+  margin: 0;
+}
+
+.eltdf-title-holder.eltdf-standard-type .eltdf-page-subtitle {
+  margin: 10px 0 0;
+}
+
+/* ==========================================================================
+   Standard Title type style - end
+   ========================================================================== */
+/* ==========================================================================
+   Title styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=title-map.css.map */

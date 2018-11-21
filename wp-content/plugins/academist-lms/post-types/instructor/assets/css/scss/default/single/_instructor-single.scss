@@ -1,0 +1,92 @@
+.eltdf-instructor-single-holder {
+    @include eltdfRelativeHolderLayout();
+	
+    .eltdf-name {
+		margin: 25px 0 5px;
+    }
+
+    .eltdf-title {
+		margin: 0 0 13px;
+        color: $default-heading-color;
+		font-family: $default-heading-font;
+		font-weight: 400;
+		letter-spacing: 0.015em;
+
+        .eltdf-icon-shortcode {
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 5px;
+
+            a, span, i {
+                color: #999;
+            }
+        }
+    }
+
+    .eltdf-ts-info-row {
+	    padding: 10px 0;
+	    border-bottom: 1px solid #dadada;
+	    color: #ababab;
+	    font-size: 12px;
+
+        &:last-child{
+            border: 0;
+        }
+
+        .eltdf-ts-bio-icon {
+	        display: inline-block;
+	        vertical-align: middle;
+	        margin: 0 10px 0 0;
+	        font-size: 18px;
+        }
+
+        .eltdf-ts-bio-info {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+
+    .eltdf-instructor-single-content {
+	    @include eltdfRelativeHolderLayout();
+    }
+
+	.eltdf-tabs {
+		@include ipad-landscape {
+			margin-top: 20px;
+		}
+
+		.eltdf-tab-container {
+			margin-top: 45px;
+		}
+		.eltdf-tab-icon {
+			margin-right: 10px;
+		}
+
+		&.eltdf-tabs-standard .eltdf-tabs-nav li {
+			padding-bottom: 19px;
+			padding-top: 0;
+			line-height: 12px;
+
+			a {
+				line-height: 12px;
+			}
+		}
+	}
+
+	.eltdf-social {
+		margin: 13px 0 10px;
+		a {
+			font-size: 12px;
+			color: $default-heading-color;
+
+			&:hover {
+				color: $first-main-color;
+			}
+
+			span {
+				margin: 0 3px;
+			}
+		}
+	}
+}

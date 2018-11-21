@@ -1,0 +1,75 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+/* ==========================================================================
+   Shortcodes styles
+   ========================================================================== */
+.eltdf-instagram-list-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  clear: both;
+}
+
+.eltdf-instagram-list-holder:not(.eltdf-il-one-column) .eltdf-il-item {
+  float: left;
+}
+
+.eltdf-instagram-list-holder .eltdf-instagram-carousel .eltdf-il-item {
+  width: auto !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  float: none !important;
+}
+
+.eltdf-instagram-list-holder .eltdf-il-item {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.eltdf-instagram-list-holder.eltdf-il-two-columns .eltdf-il-item {
+  width: 50%;
+}
+
+@media only screen and (min-width: 1025px) {
+  .eltdf-instagram-list-holder.eltdf-il-two-columns .eltdf-il-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+.eltdf-instagram-list-holder.eltdf-il-three-columns .eltdf-il-item {
+  width: 33.33333%;
+}
+
+@media only screen and (min-width: 1201px) {
+  .eltdf-instagram-list-holder.eltdf-il-three-columns .eltdf-il-item:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+.eltdf-instagram-list-holder.eltdf-il-four-columns .eltdf-il-item {
+  width: 25%;
+}
+
+@media only screen and (min-width: 1281px) {
+  .eltdf-instagram-list-holder.eltdf-il-four-columns .eltdf-il-item:nth-child(4n+1) {
+    clear: both;
+  }
+}
+
+.eltdf-instagram-list-holder.eltdf-il-five-columns .eltdf-il-item {
+  width: 20%;
+}
+
+@media only screen and (min-width: 1281px) {
+  .eltdf-instagram-list-holder.eltdf-il-five-columns .eltdf-il-item:nth-child(5n+1) {
+    clear: both;
+  }
+}
+
+/*# sourceMappingURL=../../../../plugins/academist-instagram-feed/assets/css/shortcodes-map.css.map */

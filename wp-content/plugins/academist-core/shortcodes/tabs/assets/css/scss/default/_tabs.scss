@@ -1,0 +1,274 @@
+/* ==========================================================================
+   Tabs shortcode style - begin
+   ========================================================================== */
+
+.eltdf-tabs {
+	@include eltdfRelativeHolderLayout();
+	
+	.eltdf-tabs-nav {
+		@include eltdfRelativeHolderLayout();
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		
+		li {
+			float: left;
+			margin: 0;
+			padding: 0;
+			
+			a {
+				position: relative;
+				display: inline-block;
+				vertical-align: middle;
+				box-sizing: border-box;
+				@include eltdfTransition(color .2s ease-out, background-color .2s ease-out, border-color .2s ease-out);
+			}
+		}
+	}
+	
+	.eltdf-tab-container {
+        box-sizing: border-box;
+		@include eltdfRelativeHolderLayout();
+		
+		p {
+			margin: 0;
+		}
+	}
+	
+	&.eltdf-tabs-standard {
+		
+		.eltdf-tabs-nav {
+			border-bottom: 2px dotted #e0e0e0;
+			
+			li {
+				padding: 13px 20px;
+				
+				a {
+					font-size: 17px;
+					line-height: 25px;
+					font-weight: 600;
+					color: $default-heading-color;
+					font-family: $default-heading-font;
+					overflow: hidden;
+					@include eltdfTransition(padding 0.2s ease-in-out);
+
+					&:before {
+						content: "\24";
+						font-family: 'ElegantIcons';
+						font-size: 18px;
+						position: absolute;
+						width: 21px;
+						left: -21px;
+						color: $first-main-color;
+						display: inline-block;
+						vertical-align: middle;
+						@include eltdfTransition(left 0.2s ease-in-out);
+					}
+				}
+
+				&:first-child {
+					padding-left: 0;
+				}
+				
+				&.ui-state-active a,
+				&.ui-state-hover a {
+					padding-left: 20px;
+					@include eltdfTransition(padding 0.2s ease-in-out);
+
+					&:before {
+						left: -1px;
+						@include eltdfTransition(left 0.2s ease-in-out);
+					}
+				}
+			}
+		}
+		
+		.eltdf-tab-container {
+			margin: 25px 0 0;
+		}
+	}
+	
+	&.eltdf-tabs-boxed {
+		
+		.eltdf-tabs-nav {
+			
+			li {
+				margin: 0 12px 0 0;
+				
+				a {
+					padding: 7px 26px;
+					font-size: 15px;
+					font-family: $default-heading-font;
+					line-height: 25px;
+					font-weight: 400;
+					letter-spacing: 1px;
+					color: #fff;
+					background-color: $default-heading-color;
+				}
+				
+				&.ui-state-active a,
+				&.ui-state-hover a {
+					color: #fff;
+					background-color: $first-main-color;
+				}
+				
+				&:last-child {
+					margin: 0;
+				}
+			}
+		}
+		
+		.eltdf-tab-container {
+			margin: 25px 0 0;
+		}
+	}
+	
+	&.eltdf-tabs-simple {
+		
+		.eltdf-tabs-nav {
+			border-bottom: 1px solid $default-border-color;
+			
+			li {
+				margin: 0 31px 0 0;
+				
+				a {
+					padding: 13px 0;
+					font-size: 18px;
+					line-height: 26px;
+					font-weight: 400;
+					color: #999;
+				}
+				
+				&.ui-state-active a,
+				&.ui-state-hover a {
+					color: $default-heading-color;
+				}
+				
+				&:last-child {
+					margin: 0;
+				}
+			}
+		}
+		
+		.eltdf-tab-container {
+			padding: 31px 0;
+			border-bottom: 1px solid $default-border-color;
+		}
+	}
+	
+	&.eltdf-tabs-vertical {
+		display: table;
+		
+		.eltdf-tabs-nav {
+			display: table-cell;
+			vertical-align: top;
+			width: 340px;
+			height: 100%;
+			box-sizing: border-box;
+			
+			li {
+				display: block;
+				float: none;
+				padding: 25px 0;
+				border-bottom: 2px dotted $default-border-color;;
+				
+				a {
+					font-size: 20px;
+					line-height: 26px;
+					font-weight: 700;
+					font-family: $default-heading-font;
+					color: $default-heading-color;
+					overflow: hidden;
+					@include eltdfTransition(all .2s ease-in-out);
+
+					&:before {
+						content: "\24";
+						position: absolute;
+						top: 0;
+						left: -20px;
+						width: 20px;
+						font-family: 'ElegantIcons';
+						vertical-align: unset;
+						color: $first-main-color;
+						font-size: 18px;
+						line-height: inherit;
+						font-weight: 800;
+						font-style: normal;
+						text-rendering: auto;
+						-webkit-font-smoothing: antialiased;
+						-moz-osx-font-smoothing: grayscale;
+						@include eltdfTransition(all .2s ease-in-out);
+					}
+				}
+				
+				&.ui-state-active a,
+				&.ui-state-hover a {
+					padding: 0 10px 0 26px;
+
+					&:before {
+						left: 0;
+					}
+				}
+				
+				&:last-child {
+					margin: 0;
+				}
+			}
+
+			li:last-child{
+				border-bottom: unset;
+			}
+		}
+		
+		.eltdf-tab-container {
+			display: table-cell;
+			vertical-align: top;
+			width: calc(100% - 140px);
+			height: 100%;
+			padding: 0 0 0 101px;
+			box-sizing: border-box;
+		}
+	}
+}
+
+.ui-widget-content {
+	padding: 0;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	border: 0;
+	border-radius: 0;
+
+    .ui-widget-header {
+	    font-size: inherit;
+	    line-height: inherit;
+	    font-weight: inherit;
+	    color: initial;
+	    background: none;
+	    border: 0;
+        border-radius: 0;
+    }
+	
+    .ui-tabs-nav {
+	    
+        li {
+	        position: initial;
+	        font-weight: inherit;
+	        color: inherit;
+	        background: initial;
+	        border: 0;
+	        border-radius: 0;
+        }
+    }
+
+    .ui-widget-content {
+	    color: inherit;
+	    background: none;
+	    border: 0;
+        border-radius: 0;
+    }
+}
+/* ==========================================================================
+   Tabs shortcode style - end
+   ========================================================================== */

@@ -1,0 +1,59 @@
+/* ==========================================================================
+   Course Item Layout - Minimal style - begin
+   ========================================================================== */
+
+.eltdf-course-list-holder {
+
+    &.eltdf-cl-minimal{
+
+        article {
+            .eltdf-cl-item-inner {
+                @include eltdfTableLayout();
+
+                > a {
+                    @include eltdfTableCellLayout();
+                    width: 85px;
+                    padding-right: 14px;
+                }
+            }
+
+            .eltdf-cli-text-holder {
+                @include eltdfTableCellLayout();
+            }
+            .eltdf-cli-text {
+
+                .eltdf-instructor-name {
+                    font-size: 14px;
+                    color: #b9b9b9;
+                    font-weight: 600;
+                }
+
+                .eltdf-cli-title {
+                    a {
+                        &:hover {
+                            color: $default-heading-color;
+                            border-bottom: 1px solid $default-heading-color;
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+                span.eltdf-cli-title {
+                    font-family: $default-heading-font;
+                    font-weight: 400;
+                    letter-spacing: 0.015em;
+                    color: $default-heading-color;
+                }
+            }
+            .eltdf-ci-price-holder {
+                color: $first-main-color;
+                font-weight: 400;
+                font-family: $default-heading-font;
+                letter-spacing: 0.015em;
+            }
+        }
+    }
+}
+/* ==========================================================================
+   Course Item Layout - Minimal style - end
+   ========================================================================== */
